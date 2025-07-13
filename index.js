@@ -32,7 +32,7 @@ app.disable('x-powered-by');
 // 🌐 CORS – tillåt endast din frontend
 const allowedOrigins = [
   'http://localhost:3000',
-  'https://fk-chatbot-frontend.onrender.com' // ← ändra till din frontend-URL
+  'https://fk-chatbot-frontend.onrender.com' // ← detta MÅSTE vara exakt frontend-URL
 ];
 
 app.use(cors({
