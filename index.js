@@ -68,6 +68,7 @@ const askLimiter = rateLimit({
   max: 5,
   message: 'För många förfrågningar – vänta en stund innan du försöker igen.'
 });
+app.use(helmet());
 app.use('/ask', askLimiter);
 
 // 📂 Servera statiska filer från public/
