@@ -1,0 +1,122 @@
+const express = require('express');
+const cors = require('cors');
+const helmet = require('helmet');
+const rateLimit = require('express-rate-limit');
+const axios = require('axios');
+require('dotenv').config();
+const sanitizeHtml = require('sanitize-html');
+const path = require('path');
+
+const app = express();
+app.set('trust proxy', 1); // 🔐 Viktigt för Render-proxy
+
+// 🔒 Helmet med strikt CSP
+app.use(
+  helmet({
+    contentSecurityPolicy: {
+      directives: {
+        defaultSrc: ["'self'"],
+        scriptSrc: ["'self'", "'unsafe-inline'"],
+        styleSrc: ["'self'", "'unsafe-inline'", 'https:'],
+        imgSrc: ["'self'", 'data:'],
+      },
+    },
+  })
+);
+app.use(helmet.frameguard({ action: 'deny' }));
+app.use(helmet.crossOriginResourcePolicy({ policy: "cross-origin" }));
+
+// 🚫 Dölj serverteknologi
+app.disable('x-powered-by');
+
+// 🌐 CORS – tillåt endast din frontend
+const allowedOrigins = [
+  'http://localhost:3000',
+  'https://fk-chatbot-frontend.onrender.com' // ← ändra till din frontend-URL
+];
+
+app.use(cors({
+  origin: function (origin, callback) {
+    if (!origin || allowedOrigins.includes(origin)) {
+      return callback(null, true);
+    }
+    callback(new Error('Otillåten domän'));
+  }
+}));
+
+// 📦 JSON-parser + validering
+app.use(express.json({
+  strict: true,
+  verify: (req, res, buf) => {
+    try {
+      JSON.parse(buf);
+    } catch (e) {
+      throw new Error('Ogiltig JSON');
+    }
+  }
+}));
+app.use((err, req, res, next) => {
+  if (err.message === 'Ogiltig JSON') {
+    return res.status(400).json({ error: 'Felaktig JSON-struktur i förfrågan.' });
+  }
+  next(err);
+});
+
+// 🛡️ Rate limiting på /ask
+const askLimiter = rateLimit({
+  windowMs: 60 * 1000, // 1 minut
+  max: 5,
+  message: 'För många förfrågningar – vänta en stund innan du försöker igen.'
+});
+app.use('/ask', askLimiter);
+
+// 📂 Servera statiska filer från public/
+app.use(express.static(path.join(__dirname, 'public'), {
+  dotfiles: 'deny'
+}));
+
+// 🤖 /ask endpoint
+app.post('/ask', async (req, res) => {
+  const rawQuestion = req.body.question?.toString().trim() || "";
+  const userQuestion = sanitizeHtml(rawQuestion, {
+    allowedTags: [],
+    allowedAttributes: {}
+  });
+
+  try {
+    const response = await axios.post(
+      'https://api.openai.com/v1/chat/completions',
+      {
+        model: 'gpt-3.5-turbo',
+        messages: [
+          {
+            role: 'system',
+            content: 'Du är en mycket kunnig kundtjänstagent för Försäkringskassan. Svara professionellt och tydligt.'
+          },
+          { role: 'user', content: userQuestion }
+        ]
+      },
+      {
+        headers: {
+          'Content-Type': 'application/json',
+          'Authorization': `Bearer ${process.env.OPENAI_API_KEY}`
+        }
+      }
+    );
+
+    const answer = response.data.choices[0].message.content;
+    res.json({ answer });
+
+  } catch (error) {
+    console.error('Fel vid samtal till OpenAI:', error.message);
+    res.status(500).json({
+      answer: "Ett tekniskt fel uppstod. Försök igen senare eller kontakta support."
+    });
+  }
+});
+
+// 🚀 Starta servern
+const port = process.env.PORT || 3000;
+app.listen(port, () => {
+  console.log(`Servern körs på http://localhost:${port}`);
+});
