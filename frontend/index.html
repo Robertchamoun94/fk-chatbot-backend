@@ -54,32 +54,28 @@
 
 .user-message,
 .bot-message {
+  display: inline-block;
   text-align: left;
-  align-self: flex-start;
   white-space: pre-wrap;
   word-break: break-word;
+  max-width: 75%;
   padding: 10px 14px;
-  border-radius: 18px;
-  max-width: 70%;
-  background-color: #d1fae5;
+  border-radius: 16px;
   font-size: 16px;
   line-height: 1.5;
+  margin: 4px 0;
 }
 
-
-
-
 .user-message {
-  background-color: #d2f2e1;
-  align-self: flex-end;         /* 🟩 Behåll högerjustering */
-  text-align: left;
+  background-color: #d1fae5; /* Ljusgrön */
+  align-self: flex-end;
 }
 
 .bot-message {
-  background-color: #eeeeee;
+  background-color: #eeeeee; /* Ljusgrå */
   align-self: flex-start;
-  text-align: left;
 }
+
 
 
 
