@@ -2,6 +2,12 @@ document.addEventListener('DOMContentLoaded', () => {
   const userInput = document.getElementById('userInput');
   const chatbox = document.getElementById('chatbox');
   const sendButton = document.getElementById('sendButton');
+userInput.addEventListener('keydown', function(event) {
+  if (event.key === 'Enter' && !event.shiftKey) {
+    event.preventDefault(); // Förhindra radbrytning
+    sendButton.click();     // Klicka på knappen programmatiskt
+  }
+});
 
   sendButton.addEventListener('click', async () => {
     const question = userInput.value.trim();
