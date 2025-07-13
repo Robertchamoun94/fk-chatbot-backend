@@ -148,67 +148,7 @@
     </div>
   </div>
 
-  <script>
-    document.addEventListener('DOMContentLoaded', () => {
-      const userInput = document.getElementById('userInput');
-      const chatbox = document.getElementById('chatbox');
-      const sendButton = document.getElementById('sendButton');
-
-      sendButton.addEventListener('click', sendMessage);
-
-      userInput.addEventListener('keydown', function (e) {
-        if (e.key === 'Enter' && !e.shiftKey) {
-          e.preventDefault();
-          sendMessage();
-        }
-      });
-
-      async function sendMessage() {
-        const message = userInput.value.trim();
-        if (!message) return;
-
-        const userMessage = document.createElement('div');
-        userMessage.className = 'user-message';
-        userMessage.textContent = message;
-        chatbox.appendChild(userMessage);
-        userInput.value = '';
-
-        const typingIndicator = document.createElement('div');
-        typingIndicator.id = 'typing-indicator';
-        typingIndicator.className = 'typing-indicator';
-        typingIndicator.textContent = 'Försäkringskassan skriver...';
-        chatbox.appendChild(typingIndicator);
-        chatbox.scrollTop = chatbox.scrollHeight;
-
-        try {
-          const response = await fetch('/ask', {
-            method: 'POST',
-            headers: {
-              'Content-Type': 'application/json'
-            },
-            body: JSON.stringify({ question: message })
-          });
-
-          const data = await response.json();
-          typingIndicator.remove();
-
-          const botMessage = document.createElement('div');
-          botMessage.className = 'bot-message';
-          botMessage.textContent = data.answer || 'Förlåt, jag kunde inte svara just nu.';
-          chatbox.appendChild(botMessage);
-          chatbox.scrollTop = chatbox.scrollHeight;
-
-        } catch (error) {
-          typingIndicator.remove();
-
-          const errorMessage = document.createElement('div');
-          errorMessage.className = 'bot-message';
-          errorMessage.textContent = 'Ett fel uppstod. Försök igen senare.';
-          chatbox.appendChild(errorMessage);
-        }
-      }
-    });
-  </script>
+  <script src="script.js"></script>
 
 </body>
 </html>
