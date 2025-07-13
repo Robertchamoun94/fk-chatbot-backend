@@ -1,9 +1,10 @@
 <!DOCTYPE html>
+
 <html lang="sv">
-<head>
-  <meta charset="UTF-8">
-  <title>Chatta med Försäkringskassan</title>
-  <style>
+<head><meta content="default-src 'self'; script-src 'self'; style-src 'self' 'unsafe-inline'; img-src 'self' data:;" http-equiv="Content-Security-Policy"/>
+<meta charset="utf-8"/>
+<title>Chatta med Försäkringskassan</title>
+<style>
     body {
       font-family: Arial, sans-serif;
       background-color: #f1f5f9;
@@ -135,20 +136,17 @@
   </style>
 </head>
 <body>
-
-  <div class="chat-container">
-    <div class="chat-header">
-      <img src="fk-logo.png" alt="Försäkringskassan logotyp">
+<div class="chat-container">
+<div class="chat-header">
+<img alt="Försäkringskassan logotyp" src="fk-logo.png"/>
       Chatta med Försäkringskassan
     </div>
-    <div id="chatbox"></div>
-    <div class="input-area">
-      <textarea id="userInput" rows="2" placeholder="Skriv ditt meddelande här..."></textarea>
-      <button id="sendButton">Skicka</button>
-    </div>
-  </div>
-
-  <script src="script.js"></script>
-
+<div id="chatbox"></div>
+<div class="input-area">
+<textarea id="userInput" placeholder="Skriv ditt meddelande här..." rows="2"></textarea>
+<button id="sendButton">Skicka</button>
+</div>
+</div>
+<script src="script.js"></script>
 </body>
 </html>
