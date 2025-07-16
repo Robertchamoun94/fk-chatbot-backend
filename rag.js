@@ -2,10 +2,10 @@
 import fs from 'fs';
 import path from 'path';
 import dotenv from 'dotenv';
-import { Configuration, OpenAIApi } from 'openai';
+import OpenAI from 'openai';
 dotenv.config();
 
-const openai = new OpenAIApi(new Configuration({ apiKey: process.env.OPENAI_API_KEY }));
+const openai = new OpenAI({ apiKey: process.env.OPENAI_API_KEY });
 
 // 🔁 Här laddar vi direkt chunk-texterna som JSON från ett sparat dokument
 const CHUNKS_PATH = path.join(process.cwd(), 'data', 'chunks_full.json'); // <-- ändra till rätt fil om du har annan
