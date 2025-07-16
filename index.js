@@ -6,6 +6,7 @@ const axios = require('axios');
 require('dotenv').config();
 const sanitizeHtml = require('sanitize-html');
 const path = require('path');
+const { exec } = require('child_process');
 
 const app = express();
 app.set('trust proxy', 1); // 🔐 Viktigt för Render-proxy
@@ -34,7 +35,6 @@ const allowedOrigins = [
   'http://localhost:3000',
   'https://fk-chatbot-frontend.onrender.com' // ← detta MÅSTE vara exakt frontend-URL
 ];
-
 app.use(cors({
   origin: function (origin, callback) {
     if (!origin || allowedOrigins.includes(origin)) {
@@ -76,7 +76,7 @@ app.use(express.static(path.join(__dirname, 'public'), {
   dotfiles: 'deny'
 }));
 
-// 🤖 /ask endpoint
+// 🤖 /ask endpoint (standard OpenAI utan RAG)
 app.post('/ask', async (req, res) => {
   const rawQuestion = req.body.question?.toString().trim() || "";
   const userQuestion = sanitizeHtml(rawQuestion, {
@@ -114,6 +114,23 @@ app.post('/ask', async (req, res) => {
       answer: "Ett tekniskt fel uppstod. Försök igen senare eller kontakta support."
     });
   }
+});
+
+// 🧠 /rag-query endpoint (med vektor-sökning + GPT)
+app.post('/rag-query', async (req, res) => {
+  const question = req.body.question;
+  if (!question) return res.status(400).send("Ingen fråga angavs.");
+
+  const sanitizedQuestion = question.replace(/"/g, '\\"');
+  const command = `python3 rag_query.py "${sanitizedQuestion}"`;
+
+  exec(command, (error, stdout, stderr) => {
+    if (error) {
+      console.error(`Fel vid exec: ${error}`);
+      return res.status(500).send("Något gick fel i RAG-pipelinen.");
+    }
+    res.send(stdout);
+  });
 });
 
 // 🚀 Starta servern
