@@ -1,44 +1,32 @@
-// ✅ Korrekt version av rag.js – kompatibel med Render och ChromaDB för Node.js (utan .init())
+import { ChromaClient } from 'chromadb';
+import 'dotenv/config';
 
-import { ChromaClient } from "chromadb";
-import axios from "axios";
-import dotenv from "dotenv";
+const client = new ChromaClient({
+  path: process.env.CHROMA_URL || 'http://127.0.0.1:8000',
+});
 
-dotenv.config();
+// DefaultEmbeddingFunction finns automatiskt tillgänglig i nyare versioner
+const collectionName = 'fk-full';
+let collection;
 
-const client = new ChromaClient();
-
-const collection = await client.getOrCreateCollection({ name: "fk-full" });
-
-async function getEmbedding(text) {
-  const response = await axios.post(
-    "https://api.openai.com/v1/embeddings",
-    {
-      input: text,
-      model: "text-embedding-3-small"
-    },
-    {
-      headers: {
-        Authorization: `Bearer ${process.env.OPENAI_API_KEY}`,
-        "Content-Type": "application/json"
-      }
+export async function semanticSearchFull(query, topK = 5) {
+  try {
+    // Initiera och hämta collection om inte redan hämtad
+    if (!collection) {
+      collection = await client.getOrCreateCollection({
+        name: collectionName,
+      });
     }
-  );
-  return response.data.data[0].embedding;
-}
 
-export async function askRAG(query) {
-  const queryEmbedding = await getEmbedding(query);
-  const results = await collection.query({
-    queryEmbeddings: [queryEmbedding],
-    nResults: 3
-  });
+    const results = await collection.query({
+      queryTexts: [query],
+      nResults: topK,
+    });
 
-  const documents = results.documents?.[0] || [];
-  const context = documents.join("\n\n");
-
-  return {
-    context,
-    query
-  };
+    const documents = results.documents?.[0] || [];
+    return documents;
+  } catch (error) {
+    console.error('🛑 Fel vid semantisk sökning:', error.message);
+    return ['❌ Ett fel uppstod vid sökning. Kontrollera backend-loggar.'];
+  }
 }
