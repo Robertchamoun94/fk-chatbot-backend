@@ -1,13 +1,19 @@
-const express = require('express');
-const cors = require('cors');
-const helmet = require('helmet');
-const rateLimit = require('express-rate-limit');
-const axios = require('axios');
-require('dotenv').config();
-const { askRAG } = require('./rag.js');
-const sanitizeHtml = require('sanitize-html');
-const path = require('path');
-const { exec } = require('child_process');
+import express from 'express';
+import cors from 'cors';
+import helmet from 'helmet';
+import rateLimit from 'express-rate-limit';
+import axios from 'axios';
+import dotenv from 'dotenv';
+import { askRAG } from './rag.js';
+import sanitizeHtml from 'sanitize-html';
+import path from 'path';
+import { fileURLToPath } from 'url';
+
+dotenv.config();
+
+// Fix för __dirname i ES Module
+const __filename = fileURLToPath(import.meta.url);
+const __dirname = path.dirname(__filename);
 
 const app = express();
 app.set('trust proxy', 1); // 🔐 Viktigt för Render-proxy
@@ -31,10 +37,10 @@ app.use(helmet.crossOriginResourcePolicy({ policy: "cross-origin" }));
 // 🚫 Dölj serverteknologi
 app.disable('x-powered-by');
 
-// 🌐 CORS – tillåt endast din frontend
+// 🌐 CORS – tillåt endast frontend-domäner
 const allowedOrigins = [
   'http://localhost:3000',
-  'https://fk-chatbot-frontend.onrender.com' // ← detta MÅSTE vara exakt frontend-URL
+  'https://fk-chatbot-frontend.onrender.com'
 ];
 app.use(cors({
   origin: function (origin, callback) {
@@ -45,7 +51,7 @@ app.use(cors({
   }
 }));
 
-// 📦 JSON-parser + validering
+// 📦 JSON-parser med validering
 app.use(express.json({
   strict: true,
   verify: (req, res, buf) => {
@@ -65,11 +71,10 @@ app.use((err, req, res, next) => {
 
 // 🛡️ Rate limiting på /ask
 const askLimiter = rateLimit({
-  windowMs: 60 * 1000, // 1 minut
+  windowMs: 60 * 1000,
   max: 5,
   message: 'För många förfrågningar – vänta en stund innan du försöker igen.'
 });
-app.use(helmet());
 app.use('/ask', askLimiter);
 
 // 📂 Servera statiska filer från public/
@@ -77,7 +82,7 @@ app.use(express.static(path.join(__dirname, 'public'), {
   dotfiles: 'deny'
 }));
 
-// 🤖 /ask endpoint (standard OpenAI utan RAG)
+// 🤖 /ask endpoint – OpenAI utan RAG
 app.post('/ask', async (req, res) => {
   const rawQuestion = req.body.question?.toString().trim() || "";
   const userQuestion = sanitizeHtml(rawQuestion, {
@@ -117,8 +122,7 @@ app.post('/ask', async (req, res) => {
   }
 });
 
-// 🚀 Starta servern
-const port = process.env.PORT || 3000;
+// 🧠 /rag-query endpoint – GPT + semantisk sökning
 app.post('/rag-query', async (req, res) => {
   try {
     const { question } = req.body;
@@ -135,6 +139,8 @@ app.post('/rag-query', async (req, res) => {
   }
 });
 
+// 🚀 Starta servern
+const port = process.env.PORT || 3000;
 app.listen(port, () => {
-  console.log(`Servern körs på http://localhost:${port}`);
+  console.log(`✅ Servern körs på http://localhost:${port}`);
 });
