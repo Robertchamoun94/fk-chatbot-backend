@@ -117,23 +117,6 @@ app.post('/ask', async (req, res) => {
   }
 });
 
-// 🧠 /rag-query endpoint (med vektor-sökning + GPT)
-app.post('/rag-query', async (req, res) => {
-  const question = req.body.question;
-  if (!question) return res.status(400).send("Ingen fråga angavs.");
-
-  const sanitizedQuestion = question.replace(/"/g, '\\"');
-  const command = `python3 rag_query.py "${sanitizedQuestion}"`;
-
-  exec(command, (error, stdout, stderr) => {
-    if (error) {
-      console.error(`Fel vid exec: ${error}`);
-      return res.status(500).send("Något gick fel i RAG-pipelinen.");
-    }
-    res.send(stdout);
-  });
-});
-
 // 🚀 Starta servern
 const port = process.env.PORT || 3000;
 app.post('/rag-query', async (req, res) => {
