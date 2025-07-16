@@ -1,7 +1,9 @@
 from flask import Flask, request, jsonify
+from flask_cors import CORS
 from semantic_search import ask_rag  # din GPT + Chroma-funktion
 
 app = Flask(__name__)
+CORS(app)  # 💡 Tillåt anrop från frontend (t.ex. från file:// eller localhost)
 
 @app.route("/ask", methods=["GET"])
 def ask():
