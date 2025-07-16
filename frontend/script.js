@@ -23,27 +23,39 @@ document.addEventListener('DOMContentLoaded', () => {
 
     userInput.value = '';
 
+    // Visa att GPT skriver...
+    const loadingMsg = document.createElement('div');
+    loadingMsg.className = 'bot-message loading';
+    loadingMsg.textContent = 'GPT skriver...';
+    chatbox.appendChild(loadingMsg);
+    chatbox.scrollTop = chatbox.scrollHeight;
+
     try {
-      const response = await fetch('https://fk-chatbot-backend.onrender.com/rag-query', {
+      const response = await fetch('https://fk-chatbot-backend.onrender.com/rag', {
         method: 'POST',
         headers: {
           'Content-Type': 'application/json'
         },
-        body: JSON.stringify({ question })
+        body: JSON.stringify({ query: question })
       });
 
-      const answer = await response.text();
+      const data = await response.json();
+      const answer = data.answer;
 
-const botMsg = document.createElement('div');
-botMsg.className = 'bot-message';
-botMsg.textContent = answer || 'Ett fel uppstod. Försök igen senare.';
+      loadingMsg.remove(); // Ta bort "GPT skriver..."
+
+      const botMsg = document.createElement('div');
+      botMsg.className = 'bot-message';
+      botMsg.textContent = answer || '❌ Kunde inte hämta svar.';
       chatbox.appendChild(botMsg);
       chatbox.scrollTop = chatbox.scrollHeight;
 
     } catch (error) {
+      loadingMsg.remove(); // Ta bort "GPT skriver..." även vid fel
+
       const errorMsg = document.createElement('div');
       errorMsg.className = 'bot-message';
-      errorMsg.textContent = 'Ett fel uppstod. Försök igen senare.';
+      errorMsg.textContent = '❌ Ett fel uppstod. Försök igen senare.';
       chatbox.appendChild(errorMsg);
       chatbox.scrollTop = chatbox.scrollHeight;
     }
