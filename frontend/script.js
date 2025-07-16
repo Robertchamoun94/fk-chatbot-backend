@@ -6,7 +6,7 @@ document.addEventListener('DOMContentLoaded', () => {
   userInput.addEventListener('keydown', function(event) {
     if (event.key === 'Enter' && !event.shiftKey) {
       event.preventDefault(); // Förhindra radbrytning
-      sendButton.click();     // Klicka på knappen programmatiskt
+      sendButton.click();     // Klicka på knappen automatiskt
     }
   });
 
@@ -23,7 +23,7 @@ document.addEventListener('DOMContentLoaded', () => {
 
     userInput.value = '';
 
-    // Visa att GPT skriver...
+    // Visa "GPT skriver..."
     const loadingMsg = document.createElement('div');
     loadingMsg.className = 'bot-message loading';
     loadingMsg.textContent = 'GPT skriver...';
@@ -31,7 +31,9 @@ document.addEventListener('DOMContentLoaded', () => {
     chatbox.scrollTop = chatbox.scrollHeight;
 
     try {
-      const response = await fetch(`http://127.0.0.1:5005/ask?query=${encodeURIComponent(question)}`);
+      const response = await fetch(
+        'http://127.0.0.1:5005/ask?query=' + encodeURIComponent(question)
+      );
       const data = await response.json();
       const answer = data.answer;
 
@@ -42,9 +44,8 @@ document.addEventListener('DOMContentLoaded', () => {
       botMsg.textContent = answer || '❌ Kunde inte hämta svar.';
       chatbox.appendChild(botMsg);
       chatbox.scrollTop = chatbox.scrollHeight;
-
     } catch (error) {
-      loadingMsg.remove(); // Ta bort "GPT skriver..." även vid fel
+      loadingMsg.remove();
 
       const errorMsg = document.createElement('div');
       errorMsg.className = 'bot-message';
