@@ -19,3 +19,18 @@ def rag():
 
 if __name__ == '__main__':
     app.run(port=5005)
+from flask import Flask, request, jsonify
+from semantic_search import ask_rag  # använder din GPT+Chroma-funktion
+
+app = Flask(__name__)
+
+@app.route("/ask", methods=["GET"])
+def ask():
+    query = request.args.get("query", "")
+    if not query:
+        return jsonify({"error": "Ingen fråga angavs"}), 400
+    answer = ask_rag(query)
+    return jsonify({"query": query, "answer": answer})
+
+if __name__ == "__main__":
+    app.run(port=5005)
