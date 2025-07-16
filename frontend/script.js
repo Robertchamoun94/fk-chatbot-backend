@@ -24,7 +24,7 @@ document.addEventListener('DOMContentLoaded', () => {
     userInput.value = '';
 
     try {
-      const response = await fetch('https://fk-chatbot-backend.onrender.com/ask', {
+      const response = await fetch('https://fk-chatbot-backend.onrender.com/rag-query', {
         method: 'POST',
         headers: {
           'Content-Type': 'application/json'
@@ -32,11 +32,11 @@ document.addEventListener('DOMContentLoaded', () => {
         body: JSON.stringify({ question })
       });
 
-      const data = await response.json();
+      const answer = await response.text();
 
-      const botMsg = document.createElement('div');
-      botMsg.className = 'bot-message';
-      botMsg.textContent = data.answer || 'Ett fel uppstod. Försök igen senare.';
+const botMsg = document.createElement('div');
+botMsg.className = 'bot-message';
+botMsg.textContent = answer || 'Ett fel uppstod. Försök igen senare.';
       chatbox.appendChild(botMsg);
       chatbox.scrollTop = chatbox.scrollHeight;
 
