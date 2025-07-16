@@ -3,10 +3,10 @@ document.addEventListener('DOMContentLoaded', () => {
   const chatbox = document.getElementById('chatbox');
   const sendButton = document.getElementById('sendButton');
 
-  userInput.addEventListener('keydown', function(event) {
+  userInput.addEventListener('keydown', function (event) {
     if (event.key === 'Enter' && !event.shiftKey) {
       event.preventDefault(); // Förhindra radbrytning
-      sendButton.click();     // Klicka på knappen automatiskt
+      sendButton.click();     // Klicka på knappen programmatiskt
     }
   });
 
@@ -14,7 +14,7 @@ document.addEventListener('DOMContentLoaded', () => {
     const question = userInput.value.trim();
     if (!question) return;
 
-    // Visa användarens fråga
+    // Visa användarens fråga i chatten
     const userMsg = document.createElement('div');
     userMsg.className = 'user-message';
     userMsg.textContent = question;
@@ -31,25 +31,25 @@ document.addEventListener('DOMContentLoaded', () => {
     chatbox.scrollTop = chatbox.scrollHeight;
 
     try {
-      const response = await fetch(
-        'http://127.0.0.1:5005/ask?query=' + encodeURIComponent(question)
-      );
+      const response = await fetch('http://127.0.0.1:5005/ask?query=' + encodeURIComponent(question));
+
       const data = await response.json();
-      const answer = data.answer;
+      const answer = data.answer || data.error || '❌ Kunde inte hämta svar.';
 
       loadingMsg.remove(); // Ta bort "GPT skriver..."
 
       const botMsg = document.createElement('div');
       botMsg.className = 'bot-message';
-      botMsg.textContent = answer || '❌ Kunde inte hämta svar.';
+      botMsg.textContent = answer;
       chatbox.appendChild(botMsg);
       chatbox.scrollTop = chatbox.scrollHeight;
+
     } catch (error) {
-      loadingMsg.remove();
+      loadingMsg.remove(); // Ta bort "GPT skriver..." även vid fel
 
       const errorMsg = document.createElement('div');
       errorMsg.className = 'bot-message';
-      errorMsg.textContent = '❌ Ett fel uppstod. Försök igen senare.';
+      errorMsg.textContent = '❌ Ett fel uppstod. Kontrollera att backend är igång.';
       chatbox.appendChild(errorMsg);
       chatbox.scrollTop = chatbox.scrollHeight;
     }
