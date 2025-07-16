@@ -31,3 +31,5 @@ def semantic_search_full(query, top_k=5):
     )
 
     return completion.choices[0].message.content
+def ask_rag(query):
+    return semantic_search_full(query)
