@@ -9,7 +9,11 @@ const openai = new OpenAI({ apiKey: process.env.OPENAI_API_KEY });
 
 // 🔁 Här laddar vi direkt chunk-texterna som JSON från ett sparat dokument
 const CHUNKS_PATH = path.join(process.cwd(), 'data', 'chunks.jsonl'); // <-- ändra till rätt fil om du har annan
-const chunks = JSON.parse(fs.readFileSync(CHUNKS_PATH, 'utf8')).chunks;
+const chunks = fs
+  .readFileSync(CHUNKS_PATH, 'utf8')
+  .split('\n')
+  .filter(line => line.trim() !== '')
+  .map(line => JSON.parse(line));
 
 function cosineSimilarity(vecA, vecB) {
   const dot = vecA.reduce((sum, val, i) => sum + val * vecB[i], 0);
