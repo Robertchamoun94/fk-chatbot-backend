@@ -136,6 +136,22 @@ app.post('/rag-query', async (req, res) => {
 
 // 🚀 Starta servern
 const port = process.env.PORT || 3000;
+app.post('/rag-query', async (req, res) => {
+  try {
+    const { question } = req.body;
+
+    if (!question || question.trim() === '') {
+      return res.status(400).json({ error: 'Frågan saknas.' });
+    }
+
+    const answer = await askRAG(question);
+    res.send(answer);
+  } catch (error) {
+    console.error('Fel i /rag-query:', error);
+    res.status(500).send('Något gick fel i RAG-pipelinen.');
+  }
+});
+
 app.listen(port, () => {
   console.log(`Servern körs på http://localhost:${port}`);
 });
