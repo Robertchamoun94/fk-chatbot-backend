@@ -4,6 +4,7 @@ const helmet = require('helmet');
 const rateLimit = require('express-rate-limit');
 const axios = require('axios');
 require('dotenv').config();
+const { askRAG } = require('./rag.js');
 const sanitizeHtml = require('sanitize-html');
 const path = require('path');
 const { exec } = require('child_process');
