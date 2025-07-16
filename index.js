@@ -122,20 +122,20 @@ app.post('/ask', async (req, res) => {
   }
 });
 
-// 🧠 /rag-query endpoint – GPT + semantisk sökning
-app.post('/rag-query', async (req, res) => {
+// ✅ 🧠 /rag endpoint – GPT + semantisk sökning
+app.post('/rag', async (req, res) => {
   try {
-    const { question } = req.body;
+    const { query } = req.body;
 
-    if (!question || question.trim() === '') {
-      return res.status(400).json({ error: 'Frågan saknas.' });
+    if (!query || query.trim() === '') {
+      return res.status(400).json({ error: 'Query saknas.' });
     }
 
-    const answer = await askRAG(question);
-    res.send(answer);
+    const answer = await askRAG(query);
+    res.json({ answer });
   } catch (error) {
-    console.error('Fel i /rag-query:', error);
-    res.status(500).send('Något gick fel i RAG-pipelinen.');
+    console.error('Fel i /rag:', error);
+    res.status(500).json({ error: 'Fel i RAG-svarshanteringen.' });
   }
 });
 
