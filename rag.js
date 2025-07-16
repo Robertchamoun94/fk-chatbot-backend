@@ -1,56 +1,61 @@
-// rag.js
-import fs from 'fs';
-import path from 'path';
-import dotenv from 'dotenv';
+import { ChromaClient, OpenAIEmbeddingFunction } from 'chromadb';
 import OpenAI from 'openai';
+import dotenv from 'dotenv';
+
 dotenv.config();
 
+// 🔑 Initiera OpenAI
 const openai = new OpenAI({ apiKey: process.env.OPENAI_API_KEY });
 
-// 🔁 Här laddar vi direkt chunk-texterna som JSON från ett sparat dokument
-const CHUNKS_PATH = path.join(process.cwd(), 'data', 'chunks.jsonl'); // <-- ändra till rätt fil om du har annan
-const chunks = fs
-  .readFileSync(CHUNKS_PATH, 'utf8')
-  .split('\n')
-  .filter(line => line.trim() !== '')
-  .map(line => JSON.parse(line));
+// 🧠 Initiera Chroma med embeddings
+const client = new ChromaClient({
+  path: 'data/chroma_index' // Ändra om du har annan sökväg
+});
 
-function cosineSimilarity(vecA, vecB) {
-  const dot = vecA.reduce((sum, val, i) => sum + val * vecB[i], 0);
-  const normA = Math.sqrt(vecA.reduce((sum, val) => sum + val * val, 0));
-  const normB = Math.sqrt(vecB.reduce((sum, val) => sum + val * val, 0));
-  return dot / (normA * normB);
-}
+const collection = await client.getOrCreateCollection({
+  name: 'fk-full',
+  embeddingFunction: new OpenAIEmbeddingFunction({
+    openai_api_key: process.env.OPENAI_API_KEY,
+    model: 'text-embedding-3-small'
+  })
+});
 
-async function embedQuery(query) {
-  const res = await openai.createEmbedding({
-    model: "text-embedding-3-small",
-    input: query
-  });
-  return res.data.data[0].embedding;
-}
+// 🔍 Huvudfunktion: semantisk sökning + GPT-svar
+export async function askRAG(query, top_k = 5) {
+  try {
+    // 1. Semantisk sökning
+    const results = await collection.query({
+      queryTexts: [query],
+      nResults: top_k
+    });
 
-export async function askRAG(question, top_k = 5) {
-  const queryEmbedding = await embedQuery(question);
+    const documents = results.documents?.[0] || [];
 
-  const scored = chunks.map(chunk => ({
-    ...chunk,
-    score: cosineSimilarity(queryEmbedding, chunk.embedding)
-  }));
+    if (documents.length === 0) {
+      return 'Jag kunde tyvärr inte hitta någon information om det just nu.';
+    }
 
-  const topChunks = scored.sort((a, b) => b.score - a.score).slice(0, top_k);
-  const context = topChunks.map(c => c.text).join("\n---\n");
+    const context = documents.join('\n\n');
 
-  const prompt = `Du är en expert på Försäkringskassans regler. Besvara frågan baserat på följande information från fk.se.\n\n${context}\n\nFråga: ${question}\nSvar:`;
+    // 2. Fråga GPT med kontext
+    const completion = await openai.chat.completions.create({
+      model: 'gpt-4', // eller gpt-3.5-turbo
+      messages: [
+        {
+          role: 'system',
+          content: 'Du är en expert på Försäkringskassans regler. Svara tydligt och korrekt med hänvisning till fakta från kontexten nedan.'
+        },
+        {
+          role: 'user',
+          content: `Fråga: "${query}"\n\nRelevant kontext:\n${context}\n\nSvar:`
+        }
+      ],
+      temperature: 0.3
+    });
 
-  const gptRes = await openai.createChatCompletion({
-    model: "gpt-4o",
-    messages: [
-      { role: "system", content: "Du är en hjälpsam assistent som bara svarar baserat på information från Försäkringskassan." },
-      { role: "user", content: prompt }
-    ],
-    temperature: 0.2
-  });
-
-  return gptRes.data.choices[0].message.content;
+    return completion.choices[0].message.content.trim();
+  } catch (err) {
+    console.error('❌ Fel i askRAG:', err);
+    return '❌ Ett tekniskt fel uppstod när GPT försökte generera ett svar.';
+  }
 }
