@@ -14,7 +14,7 @@ document.addEventListener('DOMContentLoaded', () => {
     const question = userInput.value.trim();
     if (!question) return;
 
-    // Visa användarens fråga i chatten
+    // Visa användarens fråga
     const userMsg = document.createElement('div');
     userMsg.className = 'user-message';
     userMsg.textContent = question;
@@ -31,12 +31,18 @@ document.addEventListener('DOMContentLoaded', () => {
     chatbox.scrollTop = chatbox.scrollHeight;
 
     try {
-      const response = await fetch('https://fk-chatbot-backend.onrender.com/ask?query=' + encodeURIComponent(question));
+      const response = await fetch('https://fk-chatbot-backend.onrender.com/rag', {
+        method: 'POST',
+        headers: {
+          'Content-Type': 'application/json'
+        },
+        body: JSON.stringify({ query: question })
+      });
 
       const data = await response.json();
       const answer = data.answer || data.error || '❌ Kunde inte hämta svar.';
 
-      loadingMsg.remove(); // Ta bort "GPT skriver..."
+      loadingMsg.remove();
 
       const botMsg = document.createElement('div');
       botMsg.className = 'bot-message';
@@ -45,7 +51,7 @@ document.addEventListener('DOMContentLoaded', () => {
       chatbox.scrollTop = chatbox.scrollHeight;
 
     } catch (error) {
-      loadingMsg.remove(); // Ta bort "GPT skriver..." även vid fel
+      loadingMsg.remove();
 
       const errorMsg = document.createElement('div');
       errorMsg.className = 'bot-message';
