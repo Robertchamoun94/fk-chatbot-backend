@@ -1,31 +1,35 @@
-import { ChromaClient, OpenAIEmbeddingFunction } from 'chromadb';
+import { ChromaClient } from 'chromadb';
 import OpenAI from 'openai';
 import dotenv from 'dotenv';
 
 dotenv.config();
 
-// 🔑 Initiera OpenAI
+// Initiera OpenAI och Chroma
 const openai = new OpenAI({ apiKey: process.env.OPENAI_API_KEY });
+const client = new ChromaClient({ path: 'data/chroma_index' });
 
-// 🧠 Initiera Chroma med embeddings
-const client = new ChromaClient({
-  path: 'data/chroma_index' // Ändra om du har annan sökväg
-});
-
+// 🧠 Connecta till collection utan embeddingFunction
 const collection = await client.getOrCreateCollection({
-  name: 'fk-full',
-  embeddingFunction: new OpenAIEmbeddingFunction({
-    openai_api_key: process.env.OPENAI_API_KEY,
-    model: 'text-embedding-3-small'
-  })
+  name: 'fk-full'
 });
 
-// 🔍 Huvudfunktion: semantisk sökning + GPT-svar
+// 🔍 Embedda frågan själv
+async function embedQuery(query) {
+  const response = await openai.embeddings.create({
+    model: 'text-embedding-3-small',
+    input: query
+  });
+
+  return response.data[0].embedding;
+}
+
+// 🤖 Huvudfunktion: fråga RAG
 export async function askRAG(query, top_k = 5) {
   try {
-    // 1. Semantisk sökning
+    const embedding = await embedQuery(query);
+
     const results = await collection.query({
-      queryTexts: [query],
+      queryEmbeddings: [embedding],
       nResults: top_k
     });
 
@@ -37,9 +41,8 @@ export async function askRAG(query, top_k = 5) {
 
     const context = documents.join('\n\n');
 
-    // 2. Fråga GPT med kontext
     const completion = await openai.chat.completions.create({
-      model: 'gpt-4', // eller gpt-3.5-turbo
+      model: 'gpt-4', // eller 'gpt-3.5-turbo'
       messages: [
         {
           role: 'system',
@@ -54,8 +57,8 @@ export async function askRAG(query, top_k = 5) {
     });
 
     return completion.choices[0].message.content.trim();
-  } catch (err) {
-    console.error('❌ Fel i askRAG:', err);
+  } catch (error) {
+    console.error('❌ Fel i askRAG:', error);
     return '❌ Ett tekniskt fel uppstod när GPT försökte generera ett svar.';
   }
 }
