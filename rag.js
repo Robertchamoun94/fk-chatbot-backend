@@ -1,64 +1,53 @@
-import { ChromaClient } from 'chromadb';
-import OpenAI from 'openai';
-import dotenv from 'dotenv';
+import express from "express";
+import cors from "cors";
+import dotenv from "dotenv";
+import { ChromaClient } from "chromadb";
+import { OpenAIEmbeddingFunction } from "chromadb";
 
 dotenv.config();
 
-// Initiera OpenAI och Chroma
-const openai = new OpenAI({ apiKey: process.env.OPENAI_API_KEY });
-const client = new ChromaClient({ path: 'data/chroma_index' });
+const app = express();
+const port = process.env.PORT || 5005;
 
-// 🧠 Connecta till collection utan embeddingFunction
-const collection = await client.getOrCreateCollection({
-  name: 'fk-full'
+app.use(cors());
+
+const client = new ChromaClient();
+
+const embedder = new OpenAIEmbeddingFunction({
+  openai_api_key: process.env.OPENAI_API_KEY,
 });
 
-// 🔍 Embedda frågan själv
-async function embedQuery(query) {
-  const response = await openai.embeddings.create({
-    model: 'text-embedding-3-small',
-    input: query
-  });
+const collection = await client.getOrCreateCollection({
+  name: "fk-full",
+  embeddingFunction: embedder,
+});
 
-  return response.data[0].embedding;
-}
+app.get("/ask", async (req, res) => {
+  const query = req.query.query;
 
-// 🤖 Huvudfunktion: fråga RAG
-export async function askRAG(query, top_k = 5) {
+  if (!query) {
+    return res.status(400).json({ error: "Ingen fråga angavs." });
+  }
+
   try {
-    const embedding = await embedQuery(query);
-
-    const results = await collection.query({
-      queryEmbeddings: [embedding],
-      nResults: top_k
+    const result = await collection.query({
+      queryTexts: [query],
+      nResults: 1,
     });
 
-    const documents = results.documents?.[0] || [];
+    const answer = result?.documents?.[0]?.[0];
 
-    if (documents.length === 0) {
-      return 'Jag kunde tyvärr inte hitta någon information om det just nu.';
+    if (!answer) {
+      return res.json({ answer: "❌ Kunde inte hitta ett svar." });
     }
 
-    const context = documents.join('\n\n');
-
-    const completion = await openai.chat.completions.create({
-      model: 'gpt-4', // eller 'gpt-3.5-turbo'
-      messages: [
-        {
-          role: 'system',
-          content: 'Du är en expert på Försäkringskassans regler. Svara tydligt och korrekt med hänvisning till fakta från kontexten nedan.'
-        },
-        {
-          role: 'user',
-          content: `Fråga: "${query}"\n\nRelevant kontext:\n${context}\n\nSvar:`
-        }
-      ],
-      temperature: 0.3
-    });
-
-    return completion.choices[0].message.content.trim();
+    res.json({ answer, query });
   } catch (error) {
-    console.error('❌ Fel i askRAG:', error);
-    return '❌ Ett tekniskt fel uppstod när GPT försökte generera ett svar.';
+    console.error("Fel i /ask:", error);
+    res.status(500).json({ error: "Ett internt fel uppstod." });
   }
-}
+});
+
+app.listen(port, () => {
+  console.log(`✅ RAG-backend körs på http://127.0.0.1:${port}`);
+});
