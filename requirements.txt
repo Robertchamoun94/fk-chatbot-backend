@@ -1,3 +1,0 @@
-chromadb==0.4.24
-openai
-numpy==1.24.4
