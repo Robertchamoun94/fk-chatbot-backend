@@ -31,7 +31,7 @@ document.addEventListener('DOMContentLoaded', () => {
     chatbox.scrollTop = chatbox.scrollHeight;
 
     try {
-      const response = await fetch('http://127.0.0.1:5005/ask?query=' + encodeURIComponent(question));
+      const response = await fetch('https://fk-chatbot-backend.onrender.com/ask?query=' + encodeURIComponent(question));
 
       const data = await response.json();
       const answer = data.answer || data.error || '❌ Kunde inte hämta svar.';
