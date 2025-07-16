@@ -31,14 +31,7 @@ document.addEventListener('DOMContentLoaded', () => {
     chatbox.scrollTop = chatbox.scrollHeight;
 
     try {
-      const response = await fetch('https://fk-chatbot-backend.onrender.com/rag', {
-        method: 'POST',
-        headers: {
-          'Content-Type': 'application/json'
-        },
-        body: JSON.stringify({ query: question })
-      });
-
+      const response = await fetch(`http://127.0.0.1:5005/ask?query=${encodeURIComponent(question)}`);
       const data = await response.json();
       const answer = data.answer;
 
