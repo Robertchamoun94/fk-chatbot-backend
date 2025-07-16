@@ -24,8 +24,10 @@ def rag():
     try:
         answer = ask_rag(query)
         return jsonify({'answer': answer})
-    except Exception as e:
-        print("❌ Fel i /rag-endpoint:", e)
+        except Exception as e:
+        import traceback
+        print("❌ Fel i Python RAG:")
+        traceback.print_exc()
         return jsonify({'error': 'Fel vid generering av svar'}), 500
 
 if __name__ == "__main__":
