@@ -1,38 +1,35 @@
-import os
-import json
-from chromadb import Client
-from chromadb.utils.embedding_functions import OpenAIEmbeddingFunction
+import { ChromaClient } from "chromadb";
+import { OpenAIEmbeddingFunction } from "chromadb";
+import * as dotenv from "dotenv";
+dotenv.config();
 
-# Ladda OpenAI API-nyckel
-openai_key = os.getenv("OPENAI_API_KEY")
-embedding_function = OpenAIEmbeddingFunction(api_key=openai_key)
+const client = new ChromaClient();
 
-# Initiera Chroma EphemeralClient
-client = Client()
-collection = client.get_or_create_collection(
-    name="fk-full",
-    embedding_function=embedding_function
-)
+const embedder = new OpenAIEmbeddingFunction({
+  openai_api_key: process.env.OPENAI_API_KEY,
+});
 
-# 🧠 Bygg nytt index från dina chunks vid start
-def load_chunks_into_index(json_path="data/fk-full.json"):
-    with open(json_path, "r", encoding="utf-8") as f:
-        data = json.load(f)
+const collection = await client.getOrCreateCollection({
+  name: "fk-full",
+  embeddingFunction: embedder,
+});
 
-    ids = [str(i) for i in range(len(data))]
-    texts = [chunk["text"] for chunk in data]
+// ✅ Skapa nytt index varje gång Render startar
+import chunks from "./data/fk-full.json" assert { type: "json" };
 
-    collection.add(documents=texts, ids=ids)
-    print(f"✅ {len(texts)} dokument indexerade.")
+await collection.add({
+  ids: chunks.map((c, i) => `doc-${i}`),
+  documents: chunks.map((c) => c.text),
+});
 
-# 🔍 Semantisk sökning
-def ask_rag(query, top_k=5):
-    results = collection.query(query_texts=[query], n_results=top_k)
-    docs = results.get("documents", [[]])[0]
+console.log(`✅ ${chunks.length} dokument indexerade`);
 
-    # Konkatenera resultaten
-    return "\n\n".join(docs)
+export async function ask_rag(query, top_k = 5) {
+  const results = await collection.query({
+    queryTexts: [query],
+    nResults: top_k,
+  });
 
-
-# 🔁 Kör indexering automatiskt när filen laddas
-load_chunks_into_index()
+  const docs = results.documents?.[0] || [];
+  return docs.join("\n---\n");
+}
