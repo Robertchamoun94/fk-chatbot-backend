@@ -1,3 +1,5 @@
+// ✅ Korrekt version av rag.js – kompatibel med Render och ChromaDB för Node.js (utan .init())
+
 import { ChromaClient } from "chromadb";
 import axios from "axios";
 import dotenv from "dotenv";
@@ -5,7 +7,6 @@ import dotenv from "dotenv";
 dotenv.config();
 
 const client = new ChromaClient();
-await client.init();
 
 const collection = await client.getOrCreateCollection({ name: "fk-full" });
 
