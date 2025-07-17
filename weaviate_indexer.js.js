@@ -1,4 +1,5 @@
-// weaviate_indexer.js
+
+// weaviate_indexer.js - Optimerad med parallell indexering
 import fs from 'fs/promises';
 import path from 'path';
 import dotenv from 'dotenv/config';
@@ -17,6 +18,7 @@ const client = weaviate.client({
 const CLASS_NAME = 'FK_Document';
 const CHUNKS_DIR = './chunks';
 const MAX_TOKENS = 3000;
+const MAX_PARALLEL = 5; // ⚡ Max antal samtidiga requests
 
 function splitTextByTokens(text, maxTokens) {
   const words = text.split(' ');
@@ -59,37 +61,41 @@ async function ensureClass() {
   }
 }
 
+async function embedChunk(fileName, chunk, chunkIndex) {
+  const id = `${fileName.replace(/\.txt$/, '')}_${chunkIndex}`;
+  try {
+    await client.data.creator()
+      .withClassName(CLASS_NAME)
+      .withId(id)
+      .withProperties({
+        source: fileName,
+        text: chunk,
+      }).do();
+    console.log(`✅ Indexerad: ${fileName} [del ${chunkIndex + 1}]`);
+  } catch (err) {
+    console.error(`❌ Fel vid indexering (${fileName} del ${chunkIndex + 1}):`, err.message);
+  }
+}
+
 async function embedAndIndexAllChunks() {
   const files = await fs.readdir(CHUNKS_DIR);
+  let allTasks = [];
 
   for (const fileName of files) {
-    // ⛔️ Hoppa över systemfiler eller dolda filer
     if (!fileName.endsWith('.txt') || fileName.startsWith('.')) continue;
-
     const filePath = path.join(CHUNKS_DIR, fileName);
     const content = await fs.readFile(filePath, 'utf-8');
     const chunks = splitTextByTokens(content, MAX_TOKENS);
 
-    for (let i = 0; i < chunks.length; i++) {
-      const chunk = chunks[i];
-      const id = `${fileName.replace(/\.txt$/, '')}_${i}`;
+    chunks.forEach((chunk, index) => {
+      allTasks.push(() => embedChunk(fileName, chunk, index));
+    });
+  }
 
-      try {
-        await client.data
-          .creator()
-          .withClassName(CLASS_NAME)
-          .withId(id)
-          .withProperties({
-            source: fileName,
-            text: chunk,
-          })
-          .do();
-
-        console.log(`✅ Indexerad: ${fileName} [del ${i + 1}/${chunks.length}]`);
-      } catch (err) {
-        console.error(`❌ Fel vid indexering (${fileName}):`, err.message);
-      }
-    }
+  // ⚡ Kör i batchar om MAX_PARALLEL åt gången
+  for (let i = 0; i < allTasks.length; i += MAX_PARALLEL) {
+    const batch = allTasks.slice(i, i + MAX_PARALLEL);
+    await Promise.all(batch.map(fn => fn()));
   }
 }
 
