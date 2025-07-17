@@ -63,7 +63,8 @@ async function embedAndIndexAllChunks() {
   const files = await fs.readdir(CHUNKS_DIR);
 
   for (const fileName of files) {
-    if (!fileName.endsWith('.txt')) continue;
+    // ⛔️ Hoppa över systemfiler eller dolda filer
+    if (!fileName.endsWith('.txt') || fileName.startsWith('.')) continue;
 
     const filePath = path.join(CHUNKS_DIR, fileName);
     const content = await fs.readFile(filePath, 'utf-8');
@@ -86,7 +87,7 @@ async function embedAndIndexAllChunks() {
 
         console.log(`✅ Indexerad: ${fileName} [del ${i + 1}/${chunks.length}]`);
       } catch (err) {
-        console.error('❌ Fel vid indexering:', err.message);
+        console.error(`❌ Fel vid indexering (${fileName}):`, err.message);
       }
     }
   }
