@@ -15,28 +15,24 @@ const client = weaviate.client({
   },
 });
 
-const COLLECTION_NAME = 'fk_docs';
+const CLASS_NAME = 'fk_docs';
 const CHUNKS_DIR = './chunks';
 
 async function ensureCollection() {
   try {
-    const exists = await client.schema.exists();
     const schema = await client.schema.getter().do();
-    const classes = schema.classes.map((cls) => cls.class);
+    const exists = schema.classes.some(cls => cls.class === CLASS_NAME);
 
-    if (!classes.includes(COLLECTION_NAME)) {
-      console.log('📚 Skapar class:', COLLECTION_NAME);
-      await client.schema
-        .classCreator()
-        .withClass({
-          class: COLLECTION_NAME,
-          vectorizer: 'none',
-          properties: [
-            { name: 'text', dataType: ['text'] },
-            { name: 'source', dataType: ['text'] },
-          ],
-        })
-        .do();
+    if (!exists) {
+      console.log('📚 Skapar class:', CLASS_NAME);
+      await client.schema.classCreator().withClass({
+        class: CLASS_NAME,
+        vectorizer: 'none',
+        properties: [
+          { name: 'text', dataType: ['text'] },
+          { name: 'source', dataType: ['text'] },
+        ],
+      }).do();
     }
   } catch (error) {
     console.error('❌ Fel vid creation av collection:', error.message);
@@ -45,11 +41,11 @@ async function ensureCollection() {
 }
 
 async function embed(text) {
-  const embeddingResponse = await openai.embeddings.create({
+  const res = await openai.embeddings.create({
     model: 'text-embedding-3-small',
     input: text,
   });
-  return embeddingResponse.data[0].embedding;
+  return res.data[0].embedding;
 }
 
 async function embedAndIndexAllChunks() {
@@ -60,11 +56,12 @@ async function embedAndIndexAllChunks() {
 
     const filePath = path.join(CHUNKS_DIR, entry.name);
     const content = await fs.readFile(filePath, 'utf8');
+
     const vector = await embed(content);
 
     await client.data
       .creator()
-      .withClassName(COLLECTION_NAME)
+      .withClassName(CLASS_NAME)
       .withProperties({
         text: content,
         source: entry.name,
@@ -80,7 +77,7 @@ async function embedAndIndexAllChunks() {
   try {
     await ensureCollection();
     await embedAndIndexAllChunks();
-    console.log('🎉 Allt färdigindexerat!');
+    console.log('🎉 Alla chunks är nu indexerade i Weaviate!');
   } catch (err) {
     console.error('❌ Fel vid indexering:', err.message);
   }
