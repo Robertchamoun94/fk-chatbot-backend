@@ -1,7 +1,7 @@
 import express from 'express';
 import cors from 'cors';
 import dotenv from 'dotenv';
-import { semanticSearchFull } from './rag.js';
+import { askRAG } from './rag.js'; // ✅ använder GPT + Weaviate
 
 dotenv.config();
 
@@ -11,7 +11,7 @@ const port = process.env.PORT || 5005;
 app.use(cors());
 app.use(express.json());
 
-// GET /ask – används för test i webbläsare
+// GET /ask – enkel test-endpoint
 app.get('/ask', async (req, res) => {
   const query = req.query.query;
 
@@ -20,8 +20,7 @@ app.get('/ask', async (req, res) => {
   }
 
   try {
-    const docs = await semanticSearchFull(query, 5);
-    const answer = docs.join('\n\n');
+    const answer = await askRAG(query);
     res.json({ answer, query });
   } catch (error) {
     console.error('❌ Fel i /ask:', error.message);
@@ -29,7 +28,7 @@ app.get('/ask', async (req, res) => {
   }
 });
 
-// 🔧 NY: POST /rag – används av frontend
+// POST /rag – används av frontend-chatten
 app.post('/rag', async (req, res) => {
   const { query } = req.body;
 
@@ -38,8 +37,7 @@ app.post('/rag', async (req, res) => {
   }
 
   try {
-    const docs = await semanticSearchFull(query, 5);
-    const answer = docs.join('\n\n');
+    const answer = await askRAG(query);
     res.json({ answer, query });
   } catch (error) {
     console.error('❌ Fel i /rag:', error.message);
