@@ -1,39 +1,41 @@
 // weaviate_indexer.js
+
 import fs from 'fs/promises';
 import path from 'path';
-import dotenv from 'dotenv';
-import weaviate from 'weaviate-ts-client';
+import 'dotenv/config';
+import weaviate, { ApiKey } from 'weaviate-ts-client';
 import OpenAI from 'openai';
 
-dotenv.config();
+// OpenAI-klient för embeddings
+const openai = new OpenAI({ apiKey: process.env.OPENAI_API_KEY });
 
-const openai = new OpenAI({
-  apiKey: process.env.OPENAI_API_KEY,
-});
-
+// Weaviate-klient med API-nyckel
 const client = weaviate.client({
   scheme: 'https',
   host: process.env.WEAVIATE_HOST,
   headers: {
-    Authorization: `Bearer ${process.env.WEAVIATE_API_KEY}`,
+    'X-OpenAI-Api-Key': process.env.WEAVIATE_API_KEY,
   },
+  apiKey: new ApiKey(process.env.WEAVIATE_API_KEY),
 });
 
+// Klassnamn i Weaviate
 const CLASS_NAME = 'FK_Document';
 
-async function ensureClassExists() {
+// Skapa klass i Weaviate om den inte finns
+async function ensureCollection() {
   try {
     const schemaRes = await client.schema.getter().do();
-    const classExists = schemaRes.classes.some(cls => cls.class === CLASS_NAME);
+    const exists = schemaRes.classes.some(cls => cls.class === CLASS_NAME);
 
-    if (!classExists) {
-      console.log(`🛠️ Skapar class: ${CLASS_NAME}`);
+    if (!exists) {
+      console.log(`⚙️ Skapar klass: ${CLASS_NAME}`);
       await client.schema
         .classCreator()
         .withClass({
           class: CLASS_NAME,
+          description: 'Chunks från Försäkringskassan',
           vectorizer: 'none',
-          vectorIndexType: 'hnsw',
           properties: [
             {
               name: 'content',
@@ -42,34 +44,35 @@ async function ensureClassExists() {
           ],
         })
         .do();
-    } else {
-      console.log(`✅ Class "${CLASS_NAME}" finns redan`);
     }
   } catch (err) {
-    console.error('❌ Fel vid skapande av class:', err.message || err);
+    console.error('❌ Fel vid creation av collection:', err.message);
     throw err;
   }
 }
 
+// Generera embedding för en text
 async function getEmbedding(text) {
-  const response = await openai.embeddings.create({
+  const embedding = await openai.embeddings.create({
     model: 'text-embedding-3-small',
     input: text,
   });
-  return response.data[0].embedding;
+  return embedding.data[0].embedding;
 }
 
+// Läser in och indexerar chunks
 async function embedAndIndexChunks() {
   const chunksDir = path.join('./chunks');
-
   const files = await fs.readdir(chunksDir);
-  for (const fileName of files) {
-    if (fileName.startsWith('.')) continue; // Hoppa över .DS_Store etc
 
+  for (const fileName of files) {
     const filePath = path.join(chunksDir, fileName);
+
+    const stat = await fs.stat(filePath);
+    if (!stat.isFile()) continue; // hoppa över .DS_Store och mappar
+
     const text = await fs.readFile(filePath, 'utf-8');
     const vector = await getEmbedding(text);
-
     const id = fileName.replace('.txt', '');
 
     await client.data
@@ -84,12 +87,15 @@ async function embedAndIndexChunks() {
   }
 }
 
-(async () => {
+// Kör allting
+async function main() {
   try {
-    await ensureClassExists();
+    await ensureCollection();
     await embedAndIndexChunks();
-    console.log('🎉 Alla chunks är nu indexerade i Weaviate!');
+    console.log('🎉 Allt klart!');
   } catch (err) {
-    console.error('🚨 Indexering misslyckades:', err.message || err);
+    console.error('❌ Indexering misslyckades:', err.message);
   }
-})();
+}
+
+main();
