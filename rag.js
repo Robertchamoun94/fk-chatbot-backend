@@ -32,7 +32,7 @@ export async function askRAG(query) {
     const result = await client.graphql.get()
       .withClassName(CLASS_NAME)
       .withFields('text source')
-      .withNearVector({ vector, certainty: 0.7 })
+      .withNearVector({ vector })
       .withLimit(5)
       .do();
 
