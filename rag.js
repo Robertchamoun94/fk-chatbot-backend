@@ -1,41 +1,38 @@
-import { ChromaClient } from 'chromadb';
-import { OpenAI } from 'openai';
+import weaviate from 'weaviate-ts-client';
 import dotenv from 'dotenv';
+import OpenAI from 'openai';
 
 dotenv.config();
 
-const openai = new OpenAI({
-  apiKey: process.env.OPENAI_API_KEY,
+const client = weaviate.client({
+  scheme: 'https',
+  host: '22xhnm1tiloai40du15fq.c0.europe-west3.gcp.weaviate.cloud', // ← Din Weaviate endpoint
+  apiKey: new weaviate.ApiKey(process.env.WEAVIATE_API_KEY),
 });
 
-const client = new ChromaClient();
-const collection = await client.getOrCreateCollection({
-  name: 'fk-full',
-  embeddingFunction: async (texts) => {
-    const embeddings = await Promise.all(
-      texts.map(async (text) => {
-        const response = await openai.embeddings.create({
-          model: 'text-embedding-3-small',
-          input: text,
-        });
-        return response.data[0].embedding;
-      })
-    );
-    return embeddings;
-  },
-});
+const openai = new OpenAI({ apiKey: process.env.OPENAI_API_KEY });
 
-export async function semanticSearchFull(query, topK = 5) {
+export async function semanticSearchFull(query, top_k = 5) {
   try {
-    const results = await collection.query({
-      queryTexts: [query],
-      nResults: topK,
+    const embeddingResponse = await openai.embeddings.create({
+      model: 'text-embedding-3-small',
+      input: query,
     });
 
-    const docs = results.documents?.[0] || [];
-    return docs;
+    const queryVector = embeddingResponse.data[0].embedding;
+
+    const result = await client.graphql.get()
+      .withClassName('FKPage') // ← matchar schemaklassen i din indexering
+      .withFields(['text'])
+      .withNearVector({ vector: queryVector })
+      .withLimit(top_k)
+      .do();
+
+    const texts = result.data.Get.FKPage.map(item => item.text);
+    return texts;
+
   } catch (error) {
     console.error('❌ Fel vid semantisk sökning:', error);
-    throw new Error('Fel vid semantisk sökning.');
+    throw new Error('Ett fel uppstod vid sökning. Kontrollera backend-loggar.');
   }
 }
