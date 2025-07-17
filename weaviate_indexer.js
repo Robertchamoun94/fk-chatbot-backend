@@ -101,4 +101,3 @@ async function embedAndIndexAllChunks() {
 
 await ensureClass();
 await embedAndIndexAllChunks();
-embedAndIndexAllChunks();
