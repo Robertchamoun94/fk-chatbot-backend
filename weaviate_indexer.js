@@ -1,84 +1,98 @@
 // weaviate_indexer.js
 import fs from 'fs/promises';
 import path from 'path';
-import 'dotenv/config';
+import dotenv from 'dotenv';
 import weaviate from 'weaviate-ts-client';
 import OpenAI from 'openai';
 
-const openai = new OpenAI({ apiKey: process.env.OPENAI_API_KEY });
+dotenv.config();
 
+// Initiera OpenAI embeddings
+const openai = new OpenAI({
+  apiKey: process.env.OPENAI_API_KEY,
+});
+
+// Initiera Weaviate-klienten med korrekt auth header
 const client = weaviate.client({
   scheme: 'https',
   host: process.env.WEAVIATE_HOST,
   headers: {
-    'X-OpenAI-Api-Key': process.env.WEAVIATE_API_KEY,
+    Authorization: `Bearer ${process.env.WEAVIATE_API_KEY}`,
   },
 });
 
-const CLASS_NAME = 'fk_docs';
-const CHUNKS_DIR = './chunks';
+// Namn på din collection i Weaviate
+const COLLECTION_NAME = 'fk_docs';
 
+// Kontrollera om collection finns, annars skapa den
 async function ensureCollection() {
   try {
-    const schema = await client.schema.getter().do();
-    const exists = schema.classes.some(cls => cls.class === CLASS_NAME);
-
+    const exists = await client.collections.exists(COLLECTION_NAME);
     if (!exists) {
-      console.log('📚 Skapar class:', CLASS_NAME);
-      await client.schema.classCreator().withClass({
-        class: CLASS_NAME,
+      console.log('🛠️ Skapar class:', COLLECTION_NAME);
+      await client.collections.create({
+        className: COLLECTION_NAME,
         vectorizer: 'none',
-        properties: [
-          { name: 'text', dataType: ['text'] },
-          { name: 'source', dataType: ['text'] },
-        ],
-      }).do();
+        vectorIndexType: 'hnsw',
+      });
+    } else {
+      console.log('✅ Collection finns redan:', COLLECTION_NAME);
     }
-  } catch (error) {
-    console.error('❌ Fel vid creation av collection:', error.message);
-    process.exit(1);
+  } catch (err) {
+    console.error('❌ Fel vid creation av collection:', err.message || err);
+    throw err;
   }
 }
 
-async function embed(text) {
-  const res = await openai.embeddings.create({
+// Funktion för att skapa embedding med OpenAI
+async function getEmbedding(text) {
+  const embedding = await openai.embeddings.create({
     model: 'text-embedding-3-small',
     input: text,
   });
-  return res.data[0].embedding;
+  return embedding.data[0].embedding;
 }
 
+// Läser och indexerar alla chunks
 async function embedAndIndexAllChunks() {
-  const entries = await fs.readdir(CHUNKS_DIR, { withFileTypes: true });
+  const chunksDir = path.join('./chunks');
 
-  for (const entry of entries) {
-    if (!entry.isFile() || entry.name === '.DS_Store') continue;
+  try {
+    const files = await fs.readdir(chunksDir);
 
-    const filePath = path.join(CHUNKS_DIR, entry.name);
-    const content = await fs.readFile(filePath, 'utf8');
+    for (const fileName of files) {
+      if (fileName.startsWith('.')) continue; // hoppa över .DS_Store etc
+      const filePath = path.join(chunksDir, fileName);
+      const content = await fs.readFile(filePath, 'utf-8');
 
-    const vector = await embed(content);
+      const vector = await getEmbedding(content);
 
-    await client.data
-      .creator()
-      .withClassName(CLASS_NAME)
-      .withProperties({
-        text: content,
-        source: entry.name,
-      })
-      .withVector(vector)
-      .do();
+      await client.collections
+        .class(COLLECTION_NAME)
+        .data()
+        .creator()
+        .withId(fileName.replace('.txt', ''))
+        .withProperties({
+          content,
+        })
+        .withVector(vector)
+        .do();
 
-    console.log('✅ Indexerad:', entry.name);
+      console.log(`✅ Indexerat: ${fileName}`);
+    }
+  } catch (err) {
+    console.error('❌ Fel vid indexering:', err.message || err);
+    throw err;
   }
 }
 
+// Kör hela indexeringsflödet
 (async () => {
   try {
     await ensureCollection();
     await embedAndIndexAllChunks();
-    console.log('🎉 Alla chunks är nu indexerade i Weaviate!');
+    console.log('🎉 Klart! Alla chunks är indexerade i Weaviate.');
   } catch (err) {
-    console.error('❌ Fel vid indexering:', err.message);
+    console.error('🚨 Indexering misslyckades:', err.message || err);
   }
 })();
