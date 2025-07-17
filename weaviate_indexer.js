@@ -1,10 +1,11 @@
-
-// weaviate_indexer.js - Optimerad med parallell indexering
+// weaviate_indexer.js - med tydliga loggar
 import fs from 'fs/promises';
 import path from 'path';
 import dotenv from 'dotenv/config';
 import { encode } from 'gpt-3-encoder';
 import weaviate, { ApiKey } from 'weaviate-ts-client';
+
+console.log('🚀 Startar Weaviate-indexering...');
 
 const client = weaviate.client({
   scheme: 'https',
@@ -18,7 +19,7 @@ const client = weaviate.client({
 const CLASS_NAME = 'FK_Document';
 const CHUNKS_DIR = './chunks';
 const MAX_TOKENS = 3000;
-const MAX_PARALLEL = 5; // ⚡ Max antal samtidiga requests
+const MAX_PARALLEL = 5;
 
 function splitTextByTokens(text, maxTokens) {
   const words = text.split(' ');
@@ -44,6 +45,7 @@ function splitTextByTokens(text, maxTokens) {
 }
 
 async function ensureClass() {
+  console.log('📦 Kontrollerar schema...');
   const schemaRes = await client.schema.getter().do();
   const exists = schemaRes.classes.some(cls => cls.class === CLASS_NAME);
   if (!exists) {
@@ -58,6 +60,8 @@ async function ensureClass() {
         }
       }
     }).do();
+  } else {
+    console.log('✅ Class finns redan:', CLASS_NAME);
   }
 }
 
@@ -78,7 +82,13 @@ async function embedChunk(fileName, chunk, chunkIndex) {
 }
 
 async function embedAndIndexAllChunks() {
+  console.log('📂 Läser chunks från mapp:', CHUNKS_DIR);
   const files = await fs.readdir(CHUNKS_DIR);
+  if (files.length === 0) {
+    console.log('⚠️ Inga textfiler hittades i chunks-mappen.');
+    return;
+  }
+
   let allTasks = [];
 
   for (const fileName of files) {
@@ -92,11 +102,14 @@ async function embedAndIndexAllChunks() {
     });
   }
 
-  // ⚡ Kör i batchar om MAX_PARALLEL åt gången
+  console.log(`📦 Totalt ${allTasks.length} chunks kommer indexeras...`);
+
   for (let i = 0; i < allTasks.length; i += MAX_PARALLEL) {
     const batch = allTasks.slice(i, i + MAX_PARALLEL);
     await Promise.all(batch.map(fn => fn()));
   }
+
+  console.log('🎉 Klar! Alla chunks indexerade i Weaviate.');
 }
 
 await ensureClass();
