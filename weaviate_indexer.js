@@ -1,18 +1,16 @@
 // weaviate_indexer.js
 import fs from 'fs/promises';
 import path from 'path';
-import 'dotenv/config';
-import weaviate from 'weaviate-ts-client';
+import 'dotenv/config.js';
+import { createClient, ApiKey } from 'weaviate-ts-client';
 import OpenAI from 'openai';
 
 const openai = new OpenAI({ apiKey: process.env.OPENAI_API_KEY });
 
-const client = weaviate.client({
+const client = createClient({
   scheme: 'https',
   host: process.env.WEAVIATE_HOST,
-  headers: {
-    'X-OpenAI-Api-Key': process.env.WEAVIATE_API_KEY,
-  },
+  apiKey: new ApiKey(process.env.WEAVIATE_API_KEY),
 });
 
 const COLLECTION_NAME = 'fk_docs';
@@ -20,60 +18,53 @@ const COLLECTION_NAME = 'fk_docs';
 async function ensureCollection() {
   const exists = await client.collections.exists(COLLECTION_NAME);
   if (!exists) {
-    console.log('📁 Skapar collection:', COLLECTION_NAME);
+    console.log('🆕 Skapar collection:', COLLECTION_NAME);
     await client.collections.create({
       name: COLLECTION_NAME,
       vectorizer: 'none',
-      properties: [
-        { name: 'text', dataType: 'text' },
-        { name: 'source', dataType: 'text' },
-      ],
-      vectorIndexConfig: {
+      vectorConfig: {
         distance: 'cosine',
       },
     });
   } else {
-    console.log('✅ Collection finns redan:', COLLECTION_NAME);
+    console.log('✅ Collection redan finns:', COLLECTION_NAME);
   }
 }
 
-async function embed(text) {
-  const result = await openai.embeddings.create({
-    model: 'text-embedding-3-small',
-    input: text,
-  });
-  return result.data[0].embedding;
-}
-
-async function indexChunks() {
-  const chunkDir = path.resolve('chunks');
-  const files = await fs.readdir(chunkDir);
-  const collection = client.collections.get(COLLECTION_NAME);
-
-  for (const file of files) {
-    const filePath = path.join(chunkDir, file);
-    const text = await fs.readFile(filePath, 'utf-8');
-    const vector = await embed(text);
-
-    await collection.data.insert({
-      vector,
-      properties: {
-        text,
-        source: file,
-      },
-    });
-
-    console.log(`📄 Indexerat: ${file}`);
-  }
-
-  console.log('✅ Alla chunk-filer är indexerade!');
-}
-
-(async () => {
+async function embedAndIndexDocuments() {
   try {
     await ensureCollection();
-    await indexChunks();
-  } catch (err) {
-    console.error('❌ Fel vid indexering:', err.message);
+    const collection = client.collections.get(COLLECTION_NAME);
+
+    const folderPath = 'data/chroma_index'; // Ändra om din chunk-folder ligger någon annanstans
+    const files = await fs.readdir(folderPath);
+
+    for (const file of files) {
+      const filePath = path.join(folderPath, file);
+      const content = await fs.readFile(filePath, 'utf-8');
+
+      const response = await openai.embeddings.create({
+        model: 'text-embedding-3-small',
+        input: content,
+      });
+
+      const embedding = response.data[0].embedding;
+
+      await collection.data.insert({
+        id: file.replace('.txt', ''),
+        vector: embedding,
+        properties: {
+          text: content,
+        },
+      });
+
+      console.log(`✅ Indexerat: ${file}`);
+    }
+
+    console.log('🎉 Klar med all indexering!');
+  } catch (error) {
+    console.error('❌ Fel vid indexering:', error.message);
   }
-})();
+}
+
+embedAndIndexDocuments();
