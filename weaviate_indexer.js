@@ -7,7 +7,7 @@ import OpenAI from 'openai';
 
 const openai = new OpenAI({ apiKey: process.env.OPENAI_API_KEY });
 
-const client = new WeaviateClient({
+const client = weaviate.client({
   scheme: 'https',
   host: process.env.WEAVIATE_HOST,
   headers: {
