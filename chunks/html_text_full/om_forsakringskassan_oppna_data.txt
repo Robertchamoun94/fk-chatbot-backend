@@ -1,0 +1,45 @@
+Öppna data - Försäkringskassan
+Kakor på Försäkringskassan
+ 
+På forsakringskassan.se använder vi kakor (cookies) för att webbplatsen ska fungera så bra som möjligt för dig.
+Vi använder också kakor för webbanalys för att göra webbplatsen bättre.
+ 
+Så här använder Försäkringskassan kakor
+ 
+Godkänner du att vi också använder kakor för webbanalys?
+ 
+Ja, jag godkänner alla kakor
+ 
+Nej, jag godkänner bara nödvändiga kakor
+Gå till innehåll
+Tänk på att...
+Din webbläsare är av en äldre modell. Det innebär att du kanske inte kan använda alla funktioner på webbplatsen. Vi rekommenderar att du uppdaterar till en nyare version.
+Öppna data
+Öppna data är information som finns tillgänglig för vem som helst att fritt använda, återanvända och dela med sig av.
+Med hjälp av öppna data kan utvecklare, journalister och forskare fritt göra analyser och bygga digitala tjänster – vilket i sin tur skapar samhällsnytta och ökar allmänhetens insyn. Man kan säga att öppna data till stor del är en förlängning av offentlighetsprincipen.
+Direktadress till den här sidan är 
+forsakringskassan.se/psidata
+ Länk till annan webbplats, öppnas i nytt fönster.
+.
+Vilka öppna data vill du ha?
+Vilka öppna data skulle du vilja se att vi publicerade? Hör gärna av dig med förslag på vilka källor du tycker att vi borde gå vidare med. Berätta vilka öppna data du är intresserad av, och om du vill, hur du har tänkt att använda dem.
+oppnadata@forsakringskassan.se
+Format för öppna data
+Vi publicerar öppna data i format som följer en öppen standard, främst CSV (comma‑separated values) och ett tillhörande API (application programming interface).
+API:et kan användas för att utveckla tjänster och applikationer.
+På Sveriges dataportal hittar du all vår officiella statistik som öppna data. Där hittar du till exempel data över hur många som är sjukskrivna just nu och får ersättning av Försäkringskassan:
+Sveriges dataportal (dataportal.se)
+ Länk till annan webbplats, öppnas i nytt fönster.
+        Relaterade länkar
+    
+Ytterligare statistik
+Försäkringskassans statistik och analys
+Mer om öppna data
+Öppna data-direktivet (regeringen.se)
+ Länk till annan webbplats, öppnas i nytt fönster.
+Sveriges dataportal (dataportal.se)
+ Länk till annan webbplats, öppnas i nytt fönster.
+Europeiska dataportalen (data.europa.eu)
+ Länk till annan webbplats, öppnas i nytt fönster.
+Senast uppdaterad 
+26 mars 2025

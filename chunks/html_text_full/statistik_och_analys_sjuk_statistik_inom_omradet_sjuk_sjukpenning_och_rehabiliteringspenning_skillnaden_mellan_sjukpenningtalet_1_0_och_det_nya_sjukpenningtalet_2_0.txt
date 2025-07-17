@@ -1,0 +1,78 @@
+Skillnaden mellan Sjukpenningtalet 1.0 och det nya Sjukpenningtalet 2.0 - Försäkringskassan
+Kakor på Försäkringskassan
+ 
+På forsakringskassan.se använder vi kakor (cookies) för att webbplatsen ska fungera så bra som möjligt för dig.
+Vi använder också kakor för webbanalys för att göra webbplatsen bättre.
+ 
+Så här använder Försäkringskassan kakor
+ 
+Godkänner du att vi också använder kakor för webbanalys?
+ 
+Ja, jag godkänner alla kakor
+ 
+Nej, jag godkänner bara nödvändiga kakor
+Gå till innehåll
+Tänk på att...
+Din webbläsare är av en äldre modell. Det innebär att du kanske inte kan använda alla funktioner på webbplatsen. Vi rekommenderar att du uppdaterar till en nyare version.
+Skillnaden mellan Sjukpenningtalet 1.0 och det nya Sjukpenningtalet 2.0
+Sjukpenningtalen visar hur många dagar med sjukpenning som har betalats ut relaterat till dem som är sjukpenningförsäkrade. Syftet med sjukpenningtalen är att visa utvecklingen inom sjukpenningförsäkringen.
+När befolkningen och antalet sysselsatta personer på arbetsmarknaden ökar, ökar också antalet ersatta sjukpenningdagar. Sjukpenningtalen sätter ersatta sjukpenningdagar i relation
+ 
+till antalet sjukpenningförsäkrade. Det är först när en person ansöker om sjukpenning som det fastställs om hen är sjukpenningförsäkrad eller inte. Därför saknas uppgift om vilka i befolkningen som är sjukpenningförsäkrade och därför måste antalet uppskattas.
+Sjukpenningtalet 1.0 underskattar sjukfrånvaron eftersom det relaterar till befolkningen 16–64 år oavsett om personen har en varaktig arbetsinkomst eller inte. Sjukpenningtalet 2.0 använder i stället sysselsatta och arbetssökande i åldern 15–69 år, vilket ger en mer rättvisande bild av vilka som är sjukpenningförsäkrade.
+Sjukfrånvaron har stora säsongsvariationer vilket gör att jämförelser mellan olika kalendermånader blir osäkra. Sjukpenningtalen är rullande‑12 mått vilket hanterar säsongsvariationer och möjliggör jämförelser mellan kalendermånader och över tid.
+Sjukpenningtalet 1.0 kommer fortsättningsvis att publiceras parallellt med Sjukpenningtalet 2.0 varje månad.
+Sjukpenningtalet
+visar utvecklingen av sjukpenningförsäkringen
+möjliggör jämförelse mellan kön, ålder, län och kommun
+möjliggör jämförelser mellan kalendermånader och över tid
+1.0 relaterar till hela befolkningen 16–64 år
+2.0 relaterar till sysselsatta samt arbetssökande 15–69 år
+i båda måtten ingår alla utbetalda nettodagar med sjuk- och rehabiliteringspenning
+Sjukpenningtalet 2.0 – sjukpenning relaterad till sysselsatta och arbetssökande
+I det nya måttet används sysselsatta och arbetssökande i åldern 15–69 år, i stället för hela befolkningen, vilket ger en bättre bild av dem som kan antas vara sjukpenningförsäkrade. Det ger i sin tur en mer rättvisande bild av sjukfrånvaron i olika grupper på arbetsmarknaden, till exempel mellan kommuner och åldersgrupper. Eftersom allt fler arbetar högre upp i åldrarna, kommer Sjukpenningtalet 2.0 också finnas för åldersgruppen 65–69 år.
+Den nya populationen kommer att vara mindre än den som använts tidigare vilket gör att Sjukpenningtalet 2.0 kommer att ligga på en högre nivå än Sjukpenningtalet 1.0. I december 2023 var det cirka 1 miljon fler sjukpenningförsäkrade i Sjukpenningtalet 1.0 än i Sjukpenningtalet 2.0. Det resulterar i att Sjukpenningtalet 1.0 blir 10,2 och Sjukpenningtalet 2.0 blir 12,6 i december 2023. Statistik för Sjukpenningtalet 2.0 finns redovisad från och med april 2021.
+Sjukpenningtalet 1.0 – sjukpenning relaterad till befolkningen
+I Sjukpenningtalet 1.0 består antalet sjukpenningförsäkrade av befolkningen i åldern 16–64 år oavsett om man är sysselsatt eller arbetslös. Det ger en systematisk överskattning av antalet personer som är sjukpenningförsäkrade och ger därmed en underskattning av sjukfrånvaron. I grupper där färre har ett arbete som ger inkomst leder det också till att sjukfrånvaron underskattas, till exempel bland yngre och äldre åldersgrupper på arbetsmarknaden. Mer information om sjukfrånvaro i grupper där färre arbetar:
+Sjukfrånvaro i grupper där färre arbetar (Korta analyser 2021:1)
+ Pdf, 706 kB, öppnas i nytt fönster.
+Definition av måttet Sjukpenningtalet 2.0
+Sjukpenningtalet 2.0 är ett rullande-12 mått. Det anger antal utbetalda nettodagar för en given 12-månaders period med sjuk- och rehabiliteringspenning, relaterat till uppskattat antal sjukpenningförsäkrade i åldrarna 15–69 år.
+Exempel: För april 2021 är det summan av nettodagarna från och med 2020-05-01 till och med 2021-04-30 och det genomsnittliga antalet sjukpenningförsäkrade för samma period. Decembervärdet innehåller därmed helårsvärdet för respektive år.
+Med nettodagar menas att dagar med partiell ersättning omräknas till hela dagar, till exempel två dagar med halv ersättning blir en nettodag.
+Sjukpenningförsäkrade är summan av antalet sysselsatta och arbetslösa i åldern 15–69 år enligt SCB:s definition av befolkningens arbetsmarknadsstatus (BAS). Det kompletteras med personer som varken är sysselsatta eller arbetslösa men som haft sjukpenning under perioden.
+Befolkningens arbetsmarknadsstatus (BAS) (scb.se)
+ Länk till annan webbplats, öppnas i nytt fönster.
+Sjukpenningförsäkringen ställer krav på att arbetsinkomsten ska vara varaktig. Därför klassificeras individer som sjukpenningförsäkrade först efter att ha varit sysselsatta eller inskrivna som arbetssökande hos Arbetsförmedlingen (arbetslös) i minst 4 månader i följd.
+Definition av måttet Sjukpenningtalet 1.0
+Sjukpenningtalet 1.0 är ett rullande-12 mått. Det anger antal utbetalda nettodagar för en 12‑månadersperiod med sjuk- och rehabiliteringspenning relaterat till sjukpenningförsäkrade i åldrarna 16–64 år. Uppskattningen av sjukpenningförsäkrade i Sjukpenningtalet 1.0 motsvarar i stort sett hela den folkbokförda befolkningen i dessa åldrar. Personer med hel aktivitetsersättning eller sjukersättning exkluderas eftersom de inte kan få sjukpenning.
+        Relaterade länkar
+    
+Statistik
+Sjukpenningtalet 2.0
+Sjukpenningtalet 1.0
+Kontakt
+Kontakta statistikenheten
+När publiceras statistiken?
+Publiceringsplan – Statistik och analys
+Senast uppdaterad 
+3 april 2024
+Dela sidan
+ 
+Dela sidan på 
+ 
+Facebook
+ 
+ (öppnas i nytt fönster)
+ 
+Dela sidan på 
+ 
+X
+ 
+ (öppnas i nytt fönster)
+ 
+Dela sidan med 
+ 
+Mejl
+ 
+ (öppnas i nytt fönster)

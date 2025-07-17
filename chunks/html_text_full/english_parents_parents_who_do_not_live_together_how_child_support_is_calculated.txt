@@ -1,0 +1,57 @@
+How child support is calculated - Försäkringskassan
+Cookies used by the Swedish Social Insurance Agency
+ 
+On forsakringskassan.se, we use cookies to make the website work as well as possible for you.
+We also use cookies for web analytics that help us to improve the website.
+ 
+How the Swedish Social Insurance Agency uses cookies
+ 
+Do you accept our use of cookies for web analytics?
+ 
+Yes, I accept all cookies
+ 
+No, I only accept necessary cookies
+Go to content
+Keep in mind...
+You are using an older version of your web browser. This means that you might not be able to use all of the functions of the website. We recommend that you update to a newer version.
+How child support is calculated
+Who pays child support?
+If the children live with parent A, then parent B pays child support for the children.
+Child support is calculated by dividing the costs of the child between the parents in relation to their financial situation.
+Child support 
+= Child's cost × (B's surplus / Surplus for A+B)
+Who receives child support?
+Child support is paid to parent A if the child is under the age of 18 (i.e. a minor). If the child is no longer a minor, it is paid directly to the child.
+When parent B has other children and lives with them
+If parent B has other children and lives with them, then parent B is responsible for a portion of these children's costs. The cost for them is calculated as follows:
+Cost for other children living with B =
+Reserved amount + childcare expenses – the child's income
+Reserved amount =
+ 40 per cent of price base amount/12
+Child's income =
+ e.g. child allowance, maintenance support, child support.
+When parent B has another child and lives with the parent of that other child
+If parent B is cohabiting with the other child's parent (parent C), then parent C's income and expenses are also included in the calculation. It is calculated as follows:
+Cost for other children living with B
+=
+Reserved amount + childcare expenses – the child's income – surplus from parent C
+Reserved amount =
+ 40 per cent of price base amount/12
+Child's income = 
+e.g. child allowance, maintenance support, child support.
+If the surplus is enough to provide for all of the children
+If parent B has a large enough surplus to pay both child support and their portion of the costs for the children living with them, then child support is calculated as follows:
+Child support = 
+Child's cost × B's surplus / surplus for A+B
+If the surplus is not large enough to provide for all of the children
+If parent B's surplus is not large enough to cover both child support and their portion of the costs for the children living when them, then the cost for the children living with them must be deducted first. The remainder of the surplus is then divided between the children they must pay child support for. It is calculated as follows:
+Child support (CS) for one child =
+ B's surplus after deduction - cost for child 2 living with B
+If there are two children entitled to child support, it is calculated as follows:
+Child support (CS) child 1 = 
+B's surplus after deduction × CS for child 1 / CS for child 1 + CS for child 2
+Child support (CS) child 2 = 
+B's surplus after deduction × CS for child 2 / CS for child 1 + CS for child 2
+Deduction = surplus – cost for children living with B.
+Last updated: 
+2025-04-29

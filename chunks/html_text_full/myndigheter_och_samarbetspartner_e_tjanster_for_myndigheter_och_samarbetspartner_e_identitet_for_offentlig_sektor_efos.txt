@@ -1,0 +1,31 @@
+E-identitet för offentlig sektor, EFOS - Försäkringskassan
+Kakor på Försäkringskassan
+ 
+På forsakringskassan.se använder vi kakor (cookies) för att webbplatsen ska fungera så bra som möjligt för dig.
+Vi använder också kakor för webbanalys för att göra webbplatsen bättre.
+ 
+Så här använder Försäkringskassan kakor
+ 
+Godkänner du att vi också använder kakor för webbanalys?
+ 
+Ja, jag godkänner alla kakor
+ 
+Nej, jag godkänner bara nödvändiga kakor
+Gå till innehåll
+Tänk på att...
+Din webbläsare är av en äldre modell. Det innebär att du kanske inte kan använda alla funktioner på webbplatsen. Vi rekommenderar att du uppdaterar till en nyare version.
+E-identitet för offentlig sektor, EFOS
+Försäkringskassan ansvarar för den gemensamma IT-tjänsten E-identitet för offentlig sektor, EFOS. EFOS ger förutsättning för säker inloggning för alla medarbetare på statliga myndigheter. Från den lilla myndigheten till de största, EFOS stödjer alla.
+Allmän information om EFOS
+EFOS erbjuder en säker metod för autentisering och signering godkänd av DIGG för tillitsnivå 3 och 4 och riktar sig mot svenska myndigheter. IT-tjänsten genomgår årligen oberoende revision enligt WebTrust och kvalitetsmärket Svensk e-legitimation.
+Mer information om vårt erbjudande
+ Länk till annan webbplats.
+Styrande dokument, certifikatspecifikationer m.m. för EFOS.
+E-identitet för offentlig sektor - Repository (repository.efos.se)
+ Länk till annan webbplats, öppnas i nytt fönster.
+Anslutning till EFOS
+Kontaktuppgift för statliga myndigheter som är intresserade av att ansluta till IT-tjänsten EFOS.
+Kontakt
+samordnadochsakerstatligitdrift@forsakringskassan.se
+Senast uppdaterad 
+15 februari 2025

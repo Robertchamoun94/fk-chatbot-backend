@@ -1,0 +1,97 @@
+IT-tekniker inom Datacenter i Sundsvall - Försäkringskassan
+Kakor på Försäkringskassan
+ 
+På forsakringskassan.se använder vi kakor (cookies) för att webbplatsen ska fungera så bra som möjligt för dig.
+Vi använder också kakor för webbanalys för att göra webbplatsen bättre.
+ 
+Så här använder Försäkringskassan kakor
+ 
+Godkänner du att vi också använder kakor för webbanalys?
+ 
+Ja, jag godkänner alla kakor
+ 
+Nej, jag godkänner bara nödvändiga kakor
+Gå till innehåll
+Tänk på att...
+Din webbläsare är av en äldre modell. Det innebär att du kanske inte kan använda alla funktioner på webbplatsen. Vi rekommenderar att du uppdaterar till en nyare version.
+IT-tekniker inom Datacenter i Sundsvall
+ 
+ 
+Placeringsort
+Sundsvall
+Ansök senast
+8/24/2025
+Diarienummer
+FK 2025/015819
+ 
+Logga in och sök jobbet
+                
+Öppnas i nytt fönster
+ 
+ 
+Varje år fattar Försäkringskassan cirka 20 miljoner beslut som påverkar människors liv och hela samhället. Vi betalar ut cirka 250 miljarder kronor varje år. Det är allas skattepengar vi har hand om. Det är ett stort ansvar. Därför tänker vi nytt och använder den senaste tekniken för att förenkla och förbättra, utveckla och leverera it-tjänsterna för den svenska socialförsäkringen. Välkommen till en av Sveriges största it-avdelningar.
+ 
+Inom produktenheten Kommunikation Data ansvarar vi för daglig produktion, utveckling och förvaltning av Försäkringskassans nätverksinfrastruktur samt till våra anslutna myndigheter inom regeringsuppdraget Samordnad Säker Statlig it-drift.
+It-tekniker, datacenter och infrastrukturutvecklare
+I din roll som IT-tekniker kommer du primärt att jobba med våra datacentermiljöer som är baserade på produkter från leverantören Juniper samt mjukvarubaserade lösningar från Broadcom (VM-ware). Du kommer tillsammans i ett team ha fokus på att köra Försäkringskassans datacentermiljö och våra anslutna myndigheter. I rollen ingår att hantera inkommande beställningar. Automatisering av de delar som ingår i arbetsuppgifterna kommer vara centralt i ditt arbete som ett led i att skapa effektiva leveranser.
+Tjänsten innebär att du hanterar sekretessbelagda uppgifter vilket ställer höga krav på rätt hantering. Därför är det viktigt att du som ska arbeta hos oss har högt säkerhetsmedvetande.
+Det är ett jobb för dig som vill vara med och ta ansvar.
+Vi söker dig som 
+har högskoleexamen eller erfarenheter och kvalifikationer som kan prövas likvärdiga
+har specialistkompetens och erfarenhet av arbete i stora och komplexa it-miljöer
+agerar på eget initiativ och tar ansvar för att nå goda resultat  
+samarbetar effektivt med andra för att nå gemensamma mål
+har god kommunikativ förmåga, i tal och skrift
+har ett systematiskt och noggrant arbetssätt
+kan förstå och analysera komplexa frågor
+har goda kunskaper i svenska, i tal och skrift.
+Det är meriterande om du
+har djup kunskap inom datacenter nätverk, IP-fabric (Spine/Leaf, EVPN-VXLAN)
+har djup kunskap inom routing, BGP
+har kunskap inom Software defined (SDN)
+har erfarenhet av automatisering och verktyg som till exempel Ansible och Git
+har erfarenhet av infrastrukturutveckling, kodning och scriptning.
+Vi lägger stor vikt vid dina personliga egenskaper.
+Övrigt
+En tjänst, tillsvidare, heltid, med tillträde enligt överenskommelse. Provanställning kan bli aktuellt. I enlighet med Försäkringskassans riktlinje för säkerhet genomförs bakgrundskontroller i denna rekrytering. För den här tjänsten krävs svenskt medborgarskap. Möjlighet till distansarbete finns om arbetet tillåter. I den här rekryteringen kan arbetspsykologiska test användas som en del i urvalsarbetet. Placeringsort: Sundsvall.
+Vill du veta mer om Försäkringskassan som arbetsgivare? Besök 
+fk.se/jobbahososs
+Kontaktpersoner
+Chef: Jonas Rask, tel 010- 112 82 21 (för frågor om tjänsten). HR-specialist: Klas Lindblad, klas.lindblad@forsakringskassan.se och tel 010-113 10 43 (för frågor om rekryteringsprocessen). Fackliga representanter är för ST Peter Lampinen, Saco-S Ann Wiström och Seko Eliza Grundström. Dessa nås via vår växel 08-786 90 00.
+Ansökan
+Välkommen med din ansökan senast den 24 augusti 2025. Ladda gärna upp dina examensbevis, betyg och intyg i samband med din ansökan.
+Har du skyddade personuppgifter eller ingen tillgång till bank-id ringer du den HR-specialist som finns namngiven i annonsen så får du hjälp med att skicka in din ansökan.
+ 
+Vi ska i allt vi gör, agera med utgångspunkt i principen om alla människors lika värde, rättssäkerhet och med god service till medborgarna.
+ 
+Logga in och sök jobbet
+                
+Öppnas i nytt fönster
+ 
+ 
+Tillbaka till lediga jobb
+Dela sidan
+ 
+Dela sidan på 
+ 
+Facebook
+ 
+ (öppnas i nytt fönster)
+ 
+Dela sidan på 
+ 
+X
+ 
+ (öppnas i nytt fönster)
+ 
+Dela sidan med 
+ 
+Mejl
+ 
+ (öppnas i nytt fönster)
+ 
+Dela sidan på 
+ 
+LinkedIn
+ 
+ (öppnas i nytt fönster)

@@ -1,0 +1,360 @@
+Statligt tandvårdsstöd - Försäkringskassan
+Kakor på Försäkringskassan
+ 
+På forsakringskassan.se använder vi kakor (cookies) för att webbplatsen ska fungera så bra som möjligt för dig.
+Vi använder också kakor för webbanalys för att göra webbplatsen bättre.
+ 
+Så här använder Försäkringskassan kakor
+ 
+Godkänner du att vi också använder kakor för webbanalys?
+ 
+Ja, jag godkänner alla kakor
+ 
+Nej, jag godkänner bara nödvändiga kakor
+Gå till innehåll
+Tänk på att...
+Din webbläsare är av en äldre modell. Det innebär att du kanske inte kan använda alla funktioner på webbplatsen. Vi rekommenderar att du uppdaterar till en nyare version.
+Statligt tandvårdsstöd
+Här hittar du information om det statliga tandvårdsstödet, hur det fungerar och vad du som arbetar inom tandvården har för skyldigheter.
+Vad är det statliga tandvårdsstödet?
+Alla som är försäkrade i Sverige har rätt till statligt tandvårdsstöd från det år de fyller 20 år. Det statliga tandvårdsstödet finns till för att ge ekonomiskt stöd till patienter som behöver tandvård och för att skydda mot höga kostnader. Tandvårdsstödet består av allmänt tandvårdsbidrag, särskilt tandvårdsbidrag och högkostnadsskydd.
+Allmänt tandvårdsbidrag
+Allmänt tandvårdsbidrag kan användas till undersökningar, förebyggande behandlingar och all annan tandvård som ger rätt till statligt tandvårdsstöd.
+Särskilt tandvårdsbidrag
+Särskilt tandvårdsbidrag riktar sig till patienter med en sjukdom eller en funktionsnedsättning som ökar risken för försämrad tandhälsa. Bidraget används till förebyggande tandvård för att hjälpa patienterna att behålla en god tandhälsa. Du som tandläkare eller tandhygienist bedömer om patienten har rätt till bidraget enligt Socialstyrelsens föreskrifter.
+Socialstyrelsens 
+föreskrifter
+ om särskilt tandvårdsbidrag (socialstyrelsen.se)
+ Länk till annan webbplats, öppnas i nytt fönster.
+Högkostnadsskydd
+I tandvårdsstödet finns ett högkostnadsskydd som innebär att patienter som har höga tandvårdskostnader bara behöver betala en del av kostnaden själv. Försäkringskassan betalar ersättning för resten av kostnaderna direkt till dig som är vårdgivare.
+Tandvårdsersättningen beräknas utifrån de referenspriser som bestäms av staten. Du kan själv bestämma dina priser för olika åtgärder, men ersättningen från Försäkringskassan är aldrig högre än referenspriset. Om ditt är pris är lägre än referenspriset, beräknar Försäkringskassan ersättningen utifrån ditt pris.
+När du rapporterar in ditt pris för en åtgärd du gjort ska du alltså dra av eventuella rabatter som du gett patienten. Om patienten inte har haft någon kostnad alls för sin behandling, ska priset rapporteras med noll kronor.
+Tandvårds- och läkemedelsförmånsverket (TLV) bestämmer vilken tandvård som ger rätt till statligt tandvårdsstöd.
+Tandvårdsstöd för privatpersoner
+Tandvårdsstöd
+Kunskapsstöd
+TLV:s föreskrifter om tandvårdsstödet
+I TLV:s föreskrifter hittar du samlad information om vad som gäller för det statliga tandvårdsstödet.
+Föreskrifter om tandvårdsstödet (tlv.se)
+ Länk till annan webbplats, öppnas i nytt fönster.
+Sök i kunskapsstödet (KUSP)
+Kunskapsstödet (KUSP) förenklar för dig inom tandvården. Här kan du snabbt söka efter vilka regler som gäller för olika behandlingar i tandvården.
+Kunskapsstödet (kusp.tlv.se)
+ Länk till annan webbplats, öppnas i nytt fönster.
+Har min patient rätt till statligt tandvårdsstöd?
+Från och med det år din patient fyller 20 år och är försäkrad i Sverige har hen rätt till statligt tandvårdsstöd. Utöver det finns det ytterligare vissa situationer när din patient har rätt till tandvårdsstöd.
+        Anställda
+    
+    
+En patient som bor i ett annat EU/EES-land, i Schweiz eller i Storbritannien och är anställd i Sverige
+Om du har en patient som bor i ett annat EU/EES-land, i Schweiz eller i Storbritannien och är anställd i Sverige, har hen rätt till statligt tandvårdsstöd. Detta gäller även sjömän som bor i ett annat EU/EES-land eller Schweiz och är anställda på ett havsgående fartyg från Sverige. Rapportera in patientens tandvård som vanligt.
+En patient som bor i Sverige och är anställd i ett annat EU/EES-land, i Schweiz eller i Storbritannien
+Personer som är anställda i ett annat EU/EES-land, i Schweiz eller Storbritannien har rätt till statligt tandvårdsstöd när de bor i Sverige.
+För att ha rätt till statligt tandvårdsstöd ska en person som bor i Sverige men arbetar i ett annat EU/EES-land, Schweiz eller Storbritannien visa upp ett intyg om rätt till vård i Sverige (5164). Det gäller även sjömän som bor i Sverige och är anställda på ett havsgående fartyg från ett annat EU/EES-land, Schweiz eller Storbritannien.
+Skicka en kopia av intyget till:
+Försäkringskassan
+FE 20
+831 84 Östersund
+Personer som är anställda av en EU-institution
+Om en person har EU-institutionernas sjukförsäkringskort (EIHIC), ska du inte rapportera in tandvården till oss. Personer som har EIHIC omfattas av EU:s interna regler och tjänsteföreskrifter. De måste betala full kostnad för tandvård i Sverige och sedan vända sig till sina EU-institutioner för att få eventuell ersättning.
+Om en person som är anställd av en EU-institution inte har något EIHIC, ska hen i stället visa upp sitt EU-kort eller sitt provisoriska intyg om EU-kort. Detta för att kunna få tandvårdsstöd för tandvård som inte kan vänta tills personen kommer hem. Du ska alltså skapa ett konto och rapportera in vården till oss.
+        Personer som är utsända
+    
+    
+Från Sverige till ett annat EU/EES-land, Schweiz eller Storbritannien
+Personer som är utsända från Sverige till ett annat EU/EES-land, Schweiz eller Storbritannien har rätt till statligt tandvårdsstöd. Rapportera in tandvård som utförs på dessa personer som vanligt
+Från Sverige till ett land utanför EU/EES, Schweiz eller Storbritannien
+Personer som är anställda i Sverige och utsända till ett land utanför EU/EES, Schweiz eller Storbritannien kan få statligt tandvårdsstöd.
+Följande grupper har rätt till statligt tandvårdsstöd:
+Offentligt anställda som är utsända, oavsett utsändningstid.
+Privat anställda som är utsända för kortare tid än ett år.
+Personer som är utsända kortare tid än 5 år av svenska ideella organisationer som bedriver biståndsverksamhet.
+Personer som är utsända för kortare tid än 5 år av ett svenskt trossamfund eller ett organ knutet till ett sådant samfund.
+Personer som är privat anställda och utsända längre tid än ett år kan inte få statligt tandvårdsstöd.
+        Personer på tillfällig vistelse
+    
+    
+Personer som vistas tillfälligt i Sverige
+Personer som är tillfälligt i Sverige behöver visa upp handlingar för att kunna få tandvårdsstöd för tandvård som inte kan vänta tills de kommer hem.
+En person från ett annat EU/EES-land eller Schweiz måste visa upp EU-kort eller provisoriskt intyg om EU-kort.
+En person som är försäkrade i ett annat nordiskt land ska visa en id-handling och tala om sin hemadress.
+En person från Australien ska visa upp ett giltigt australiensiskt pass eller en handling som styrker att hen får vistas under obegränsad tid i Australien.
+Storbritannien är inte längre medlem i EU. Brittiska EU-kort kan dock accepteras även framöver. De kan se ut som vanliga EU-kort som utfärdas av andra EU-länder. Brittiska EU-kort kan även ha ett avvikande utseende, t.ex. kan de innehålla initialerna ”CRA” eller ”SE” i slutet av numret som står på fält 6 av EU-kort. Storbritannien kommer även att utfärda ett så kallat GHIC (Global Health Insurance Card), vilket också kan accepteras.
+Personer bosatta i Storbritannien eller på Kanalöarna, utan EU-kort, GHIC eller provisoriskt intyg, kan få tandvård med giltigt brittiskt pass eller annat pass och försäkringsbevis som styrker bosättning i Storbritannien.
+En person från Québec kan ha rätt till statligt tandvårdsstöd på samma villkor som den som bor i Sverige. Det gäller om personen studerar i Sverige, arbetar i Sverige eller är utsänd till Sverige under kortare tid än ett år. För att få statligt tandvårdsstöd måste personen visa upp ett intyg från det behöriga försäkringsorganet i Québec och något av följande:
+ett inskrivningsintyg från en läroanstalt i Sverige som omfattas av den svenska lagstiftningen om studiestöd
+ett intyg om arbetstillstånd.
+För att kunna rapportera in patientbesök för personer som saknar svenskt personnummer eller samordningsnummer måste du skapa ett konto för patienten. När du gör det ska du ange ett id-nummer. Du ska ange samma id-nummer när du sedan rapporterar in patientbesöket.
+Det är viktigt att patienten får veta vad som användes som id-nummer när kontot skapades, så att hen kan uppge det vid framtida tandläkarbesök. På så sätt rapporteras alla patientbesök på samma konto och uppdateringen av patienthistoriken och det sammanlagda ersättningsgrundande beloppet blir rätt.
+Nedan kan du se vilka id‐nummer som ska användas för olika personer:
+För personer med EU‐kort är id-numret EU‐kortets 20‐siffriga nummer.
+För personer med ett provisoriskt intyg om innehav av EU‐kort är id-numret födelsedata 19XXXXXXXXXX. Även det datum när patientens konto skapades ska fyllas i.
+För personer från konventionsland är id-numret samma som passnumret.
+För personer från Norden är id-numret samma som deras personnummer.
+Vid varje inrapporteringstillfälle ska en kopia av de handlingar eller intyg som styrker rätten till ersättning skickas till Försäkringskassan.
+Skriv följande på kopian:
+mottagningens namn och kontaktuppgifter
+det id-nummer som du har registrerat i systemet
+det ärendenummer som patientbesöket har i systemet.
+Skicka kopian till:
+Försäkringskassan
+FE 20
+831 84 Östersund
+Vi måste ha intyget för att kunna betala ut ersättningen.
+        Personer som studerar
+    
+    
+Personer från Sverige som studerar i ett annat land
+Personer från Sverige som studerar i ett annat land är oftast försäkrade i Sverige och har därmed rätt till statligt tandvårdsstöd. Även de som inte är försäkrade i Sverige har rätt till statligt tandvårdsstöd för tandvård som inte kan vänta tills de kommer hem, om de visar upp ett EU-kort eller provisoriskt intyg om EU-kort från studielandet. Personer från Sverige, som studerar i ett annat nordiskt land, och är försäkrad i studielandet kan i stället visa upp en id-handling och uppge sin adress i studielandet.
+Personer från ett annat EU/EES-land, Schweiz eller Storbritannien som studerar i Sverige
+Personer som kommer från ett annat EU/EES-land, Schweiz eller Storbritannien, och studerar i Sverige, är oftast försäkrade i sitt hemland. De har bara rätt till statligt tandvårdsstöd för tandvård som inte kan vänta tills de kommer hem. För att få det ska de visa upp ett EU-kort eller ett provisoriskt intyg om EU-kort.
+En student från de andra nordiska länderna ska kunna visa en id-handling och uppge sin adress i det land där hen är försäkrad. En studerande som är försäkrad i Sverige har rätt till statligt tandvårdsstöd.
+Studerande från länder utanför EU/EES-området, Schweiz eller Storbritannien har inte rätt till statligt tandvårdsstöd.
+        Pensionärer
+    
+    
+Svenska pensionärer som bor i ett annat EU/EES-land, Schweiz eller Storbritannien
+En svensk pensionär som bor i ett annat EU/EES-land, Schweiz eller Storbritannien och har sin huvudsakliga pension från Sverige, har rätt till statligt tandvårdsstöd när hen är tillfälligt i Sverige.
+En svensk pensionär boende i EU/EES, Schweiz eller Storbritannien med pension från sitt bosättningsland eller högre pension från annat land än Sverige, har rätt till nödvändig tandvård vid tillfälligt besök i Sverige.
+En svensk pensionär som bor i ett land utanför EU/EES-länderna, Schweiz eller Storbritannien har ingen rätt till statligt tandvårdsstöd när hen är tillfälligt i Sverige.
+En svensk pensionär som bor i ett annat EU/EES-land, Schweiz eller Storbritannien och är tillfälligt i Sverige behöver visa upp handlingar för att kunna få tandvårdsstöd:
+Om hen har sin huvudsakliga pension från Sverige ska hen visa upp ett intyg om rätt till vård i Sverige (5163).
+Om hen har pension från det land där hen bor, eller mer pension från något annat land än Sverige, ska hen visa upp ett EU-kort eller ett provisoriskt intyg om EU-kort från något av dessa länder.
+        Barn och ungdomar från ett annat EU/EES-land, Schweiz, Storbritannien eller konventionsland
+    
+    
+Barn och ungdomar från EU/EES, Schweiz, Storbritannien, Australien eller Brittiska Kanalöarna har rätt till avgiftsfri tandvård fram till det år de fyller 20 år enligt tandvårdslagen vid tillfällig vistelse i Sverige. Tandvården ska inte kunna vänta tills personen kommit hem. Motsvarande gäller för barn till studerande och arbetstagare från delstaten Québec i Kanada som vistas tillfälligt i Sverige.
+Ersättningen från Försäkringskassan motsvarar det pris som du debiterar vuxna patienter för motsvarande tandvård. Därför behöver du skicka en kopia på din prislista och specificera vilken behandling barnet har fått utifrån åtgärdslistan för det statliga tandvårdsstödet. Skicka också med en kopia av de underlag som visar personens rätt till förmånen. För att se vilka underlag som krävs i de olika situationerna, läs under rubriken. ”Personer på tillfällig vistelse”.
+Skicka handlingarna till Försäkringskassan Visby, Box 1164, 621 22 Visby.
+        Personer som flytt från Ukraina och fått uppehållstillstånd enligt EU:s massflyktsdirektiv
+    
+    
+Många som flytt från Ukraina får nu folkbokföra sig i Sverige och kan ha rätt till statligt tandvårdsstöd.
+Om din patient har flytt från Ukraina och är folkbokförd i Sverige ska du rapportera in ersättningsbegäran till Försäkringskassan.
+Om din patient inte är folkbokförd i Sverige ska du istället begära ersättning från regionen.
+Förhandsprövning vid omgörning eller reparation
+Om man måste göra om eller reparera en protetisk behandling inom en viss tid ger det i regel inte rätt till ersättning. För fast protetik är tidsgränsen 3 år och för avtagbar protetik är den 1 år.
+Men det finns två situationer när omgörning eller reparation kan ge rätt till ersättning ifall behandlingen måste göras om inom de fastställda tidsgränserna. De två situationerna är
+när omgörningen eller reparationen omfattas av de undantag från omgörningsreglerna som Tandvårds- och läkemedelsförmånsverket (TLV) fastställt
+när omgörningen eller reparationen inte omfattas av TLV:s undantag från omgörningsreglerna, men ska göras av en annan vårdgivare än den som gjorde den ursprungliga behandlingen.
+I de här situationerna ska du som vårdgivare ansöka om förhandsprövning hos Försäkringskassan så att vi kan utreda om den planerade tandvården ger rätt till ersättning.
+        Undantag från omgörningsreglerna
+    
+    
+Kriterier för ersättningsberättigad omgörning:
+Fast protetik:
+Om konstruktionen på ingående tand eller implantat blivit utsatt för yttre våld.
+Om konstruktionen på ingående tand eller implantat behöver göras om på grund av ny skada i annan tandposition än vad den ursprungliga konstruktionen avser.
+Om ett implantat har installerats med en utbytesåtgärd men inte kan användas, är en tandstödd bro ersättningsberättigande efter förhandsprövning. Det här förutsatt att implantatkrona inte redan gjorts.
+Avtagbar protetik:
+Om protesen skadats eller förlorats och detta har ett samband med sjukdom hos patienten.
+Om protesen, tand eller implantat som protesen stödjer på, har blivit utsatt för yttre våld.
+Om protesen behöver åtgärdas på grund av ny skada i annan tandposition än vad den ursprungliga protesen avser.
+Om en patient fått en ny protes men inte klarar att anpassa sig till den, är lagning eller anpassning av en gammal protes ersättningsberättigande efter förhandsprövning.
+        Omgörning av annan vårdgivare
+    
+    
+Om en behandling behöver göras om av en annan vårdgivare där TLV:s undantagsregler inte kan tillämpas kan Försäkringskassan, efter godkänd förhandsprövning, betala ut ett ersättningsbelopp som högst motsvarar det belopp som betalades ut i samband med den ursprungliga behandlingen. Patientens högkostnadsskydd höjs inte i dessa fall eftersom patienten fått tillgodoräkna sig beloppet vid den ursprungliga behandlingen.
+        Ansökan om förhandsprövning
+    
+    
+Ansök om förhandsprövning i rätt tid
+Vid undantag från omgörningsreglerna ska du skicka in ansökan om förhandsprövning inom 2 veckor efter att du har gjort behandlingen.
+Vid omgörning av en annan vårdgivares behandling ska du skicka in ansökan om förhandsprövning och vänta på beslut innan behandling påbörjas. Enbart om det finns odontologiska, medicinska eller särskilda skäl som gör det nödvändigt kan du påbörja behandlingen innan den förhandsprövats. I dessa fall ska du skicka in ansökan senast inom 2 veckor efter att åtgärden påbörjades.
+Så här ansöker du om förhandsprövning
+Du ska ansöka elektroniskt via ditt journalsystem eller via tandvårdsportalen. Kom ihåg att skicka med aktuella journalhandlingar tillsammans med ansökan, gärna elektroniskt. Ange också kontaktuppgifter så att vi kan kontakta dig vid behov.
+Ta bara med de åtgärder som kräver förhandsprövning i ansökan. Åtgärder i en behandling som inte kräver förhandsprövning rapporterar du in som en vanlig begäran om ersättning.
+Det är viktigt att du tar för vana att validera en planerad behandling via ditt journalsystem eller via tandvårdsportalen innan du börjar behandlingen. Då ser du i tid om åtgärder är spärrade på grund av omgörning och därmed behöver förhandsprövas.
+        Begäran om ersättning efter godkänd förhandsprövning
+    
+    
+Med hänvisning till förhandsprövningens ärende-id ska du lämna in begäran om ersättning i form av ett förhandsprövat besök inom 2 veckor efter slutförd behandling. Tänk på att uppge rätt besöksdatum när du begär ersättning.
+Vid behandling som omfattas av undantagsreglerna jämställs en ansökan om förhandsprövning med en ersättningsbegäran. Förutsatt att du skickar in ansökan i rätt tid kan det förhandsprövade besöket rapporteras in senare än 2 veckor efter slutförd åtgärd och ändå ge rätt till ersättning.
+Vårdgivarens skyldigheter
+En vårdgivare som är ansluten till det statliga tandvårdsstödet är skyldig att bedöma om en tandvårdsåtgärd ger rätt till ersättning och att rapportera in all tandvård som är ersättningsberättigande till Försäkringskassan. Vårdgivaren ska också efter varje undersökning ge patienten ett undersökningsprotokoll med information om tandhälsa, råd om tandvård och diagnos för tänder som behöver behandlas. Patienten ska dessutom få information om
+pris och referenspris för de åtgärder som utförs
+eventuella garantier
+vilka material som används
+behandlingen kan ge rätt till ersättning.
+Patienten ska efter ett besök få kvitto med kostnad och åtgärdskoder och uppgift om utbetalningar från tandvårdsstödet. Patienter som ska behandlas mer än vid ett tillfälle har rätt till en skriftlig preliminär prisuppgift, och vid mer omfattande behandlingar en behandlingsplan.
+Efterhandskontroller
+Försäkringskassan gör efterhandskontroller löpande för att säkerställa att rätt ersättning har betalats ut. Försäkringskassan kontrollerar då att
+den rapporterade vården stämmer med tillgänglig dokumentation
+vården är ersättningsberättigande
+patientens tillstånd har rapporterats in korrekt
+priset som rapporterats in för vården stämmer med priset som patienten betalat
+rapporterad vård verkligen har utförts.
+Här kan du läsa mer om vilka ekonomiska underlag du ska skicka in vid efterhandskontroll
+Om kontrollen visar att statligt tandvårdsstöd betalats ut felaktigt blir vårdgivaren återbetalningsskyldig.
+Vad händer om en vårdgivare bryter mot reglerna för tandvårdsstödet?
+Vårdgivare som inte uppfyller sina skyldigheter och åsidosätter bestämmelserna i det statliga tandvårdsstödet kan bli föremål för sanktioner. Försäkringskassan kan hålla inne tandvårdsersättning och besluta om föreläggande om förhandsprövning.
+Innehållande av tandvårdsersättning innebär att ingen ersättning betalas ut förrän vårdgivaren styrkt att behandlingen är utförd och berättigar till tandvårdsersättning. Föreläggande om förhandsprövning innebär att vårdgivaren måste ansöka om förhandsprövning av planerad tandvård och att Försäkringskassan utreder om de åtgärder som prövas kan ge rätt till tandvårdsersättning.
+I vissa situationer kan Försäkringskassan även besluta att vårdgivaren inte längre får vara ansluten till systemet för statligt tandvårdsstöd. Ett sådant beslut innebär att vårdgivaren inte längre kan begära ersättning från tandvårdsstödet.
+Frågor och svar
+Kan jag få min post digitalt?
+Ja, information om hur du anmäler dig till en digital brevlåda finner du här:
+Skaffa en digital brevlåda
+Den digitala posten går till den som är ansluten till den digitala brevlådan, det vill säga vårdgivaren. Det går inte att få posten digitalt till enskilda mottagningar.
+Kan jag få information om mina patienter via Försäkringskassans system?
+Ja, för att du ska kunna beräkna en patients tandvårdsersättning, och få veta om hen använt det allmänna tandvårdsbidraget, behöver du uppgifter från Försäkringskassan. Därför ska Försäkringskassan lämna ut de uppgifter som du behöver för att kunna beräkna patientens kostnad för tandvården.
+Du kan få uppgifter om patienten
+är registrerad hos Försäkringskassan
+har använt det allmänna tandvårdsbidraget
+omfattas av ett abonnemangsavtal och uppgift om vad detta omfattar
+har ansökt om förhandsprövning av särskilt tandvårdsbidrag
+har kvar särskilt tandvårdsstöd som kan utnyttjas.
+Du kan även få uppgifter om
+patientens totala ersättningsgrundande belopp under ersättningsperioden
+startdatumet för den aktuella ersättningsperioden
+det senaste behandlingsdatumet
+Det är inte tillåtet att göra 
+förfrågningar 
+om andra personer än dina patienter.
+Ska jag rapportera in alla behandlingar?
+Ja, alla ersättningsberättigade åtgärder som utförs ska rapporteras in. Även vård som ingår i ett abonnemangsavtal ska rapporteras, trots att vården inte får ligga till grund för beräkning av högkostnadsskyddet.
+Kan jag rapportera in besök som är äldre än 14 dagar?
+Ja, men regeln är att du ska rapportera in all ersättningsberättigande vård inom 14 dagar efter besöket, det gäller även om patienten inte är registrerad vid besöket. Om du gör det senare än 14 dagar efter besöket bedömer Försäkringskassan om ersättning ska utbetalas trots detta. Skriv därför varför du rapporterar in besöket för sent.
+Kan jag påbörja en ny ersättningsperiod innan den pågående har löpt ut?
+Ja, rapportera in den när du rapporterar in patientens första tandvårdsåtgärd som ska ingå i den nya ersättningsperioden.
+Kan jag få ett förhandsbesked om patienten har rätt till särskilt tandvårdsbidrag?
+Ja, om du inte kan bedöma om patienten har rätt till särskilt 
+tandvårdsbidrag
+ kan du eller patienten ansöka om en så kallad 
+förhandsprövning
+ för att få besked på förhand. Ansökan ska innehålla uppgift om vilken sjukdom eller 
+funktionsnedsättning
+ det gäller.
+Till ansökan ska du bifoga ett underlag som styrker att patienten har den sjukdom eller den 
+funktionsnedsättning
+ som du har skrivit i ansökan. Skicka gärna in underlaget elektroniskt. Om du väljer att skicka in underlaget i ett brev, ska det skickas till:
+Försäkringskassan
+FE 20
+831 84 
+Östersund
+Kan Försäkringskassan kräva att jag ansöker om förhandsprövning?
+Ja, Försäkringskassan kan kräva att du ansöker om förhandsprövning för planerad tandvård. Det är om man som vårdgivare, mottagning eller behandlare allvarligt missköter sina skyldigheter i det statliga tandvårdsstödet. Försäkringskassans beslut om att en tandläkare ska ansöka om förhandsprövning är tidsbegränsat och kan gälla i högst ett år.
+Kan jag erbjuda min patient ett abonnemangsavtal?
+Ja, du kan ingå ett a
+bonnemangsavtal 
+om 
+tandvård 
+med din patient. Då får patienten ett fast pris under tre år.
+Avtalet ska som minst 
+innefatta
+:
+undersökningar och utredningar
+hälsofrämjande insatser
+behandling av sjukdoms- och smärttillstånd
+reparativ vård.
+Om patienten har tecknat ett avtal om 
+abonnemangstandvård
+, kan 
+hen 
+inte få ersättning från 
+högkostnadsskyddet 
+för 
+tandvård 
+som ingår i avtalet. Det gäller oavsett vilken tandläkare som patienten går till.
+Kan jag själv annullera ett abonnemangsavtal?
+Ja, du kan själv annullera ett 
+abonnemangsavtal 
+i ditt 
+journalsystem 
+genom att ändra 
+huvudstatus 
+till ”Avbryt”. 
+Tandvårdsbidrag 
+som betalats ut via 
+abonnemangsavtalet 
+krävs automatiskt tillbaka, och patienten kan använda beloppet vid ett senare tillfälle.
+Du kan också ändra slutdatum till ett tidigare datum i ett pågående 
+abonnemangsavtal
+. Du kan ändra slutdatum igen så länge som avtalet är pågår. 
+Slutdatumet 
+kan inte ändras till en tidpunkt före 
+startdatum 
+för avtalet eller så att avtalet blir längre än tre år. 
+Tandvårdsbidrag 
+som betalats ut och är tilldelade efter det nya 
+slutdatumet 
+krävs automatiskt tillbaka och patienten kan använda beloppet vid ett senare tillfälle.
+Kan jag rapportera in ett besök även om patienten inte är registrerad hos Försäkringskassan?
+Ja, rapportera alltid in besöket till Försäkringskassan. Ärendet kommer att 
+handläggas 
+manuellt. Om patienten har ett 
+EU-kort 
+som utfärdats av ett annat land, eller ett intyg som ger rätt till statligt 
+tandvårdsstöd
+, så ska det visas upp för er vid besöket.
+Om patienten har ett 
+EU-kort
+, så ska du skicka in en kopia av det till Försäkringskassan vid varje besök. Om patienten har ett intyg som ger rätt till statligt 
+tandvårdsstöd
+, så ska du bara skicka in en kopia när patienten inte har gått hos dig tidigare och när det är det första besöket i en 
+ersättningsperiod
+. Skicka gärna kopian elektroniskt i samband med att du registrerar 
+patientbesöket
+. Om du skickar kopian med brev, ska det skickas till:
+Försäkringskassan
+FE 20
+831 84 
+Östersund
+Märk kopian med 
+patientbesökets 
+ID. När du rapporterat in besöket kommer Försäkringskassan att utreda om patienten har rätt till statligt 
+tandvårdsstöd
+.
+Kan jag skapa ett konto via tandvårdsportalen för en patient som varken har svenskt personnummer eller samordningsnummer?
+Ja, det kan du.
+Om patienten kommer från EU/EES, Schweiz eller ett konventionsland, ska du först kontrollera om patienten har ett konto sedan tidigare. Om hen har det, ska du göra så här i tandvårdsportalen:
+Klicka på länken “Skapa Patientbesök”.
+Klicka på knappen till höger om fältet ”Patientens namn" så öppnas ett nytt fönster med ett fält för ”Person Nr/Samordnings Nr”.
+Klicka på den nedåtpekande pilen till höger om det fältet så visas en rullgardinsmeny.
+Välj alternativet ”Annat nummer”. Fyll sedan i det id-nummer som du använde när du skapade ett konto för patienten.
+Klicka på knappen ”Sökning” för att söka upp din patient.
+Ange besöksdatum och fyll i den information som du skulle fyllt i vid ett vanligt patientbesök.
+Om patienten inte har ett konto sedan tidigare och kommer från EU/EES, Schweiz eller ett konventionsland, ska du göra så här i tandvårdsportalen:
+Klicka på länken Skapa EU/EES/Konventionspatient
+Fyll i de fem obligatoriska fälten:
+Id-nummer
+Förnamn
+Efternamn
+Födelsedatum – klicka på symbolen till höger för att få upp almanackan där du kan bläddra bakåt till rätt födelsedatum
+Land – välj land i rullgardinsmenyn
+Klicka på “Gå vidare Resultat” så syns informationen om patienten i visningsläge
+För att spara informationen, klicka på “Spara Resultat” så skapas ett konto för patienten i tandvårdsportalen.
+Ni har begärt handlingar till en efterhandskontroll, kan jag få längre tid på mig att svara?
+Ja, om du inte kan skicka in handlingar inom den tid som vi har angivit, kan du ansöka om förlängd svarstid, så kallat anstånd. Det gör du genom att mejla, ringa Kundcenter för partners eller skicka ett brev till den svarsadress som står i brevet om efterhandskontroller.
+Oavsett hur du kommer in med din ansökan om anstånd ska du tydligt beskriva varför du vill ha förlängd svarstid.
+Vad gör jag om jag inte är nöjd med Försäkringskassans beslut?
+Om du inte är nöjd med Försäkringskassan beslut kan du begära att vi omprövar beslutet. Omprövning innebär att vi tar del av dina synpunkter och att vi prövar ärendet på nytt. Vi tittar på eventuella nya underlag och allt som finns i ärendet sedan tidigare.
+En begäran om omprövning ska innehålla
+vilket beslut som du vill få omprövat
+hur och varför du vill att beslutet ska ändras
+företagets namn, organisationsnummer, adress och telefonnummer.
+Om du anlitar ett ombud måste du också bifoga en fullmakt.
+Skicka begäran till
+Försäkringskassan 
+OMP
+405 12 Göteborg
+Din begäran måste komma in till oss inom två månader från den dag du tog del av beslutet.
+Varför avslutar Försäkringskassan min patients abonnemangsavtal?
+Utredning av försäkringstillhörighet görs inte när abonnemangsavtalet skapas då det inte räknas som en ersättningsbegäran utan blir först aktuellt när du rapporterar in ett patientbesök eller begär tandvårdsbidrag som är kopplade till abonnemangsavtalet.
+Om utredningen visar att din patient saknar försäkring i Sverige eller intyg för planerad tandvård, annullerar Försäkringskassan abonnemangsavtalet och betalar inte ut tandvårdsbidrag.
+Om patienten exempelvis har flyttat utomlands under pågående avtalstid annulleras abonnemangsavtalet from det datum patienten flyttat. Om patienten aldrig haft rätt till avtalet annulleras det helt.
+Ni har begärt in ekonomiska underlag till en efterhandskontroll, vad ska jag skicka in?
+Vilka underlag du ska skicka in varierar beroende på hur patienten har betalat för behandlingen. På vår webbplats finns information om vilka underlag du ska skicka in beroende på situation.
+Ekonomiska underlag som ska skickas in vid efterhandskontroll av tandvårdsstödet
+        Relaterade länkar
+    
+Aktuellt
+Ekonomin granskas för att tandvårdsstödet ska hamna rätt
+Planerade avbrott och underhållsarbeten
+Information till patienterna
+Tandvårdsstödet
+Externa länkar
+Ändringar i tandvårdsstödet (tlv.se)
+ Länk till annan webbplats, öppnas i nytt fönster.
+Senast uppdaterad 
+14 februari 2025

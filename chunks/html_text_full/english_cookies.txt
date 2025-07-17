@@ -1,0 +1,87 @@
+Cookies - Försäkringskassan
+Cookies used by the Swedish Social Insurance Agency
+ 
+On forsakringskassan.se, we use cookies to make the website work as well as possible for you.
+We also use cookies for web analytics that help us to improve the website.
+ 
+How the Swedish Social Insurance Agency uses cookies
+ 
+Do you accept our use of cookies for web analytics?
+ 
+Yes, I accept all cookies
+ 
+No, I only accept necessary cookies
+Go to content
+Keep in mind...
+You are using an older version of your web browser. This means that you might not be able to use all of the functions of the website. We recommend that you update to a newer version.
+Cookies
+So that the website works optimally for you, forsakringskassan.se uses cookies. To improve the website, we use web analytic (performance) cookies. You can choose whether we may save only strictly necessary cookies or if we may also save web analytic cookies.
+Your settings
+You have accepted only necessary cookies.
+You have accepted all cookies.
+Change
+ cookie settings
+Your settings
+We would like to use cookies for web analytics that help us to improve the website.
+                    Do you accept our use of cookies for web analytics?
+                
+                            Yes
+                        
+                            No, I only accept necessary cookies
+                        
+OK
+ cookie settings
+We do not collect personal data
+We do not collect any personal data or your computer's IP number. The data we save is never used for commercial purposes, nor is it distributed to third parties.
+We use web analytics to collect statistics about how our website is used or accessed. We cannot track any individual visitor through our web analytics tool. This is why we do not request consent for personal data processing.
+Different cookies are saved for different lengths of time
+One of the types of cookie we use is saved temporarily on your computer when you visit our website. It is removed when you close your browser. The other type of cookie is saved on your computer for a longer time. It is used on your next visit to the website. Via your web browser's settings, you can remove the cookies at any time.
+        Strictly necessary cookies
+    
+    
+We use these cookies so that the website and e-services work:
+fk_test_cookie is used to test whether the browser can save cookies. It is saved temporarily.
+cookietest is used to test whether the browser can save cookies. It is saved temporarily.
+fk_inloggning is used after you log in to display the menu. It is saved temporarily.
+BREADCRUMB-ID allows for better troubleshooting. It is set for 12 hours.
+fk_hide_misi_banner is used to show or hide banners, to test new My pages. It is saved temporarily.
+fk_menu keepopen is used to control which menu items are displayed. It is saved temporarily.
+fk_hide_personalization_info is used to display personalised information. This cookie is saved for 30 years.
+MEKAcategory and MEKAsubcategory are used for navigation in the statistical database. They are saved temporarily.
+storageSessionCookie is used to save parts of an application temporarily before it is submitted. They are saved temporarily.
+KVITTENS_INPROGRESS is used when signing assistance bills. They are saved temporarily.
+assistansrakning_kvittens is used to display the correct information in the receipt. They are saved temporarily.
+fingerprint is used in assistance bills, for application and signing. They are saved temporarily.
+Personal web meeting
+On certain pages, you can be helped by an administrative officer in our "personal web meeting" service:
+psB, ps_bQ and ps_pQ are used to offer you a personal web meeting.
+vngage.sId, vngage.session, vgage.vid, vgage.srvid and psCurrentState are used for this service to work. They are saved temporarily.
+vngage.lkvt is also used for this service to work. It is saved for 90 days.
+        Web analytic cookies
+    
+    
+These cookies are used to collect statistics (if you have approved this):
+_pk_ses.* is saved for 30 minutes.
+_pk_id.* is saved for 13 months.
+statistics_optin is saved for 27 years.
+Cookies from other websites
+If you visit Försäkringskassan on YouTube, Facebook or Twitter, cookies from those websites are saved on your computer. Read more about their management of cookies on their websites.
+        Related links
+    
+Learn more about Försäkringskassan
+Social insurance system
+Healthcare
+Information about healthcare in Sweden (1177.se)
+ External link, opens in new window.
+          Do you want information in another language than English?
+    
+        Information in other languages
+        
+    
+Last updated: 
+2025-06-25
+            Your Europe (europa.eu)
+        
+            Help us improve (foq.youreurope.europa.eu)
+        
+            Contact Assistance Service (asf.youreurope.europa.eu)

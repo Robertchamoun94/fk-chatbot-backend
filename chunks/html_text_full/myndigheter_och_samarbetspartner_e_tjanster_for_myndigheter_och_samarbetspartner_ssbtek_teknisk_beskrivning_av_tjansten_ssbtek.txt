@@ -1,0 +1,99 @@
+Teknisk beskrivning av tjänsten SSBTEK - Försäkringskassan
+Kakor på Försäkringskassan
+ 
+På forsakringskassan.se använder vi kakor (cookies) för att webbplatsen ska fungera så bra som möjligt för dig.
+Vi använder också kakor för webbanalys för att göra webbplatsen bättre.
+ 
+Så här använder Försäkringskassan kakor
+ 
+Godkänner du att vi också använder kakor för webbanalys?
+ 
+Ja, jag godkänner alla kakor
+ 
+Nej, jag godkänner bara nödvändiga kakor
+Gå till innehåll
+Tänk på att...
+Din webbläsare är av en äldre modell. Det innebär att du kanske inte kan använda alla funktioner på webbplatsen. Vi rekommenderar att du uppdaterar till en nyare version.
+Teknisk beskrivning av tjänsten SSBTEK
+På denna sida finns olika beskrivningar av tjänsten. För information om innehåll och användning av tjänsten se sidan för Användarstöd.
+SSBTEK står för Sammansatt Bastjänst Ekonomisk Bistånd och är en sammansatt bastjänst som förmedlar information från flera statliga myndigheter och organisationer;
+Idag hanteras mycket av informationsflödet manuellt via brev, fax eller telefon. Detta är tids- och resurskrävande både för kommuner och informationslämnande myndigheter och organisationer samt ökar risken för felaktiga utbetalningar. Den nya tjänsten innebär en förenklad och mer säker hantering av informationen samt ger förutsättningar för frigjord arbetstid i handläggningen hos både kommuner och myndigheter.
+        Övergripande teknisk beskrivning av tjänsten
+    
+    
+För en övergripande teknisk beskrivning av tjänsten, kontakta Försäkringskassan via 
+AnslutningExterntInformationsutbyte@forsakringskassan.se
+        Beskrivning av ingående bastjänst
+    
+    
+För information om respektive bastjänst hänvisas till informationssidan för respektive bastjänst:
+A-kassorna
+Sveriges a-kassor (sverigesakassor.se)
+ Länk till annan webbplats, öppnas i nytt fönster.
+Kontakt: 
+support@sverigesakassor.se
+Arbetsförmedlingen
+Hämta uppgifter från oss (arbetsformedlingen.se)
+ Länk till annan webbplats, öppnas i nytt fönster.
+Kontakt: 
+afli@arbetsformedlingen.se
+CSN
+SSBTEK (csn.se)
+ Länk till annan webbplats, öppnas i nytt fönster.
+Kontakt: 
+kommunfraga@csn.se
+Försäkringskassan/Pensionsmyndigheten
+LEFI online
+Kontakt: Kundcenter för partner, 
+0771‑17 90 00
+Migrationsverket
+Migrationsverket (migrationsverket.se)
+ Länk till annan webbplats, öppnas i nytt fönster.
+Skatteverket
+Beskattningsuppgifter för socialnämnder (skatteverket.se)
+ Länk till annan webbplats, öppnas i nytt fönster.
+Kontakt: 
+elsie.it@skatteverket.se
+Transportstyrelsen
+Kontakta oss (transportstyrelsen.se)
+ Länk till annan webbplats, öppnas i nytt fönster.
+        Tekniska filer
+    
+    
+WSDL-schema och schema SSBTEK:
+Har du behov av WSDL-schema och schema för supporterade versioner av SSBTEK kontakta 
+AnslutningExterntInformationsutbyte@forsakringskassan.se
+XSD-fil för CSN bastjänst Kommunfråga:
+snbuppgekbistandbegar-v1.zip
+ Zip, 4 kB, öppnas i nytt fönster.
+        Versioner och inlämningsadress för SSBTEK
+    
+    
+Certifikathantering för produktion och test
+FK IT har en säkerhetspolicy som gör att vi för tillfället enbart använder servercertifikat för produktion i samtliga externt uppkopplade miljöer.
+Det måste inte vara samma certifikat som ska användas i produktion och test men det måste vara samma CA.
+Certifikathantering Försäkringskassan
+ Pdf, 538 kB, öppnas i nytt fönster.
+Godkända utgivare är Expisoft (tidigare Steria) och certifikat från Siths.
+Expisoft (eid.expisoft.se)
+ Länk till annan webbplats, öppnas i nytt fönster.
+Inera (inera.se)
+ Länk till annan webbplats, öppnas i nytt fönster.
+Gå in på eid.expisoft för instruktioner hur du beställer ett Steria/expisoft server certifikat.
+Observera att FK IT inte supportar några certifikatfrågor. Tekniska frågor gällande certifikaten hänvisas till respektive CA utfärdare (Steria/expisoft i detta fall).
+För samtliga är IP-nummer/DNS-namn: 194.71.65.44 (DNS fmansinfo.forsakringskassan.se)
+CN i certifikatet stämmer med inlämningsadressen:fmansinfo.forsakringskassan.se
+Försäkringskassans namn i signeringscertifikatet är CN=Försäkringskassan
+Samtliga versioner
+Inlämningsadress för intressenter WS:
+https://fmansinfo.forsakringskassan.se/ws
+ Länk till annan webbplats, öppnas i nytt fönster.
+Inlämningsadress för intressenter SHS2:
+https://fmansinfo.forsakringskassan.se/shs2
+ Länk till annan webbplats, öppnas i nytt fönster.
+        Relaterade länkar
+    
+Bra att veta
+Användarstöd för SSBTEK
+Senast uppdaterad 
+2 maj 2025

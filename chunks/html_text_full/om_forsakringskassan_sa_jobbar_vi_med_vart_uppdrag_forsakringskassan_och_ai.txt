@@ -1,0 +1,45 @@
+Försäkringskassan och AI - Försäkringskassan
+Kakor på Försäkringskassan
+ 
+På forsakringskassan.se använder vi kakor (cookies) för att webbplatsen ska fungera så bra som möjligt för dig.
+Vi använder också kakor för webbanalys för att göra webbplatsen bättre.
+ 
+Så här använder Försäkringskassan kakor
+ 
+Godkänner du att vi också använder kakor för webbanalys?
+ 
+Ja, jag godkänner alla kakor
+ 
+Nej, jag godkänner bara nödvändiga kakor
+Gå till innehåll
+Tänk på att...
+Din webbläsare är av en äldre modell. Det innebär att du kanske inte kan använda alla funktioner på webbplatsen. Vi rekommenderar att du uppdaterar till en nyare version.
+Försäkringskassan och AI
+Artificiell intelligens (AI), skapar många möjligheter och utvecklingen går fort. På Försäkringskassan använder vi AI‑tekniken inom flera områden.
+Fördelarna med AI är många. Med hjälp av tekniken kan vi underlätta för medborgare och göra vår information mer tillgänglig. Vi kan öka kvaliteten i vårt arbete och göra mer likvärdiga bedömningar.
+& 
+                        Så använder Försäkringskassan AI
+                    
+6 minuter
+Försäkringskassan har använt artificiell intelligens sedan 2019. Ann-Charlotte Munkhammar, chef för tillämpad AI, berättar hur tekniken används och vad kunderna vinner på det. 
+Stöd i handläggningen
+Vi använder AI-tekniken bland annat som ett stöd i handläggningen. Det gör till exempel att det blir lättare för oss att identifiera relevant information i läkarintyg. Stödet ger inga förslag till beslut, utan det är försäkringsutredaren som har ansvaret för att göra helhetsbedömningen och fatta beslut i ärendet.
+Vi använder också AI för att tolka och digitalisera maskin- och handskriven text i inskannade pappersblanketter, vilket gör att informationen blir möjlig att behandla för en dator. Det här har tidigare krävt manuell inmatning.
+Kompetens går före teknik
+AI-stödet behöver tränas och utvärderas av experter inom relevant område. Därför sker vår utveckling av AI‑lösningar i nära samarbeten över hela myndighetens organisation.
+Vi lägger stor vikt vid ansvarsfullt användande av AI, att det sker på ett säkert, tillförlitligt och etiskt sätt och med respekt för människors integritet.
+Möjligheterna med AI är stora
+– Det är jätteviktigt att vi har spårbarhet och förstår varför AI:n resonerar som den gör.
+Läs intervjun med Frode Randers, it‑arkitekt
+Forskning på AI i offentliga organisationer
+– AI innebär ett paradigmskifte som kräver helt nya sätt att tänka och där utforskandet av möjligheter kommer före införandet av tekniken.
+Läs intervjun med Antonio Molin, verksamhetsutvecklare på IT-avdelningen
+Framtida möjligheter
+Med hjälp av AI kommer vi att kunna öka vår service till medborgarna genom att erbjuda individanpassade självbetjäningstjänster. Det gör det lättare att hitta rätt information och medborgaren kommer att kunna få veta vad hen kan ha rätt till utifrån sin unika situation.
+Tekniken kommer också hjälpa oss att upptäcka och motverka bidragsbrott. Vi kommer att kunna analysera större mängder data och lättare upptäcka mönster.
+Vad som är möjligt med teknik kommer att fortsätta utvecklas i en accelererande fart. Vi kommer ständigt att ställas inför vad vi kan, får och bör göra. Som myndighet håller vi hårt i vad vi får och bör göra, inte bara vad vi rent tekniskt kan.
+        Relaterade länkar
+    
+Jobba med it hos oss
+Senast uppdaterad 
+16 oktober 2024

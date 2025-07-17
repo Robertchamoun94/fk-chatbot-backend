@@ -1,0 +1,163 @@
+Anslutning till E-IOA - Försäkringskassan
+Kakor på Försäkringskassan
+ 
+På forsakringskassan.se använder vi kakor (cookies) för att webbplatsen ska fungera så bra som möjligt för dig.
+Vi använder också kakor för webbanalys för att göra webbplatsen bättre.
+ 
+Så här använder Försäkringskassan kakor
+ 
+Godkänner du att vi också använder kakor för webbanalys?
+ 
+Ja, jag godkänner alla kakor
+ 
+Nej, jag godkänner bara nödvändiga kakor
+Gå till innehåll
+Tänk på att...
+Din webbläsare är av en äldre modell. Det innebär att du kanske inte kan använda alla funktioner på webbplatsen. Vi rekommenderar att du uppdaterar till en nyare version.
+Anslutning till E-IOA
+Det är bara systemleverantörer som kan teckna avtal med oss om anslutning till E-IOA. Om du vill ansluta dig till tjänsten behöver du installera den utrustning som krävs för anslutning och åtkomst till E-IOA. Först måste du säkerställa att allt fungerar i testmiljön innan vi kan ansluta till produktionsmiljön.
+Så här ansluter du dig till E-IOA
+Så här ser anslutningsprocessen ut för anslutning till E-IOA:
+Systemleverantören tar del av allmänna villkor för tjänsten, samt annan relevant information som presenteras på vår webbplats.
+Systemleverantören beställer ett certifikat hos Expisoft AB. Det behöver göras tidigt i anslutningsprocessen. Innan några tester mot Försäkringskassan kan göras måste certifikat som krävs installeras. Certifikatet behöver förnyas vartannat år.
+Systemleverantören fyller i ”anslutningsavtal till E-IOA” och skickar in till oss. Avtalet ska undertecknas av behörig firmatecknare för systemleverantören.
+Beställningen kvalitetssäkras genom olika kontroller av oss.
+Vi lägger in systemleverantören som användare.
+Vi skickar anslutningsuppgifter till systemleverantören för anslutning till testmiljön för att verifiera den tekniska lösningen.
+När vi ser en godkänd anslutning till testmiljön skickar vi anslutningsadress så att systemleverantören driftsätts i produktionsmiljön.
+Systemleverantören är klar för att skicka in skarpa uppgifter om assistenten.
+Om underlaget är komplett och om du som systemleverantör har utfört dina installationer och de uppkopplingar som krävs, handlägger vi normalt anslutningsavtalet inom tio arbetsdagar från att avtalet kommit in till oss. När anslutningen är klar och det är möjligt att använda tjänsten är avtalet bekräftat från oss.
+Du som systemleverantör ansvarar för att kontinuerligt ta del av information som publiceras här på vår webbplats och du ska löpande underrätta oss om eventuella förseningar eller driftstörningar i tjänsten hos er.
+Protokoll
+Till Försäkringskassan inkommer en fil/fråga i XML-format. Frågan och Försäkringskassans svar kan förmedlas via någon av följande protokoll:
+SHS2
+WebService.
+Anslutningen till tjänsten är synkron.
+Certifikat
+Extern systemleverantör behöver certifikat för server och signering. Systemleverantören som kommunicerar med Försäkringskassan ska alltså använda certifikat, som utfärdas av externa företag. Detta certifikat behöver beställas tidigt i anslutningsprocessen.
+Testmiljöer
+Testmiljön för E-IOA vänder sig till systemutvecklare för att testa och utveckla integrationer mot tjänsten.
+Syftet med testmiljön är att skapa ett bättre stöd för anslutning till tjänsten E-IOA samt stöd vid förändringar av anslutningsgränssnittet E-IOA anslutningsgränssnittet.
+Genom testmiljön ges möjlighet
+att bygga anslutningen mot Försäkringskassan säkert innan produktionssättning
+till tester (anslutningstest).
+Testmiljön innehåller de versioner som produktionsmiljön av tjänsten E-IOA stödjer, det vill säga senaste version samt föregående version.
+Kommande version kommer finnas i testmiljön en tid innan den nya versionen driftsätts i produktionsmiljön. Då syftet med testmiljön är att underlätta och ge ett stöd vid anslutning av E-IOA fungerar testmiljön på samma sätt som den skarpa versionen. Anropet och svaret görs enligt gällande schema för E-IOA.
+Testmiljön får användas för att utföra anslutningstester. Den är inte skapad för att utföra prestanda, lasttester eller funktionstester.
+WSDL-fil
+I denna finns både rotelement och inlämningsadress. Aktuell WSDL-fil är publicerad på informationsportalen för tjänsten:
+Teknisk beskrivning EIOA
+ Pdf, 348 kB, öppnas i nytt fönster.
+Inlämningsadress för TEST
+https://shsext.forsakringskassan.se:8020/shs2/FK.EIOA.AnmalanArbetsgivare.ext
+ Länk till annan webbplats, öppnas i nytt fönster.
+IP-nummer: 194.71.80.30
+DNS: shsext.forsakringskassan.se
+CN i certifikatet stämmer med inlämningsadressen
+shsext.forsakringskassan.se
+Inlämningsadress för produktion
+https://shs.forsakringskassan.se:7020/shs2/FK.EIOA.AnmalanArbetsgivare
+ Länk till annan webbplats, öppnas i nytt fönster.
+IP-nummer: 194.71.65.32
+DNS: shs.forsakringskassan.se
+CN i certifikatet stämmer med inlämningsadressen
+shs.forsakringskassan.se
+Allmänna villkor E-IOA
+Allmänna villkor för E-IOA
+ Pdf, 109 kB, öppnas i nytt fönster.
+Anslutningsavtal E-IO
+Anslutningsavtal E-IOA
+ Pdf, 32 kB, öppnas i nytt fönster.
+Teknisk support
+Om du som systemleverantör har tekniska frågor om tjänsten kan du mejla dem till vår support. Ange ”Systemleverantör assistansersättning” i ämnesraden. Glöm inte att skicka med ditt namn, mejladress och mobilnummer så vi kan kontakta dig om det skulle behövas. Inga andra personuppgifter får anges.
+svarsulev@forsakringskassan.se
+Om du är anordnare och har frågor om tjänsten ska du vända dig till din systemleverantör.
+Vanliga frågor
+Har ni någon uppfattning om hur lång tid er backend behöver för att göra sina kontroller?
+I normalfallet kommer det att ta under 2 sekunder. Troligen kommer det att gå betydligt fortare. Vi kommer att ha bättre svar när hela kedjan testats.
+Vi har genererat xml från xsd-filerna. Är det den xml:en som vi ska skicka in i webtjänsten?
+Ja, det är den filen som ni kommer att behöva skicka, men med riktiga data.
+Finns det någon länk, där vi kan testa formatet på xml-filen, och kanske senare data som skickas in?
+Nej vi har inte något sådant.
+Finns det exempelfiler för hur xml-filerna ser ut?
+Det finns verktyg för att generera xml från xsd-filer. Här är ett exempel på en xml som är genererad från anmalan_fran_arbetsgivare_extern_v1.xsd.
+Exempel
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Exempel: Personen anlitar en assistansanordnare och anordnaren är arbetsgivare åt assistenten. Assistent är bosatt inom EES. Assistent är inte närstående. -->
+<ase:AnmalanFranArbetsgivare xmlns:xsi="
+http://www.w3.org/2001/XMLSchema-instance
+ Länk till annan webbplats.
+" xmlns:ase="
+http://schema.forsakringskassan.se/integration/isassistansersattning/ioa/anmalanfranarbetsgivare/1
+ Länk till annan webbplats.
+" xsi:schemaLocation="
+http://schema.forsakringskassan.se/integration/isassistansersattning/ioa/anmalanfranarbetsgivare/1anmalan_fran_arbetsgivare_extern_v1.xsd
+ Länk till annan webbplats.
+" >
+<!-- Observera! Id nedan är fiktivt -->
+<ase:id>0e0cbf54-ca82-48f0-a478-0be00bf8b2be</ase:id>
+<!-- Modul 1 i blankett 3066. Personen som har ansökt om eller har personlig assistans. -->
+<ase:personSomHarAssistans>
+<ase:personnummer>YYYYMMDDXXXX</ase:personnummer>
+<ase:fornamn>Kalle</ase:fornamn>
+<ase:efternamn>Karlsson</ase:efternamn>
+</ase:personSomHarAssistans>
+<!-- Modul 2 i blankett 3066. Den personliga assistenten. -->
+<ase:assistent>
+<ase:personnummer>YYYYMMDDXXXX</ase:personnummer>
+<ase:fornamn>Sven</ase:fornamn>
+<ase:efternamn>Svensson</ase:efternamn>
+<ase:anstallningsdatum>2020-01-01</ase:anstallningsdatum>
+<ase:narstaende>false</ase:narstaende>
+<ase:bosattInnanforEES>true</ase:bosattInnanforEES>
+<ase:andringGallerFrom>2020-01-01</ase:andringGallerFrom>
+</ase:assistent>
+<!-- Modul 3 i blankett 3066. Anordnaren av personlig assistans. -->
+<!-- Personen anlitar en assistansanordnare och anordnaren är arbetsgivare åt assistenten. -->
+<ase:assistansanordnare>
+<ase:anordnareNamn>Bolagsnamn</ase:anordnareNamn>
+<ase:organisationsnummer>1234567890</ase:organisationsnummer>
+<ase:kontaktperson>Ole Olsson</ase:kontaktperson>
+<ase:telefonnummer>0123456789</ase:telefonnummer>
+<ase:assistentAnstalldAvAnordnare>true</ase:assistentAnstalldAvAnordnare>
+</ase:assistansanordnare>
+<ase:telefonnummerAnordnare>123412345</ase:telefonnummerAnordnare>
+</ase:AnmalanFranArbetsgivare>
+Hur lägger man till flera assistenter i samma fil?
+Det går inte att lägga flera assistenter i samma fil. Det måste vara en fil per assistent och brukare.
+När man beställer ett certifikat så måste man ange ett servernamn. Ska det bestämmas i samråd med Försäkringskassan?
+Servernamn är på er sida och Försäkringskassan har inga synpunkter på vad ni väljer där.
+Vi har flera olika assistansbolag som kunder, måste vi skaffa ett certifikat per assistansbolag eller räcker det med ett certifikat för oss som systemleverantör?
+Det räcker med ett certifikat för er som systemleverantör.
+Den text som visas vid signering, ska ju vara enligt era instruktioner. Kan man lägga till en text till det?
+Nej. Texten är till för att koppla ihop det man ser när man signerar med det totala innehållet i det data som krypteras och skickas över till oss. Det här för att det ska bli uppenbart vad som signerats i någon juridisk mening. Texten har tagits fram i samarbete med experter på signering, bland annat från bankID, som har erfarenhet av juridiken kring detta. Man kan inte ändra eller lägga till text.
+Går det bra att skicka samma anmälan (av samma assistent och brukare med samma uuid) flera gånger till Försäkringskassan? Om det är okej, är det den senast inskickade anmälan som gäller?
+Ja, det går bra. Senast inskickade anmälan gäller. Men det kan innebära att en handläggare behöver gå in och hantera anmälan manuellt och det kan fördröja handläggningen.
+Går det att ändra en inskickad anmälan?
+Nej. Då får man skicka in en ny, med nytt uuid. Det kan generera manuell hantering. Det blir samma sak om man skickar flera via post.
+Kan man underlätta felsökning i produktion?
+Spara ner responsen när en anmälan är inlämnad i en logg eller liknande för eventuell felsökning i produktion. Vi returnerar ett ”tx-id” som kan användas för att enkelt spåra anropet i våra system.
+Exempel
+<soapenv:Envelope xmlns:soapenv="
+http://schemas.xmlsoap.org/soap/envelope/
+ Länk till annan webbplats.
+ Länk till annan webbplats.
+">
+<soapenv:Body>
+<SkickaAnmalanFranArbetsgivareResponse xmlns="urn:shs:emottagning: SkickaAnmalanFranArbetsgivare:1">
+<tx-id>ae4e8de6-aa1b-4dcf-abd6-b320896f37ba</tx-id>
+</SkickaAnmalanFranArbetsgivareResponse>
+</soapenv:Body>
+</soapenv:Envelope>
+Hur kan man hantera rapporten med transaktions ID: tx-id?
+Man kan använda transaktions ID i felsökningssammanhang. Så det kan vara bra att logga. I övrigt så används det inte.
+Hur gör jag som anordnare för att kunna skicka in via E-IOA?
+Du behöver ha en systemleverantör som har ett system som kan användas för elektronisk information om assistenten till Försäkringskassan. Vi rekommenderar inte någon systemleverantör och lämnar inte heller ut någon lista på de leverantörer vi har avtal med.
+Ska jag som anordnare teckna avtal?
+Nej, det är systemleverantören som tecknar avtal med Försäkringskassan.
+Är det något jag som anordnare måste tänka på innan vi skickar in?
+Ja, anordnaren måste signera anmälan med bank-ID.
+Går det att skicka in flera anmälningar om assistenter med en signatur?
+Nej, i dagsläget så går det bara att skicka in en anmälan per signatur.
+Senast uppdaterad 
+18 februari 2025

@@ -1,0 +1,36 @@
+<html><head><meta name="color-scheme" content="light dark"></head><body><pre style="word-wrap: break-word; white-space: pre-wrap;">&lt;!ELEMENT	shs.message-list	(message*) &gt;
+&lt;!ATTLIST	shs.message-list
+		version		CDATA			#FIXED	"1.2"&gt;
+
+&lt;!ELEMENT	message	(meta*, subject?, data*) &gt;
+&lt;!ATTLIST	message
+		tx.id		NMTOKEN			#REQUIRED
+		timestamp	CDATA			#REQUIRED
+		corr.id		CDATA			#IMPLIED
+		content.id	CDATA			#IMPLIED
+		size		CDATA			#IMPLIED
+		originator	CDATA			#IMPLIED
+		from		CDATA			#IMPLIED
+		to		CDATA			#IMPLIED
+		end-recipient	CDATA			#IMPLIED
+		product		CDATA			#IMPLIED	
+		sequence-type	(event|request|reply|adm)	#REQUIRED
+		status		(production|test)	"production" &gt;
+
+
+&lt;!ELEMENT	meta		(#PCDATA) &gt;
+&lt;!ATTLIST	meta
+		name		CDATA			#REQUIRED &gt;
+
+
+&lt;!ELEMENT	subject		(#PCDATA) &gt;
+&lt;!ELEMENT	data		EMPTY &gt;
+&lt;!ATTLIST	data
+		datapartType	CDATA			#REQUIRED
+		filename	CDATA			#IMPLIED
+		no-of-bytes	NMTOKEN			#IMPLIED
+		no-of-records	NMTOKEN			#IMPLIED &gt;
+
+
+
+</pre></body></html>

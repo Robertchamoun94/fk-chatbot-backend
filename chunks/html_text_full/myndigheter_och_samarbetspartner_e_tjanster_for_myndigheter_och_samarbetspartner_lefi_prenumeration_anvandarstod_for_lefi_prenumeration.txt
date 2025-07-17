@@ -1,0 +1,46 @@
+Användarstöd för LEFI prenumeration - Försäkringskassan
+Kakor på Försäkringskassan
+ 
+På forsakringskassan.se använder vi kakor (cookies) för att webbplatsen ska fungera så bra som möjligt för dig.
+Vi använder också kakor för webbanalys för att göra webbplatsen bättre.
+ 
+Så här använder Försäkringskassan kakor
+ 
+Godkänner du att vi också använder kakor för webbanalys?
+ 
+Ja, jag godkänner alla kakor
+ 
+Nej, jag godkänner bara nödvändiga kakor
+Gå till innehåll
+Tänk på att...
+Din webbläsare är av en äldre modell. Det innebär att du kanske inte kan använda alla funktioner på webbplatsen. Vi rekommenderar att du uppdaterar till en nyare version.
+Användarstöd för LEFI prenumeration
+Här hittar du information samt underlag för LEFI prenumeration, dels som stöd till slutanvändaren, dels som underlag för framtagande av utbildningsmaterial till slutanvändaren.
+        Utbetalningar
+    
+    
+Här finns information om så kallade PUMA-utbetalningar
+PUMA-utbetalningar 2024 och 2025
+ Pdf, 214 kB, öppnas i nytt fönster.
+        Öppettider
+    
+    
+LEFI Prenumeration baseras på batch-körningar vardagsnätter (natt mot tisdag-lördag).
+Inleverans av frågefiler:
+Helgfri måndag-fredag: 08.00–17.30
+Leverans av svarsfiler:
+Helgfri tisdag-lördag: 07.00–10.00
+Filer som levereras från försäkringsbolaget till Försäkringskassan före klockan 7.30 helgfri måndag till fredag besvaras nästa dag.
+Om det inte finns något data att leverera ska ”start/slutpost” levereras så att Försäkringsbolaget vet att data saknas.
+        Support
+    
+    
+Tekniska frågor:
+Användaren ska kontakta sin lokala IT.
+Kontakta Försäkringskassans Kundcenter för partner,
+0771–17 90 00
+Verksamhetsfrågor:
+Kontakta Försäkringskassans Kundcenter för partner, 
+0771–17 90 00
+Senast uppdaterad 
+15 februari 2025

@@ -1,0 +1,236 @@
+Utlåtande för sjukersättning - Försäkringskassan
+Kakor på Försäkringskassan
+ 
+På forsakringskassan.se använder vi kakor (cookies) för att webbplatsen ska fungera så bra som möjligt för dig.
+Vi använder också kakor för webbanalys för att göra webbplatsen bättre.
+ 
+Så här använder Försäkringskassan kakor
+ 
+Godkänner du att vi också använder kakor för webbanalys?
+ 
+Ja, jag godkänner alla kakor
+ 
+Nej, jag godkänner bara nödvändiga kakor
+Gå till innehåll
+Tänk på att...
+Din webbläsare är av en äldre modell. Det innebär att du kanske inte kan använda alla funktioner på webbplatsen. Vi rekommenderar att du uppdaterar till en nyare version.
+Utlåtande för sjukersättning
+Här får du som har en patient som ska ansöka om sjukersättning information om hur du fyller i läkarutlåtandet och om vem som gör vad.
+Vad är sjukersättning?
+Sjukersättning är en ersättning för patienter som troligen aldrig kommer att kunna arbeta på grund av sjukdom, skada eller funktionsnedsättning. Alla möjligheter till rehabilitering ska ha prövats utan att arbetsförmågan har förbättrats.
+& 
+                        Så fungerar sjukersättning från Försäkringskassan
+                    
+6 minuter
+Filmen förklarar de grundläggande reglerna för sjukersättning.
+Om patienten är mellan 19 och 29 år
+Den som är mellan 19 och 29 år kan bara få hel sjukersättning. Om patienten kan arbeta deltid kan hen ha rätt till aktivitetsersättning.
+Om patienten är över 30 år
+Den som är 30 år kan även få partiell sjukersättning. Patienten kan få sjukersättning till och med månaden innan hen fyller 66 år.
+Hur skriver jag ett utlåtande som ger Försäkringskassan rätt information?
+Socialförsäkringen ställer höga krav på den medicinska informationen för att rätt person ska få rätt ersättning. När Försäkringskassan ska bedöma en persons rätt till sjukersättning, behöver vi information om patientens diagnos, funktionsnedsättning och aktivitetsbegränsning.
+        Så beskriver du funktionsnedsättning och aktivitetsbegränsning
+    
+    
+Du som läkare bidrar med den medicinska informationen medan Försäkringskassan gör en helhetsbedömning av på vilket sätt arbetsförmågan är nedsatt på grund av sjukdom. Det är det nödvändigt att du tydligt skiljer patientens rapporterade besvär från den kliniska bedömningen av det du observerat i samband med den medicinska undersökningen eller utredningen.
+Funktionsnedsättning
+Med funktionsnedsättning menas en förlust eller avvikelse i fysisk eller psykisk funktion. Nedsättningen ska avse en påvisbar variation från det som kan anses vara normalt. För funktionsnedsättningar som inte alltid kan observeras direkt, till exempel psykiska funktioner, kan en observation av hur patienten beter sig tydliggöra dessa. Till exempel kan läkaren uppmärksamma minnes- och koncentrationssvårigheter genom riktade frågor eller standardiserade frågor och test. Läkaren kan notera om patienten har svårt att hålla tråden eller glömmer det man nyss samtalat om.
+Aktivitetsbegränsning
+Aktivitetsbegränsningar är svårigheter att genomföra aktiviteter, uppgifter eller handlingar. Exempel på aktivitetsbegränsningar kan vara svårigheter att stå, gå, förstå eller läsa instruktioner och att påbörja och genomföra uppgifter.
+Bedömningen av aktivitetsbegränsningen ska ställas i relation till vad som kan förväntas i det dagliga livet eller för en viss arbetsuppgift. I läkarutlåtandet ska du beskriva de aktivitetsbegränsningar som orsakas av funktionsnedsättningen.
+Exempel 1 – rörelse
+Patienten har besvär från rörelseapparaten som kan påverka de kroppsliga funktionerna exempel genom muskelsvaghet eller rörelseinskränkning. Detta är funktionsnedsättningen.
+Funktionsnedsättningen kan leda till svårigheter med att ändra kroppsställning, lyfta, bära eller gå. Det är alltså denna begränsning av aktivitetsförmågan som utgör aktivitetsbegränsningen och ska beskrivas på individnivå.
+En konkretisering av aktivitetsbegränsningen är många gånger en förutsättning för att informationen ska bli begriplig. Exempel på en aktivitetsbegränsning kan exempelvis vara när patienten:
+bara med svårighet kan resa sig från en stol för att lägga sig på en säng
+inte kan lyfta ett mjölkpaket med en arm
+bara kan gå en kortare sträcka.
+Exempel 2 – värk
+Patienten har värk och vilka konsekvenser det har för hens funktionsnedsättningar och aktivitetsbegränsningar ska beskrivas. Det kan till exempel handla om att patienten har en funktionsnedsättning i form av smärta, koncentrationssvårigheter eller nedsatt energi.
+I nästa steg är det viktigt att tydligt beskriva hur funktionsnedsättningen, exempelvis smärta, ger upphov till en aktivitetsbegränsning och hur den yttrar sig.
+Beskriv aktivitetsbegränsningen genom att ge exempel på hur den påverkar patientens förmåga att utföra aktiviteter i det dagliga livet eller arbetslivet. Det kan till exempel vara problem att förflytta sig eller ändra kroppsställning, upprätthålla uppmärksamhet längre stunder eller följa instruktioner.
+        Så fyller du i ett läkarutlåtande för sjukersättning – steg för steg
+    
+    
+Här följer en beskrivning av vilken information Försäkringskassan behöver i läkarutlåtandets respektive fält. Använd ett enkelt och begripligt språk. Förklara komplicerade medicinska termer så att både patienten och Försäkringskassans handläggare kan förstå.
+7800 Läkarutlåtande för sjukersättning
+ Pdf, 1 MB.
+Fält 2: Från vilken vårdgivare kan Försäkringskassan hämta information om utredningen/underlaget?
+Skriv exempelvis Neuropsykiatriska kliniken på X-stads sjukhus eller om patienten själv kommer att bifoga utredningen till sin ansökan.
+Fält 3: Diagnos/diagnoser för sjukdom som orsakar nedsatt arbetsförmåga
+Ange vilken eller vilka sjukdomar som orsakar nedsatt arbetsförmåga. Den sjukdom som påverkar arbetsförmågan mest anges först. Diagnoskoden anges alltid med så många positioner som möjligt. Använd inga andra tecken än bokstäver och siffror.
+Om patienten har fler än tre sjukdomar som påverkar arbetsförmågan anges dessa under ”Övriga upplysningar”.
+Finns skäl till att revidera/uppdatera tidigare satt diagnos?
+Möjliga anledningar kan vara
+att det var länge sedan utredningen gjordes
+att ny bedömning har rekommenderats i tidigare utlåtande eller
+att den kliniska bilden avviker från vad som kan förväntas utifrån ställd diagnos.
+Fält 5: Funktionsnedsättning – beskriv undersökningsfynd och grad av funktionsnedsättning (lätt, måttlig, stor, total) inom relevanta funktionsområden
+Ange observerade nedsättningar (direkt och indirekt), exempelvis
+avvikelser i somatiskt och psykiskt status
+röntgen- och laboratoriefynd
+resultat av kliniskt fysiologiska undersökningar
+andra testresultat, exempelvis neuropsykologiska.
+Vid psykisk sjukdom, ange förutom basalt psykiskt status även den del av anamnesen som läkaren bedömer tala för ett psykiatriskt tillstånd.
+Källhänvisning funktionsområden
+Funktionsområdenas hjälptexter följer väsentligen ICF men är något förenklade då kategorierna i läkarutlåtandet är färre.
+Fält 5: Intellektuell funktion
+Med intellektuell funktion, teoretisk begåvning eller intelligens avses förmågan att tänka logiskt. För att lösa ett problem på ett logiskt vis gör vi det genom att föreställa oss det i tankarna snarare än att pröva oss fram konkret.
+Exempel: En vuxen som klarat skolgång med normalbetyg och klarar vardagliga krav i arbete och privatliv är i regel normalbegåvad. För en noggrannare nivåbedömning krävs testning utförd av psykolog.
+Fält 5: Övergripande psykosociala funktioner
+Med psykosociala funktioner avses förmågan till emotionell kontakt, social ömsesidighet och samspel. Förmågan att på ett teoretiskt plan kunna sätta sig in i hur andra människor tänker och känner, även om man inte har varit med om samma situation själv. Bristande förmåga till social ömsesidighet och samspel leder lätt till missförstånd, konflikter och svårigheter med relationer i privatliv och arbetsliv. 
+Fält 5: Uppmärksamhet, koncentration och exekutiv funktion
+Förmågan till uppmärksamhet handlar om att rikta sitt fokus på rätt sak vid rätt tillfälle samt att skifta, fördela och vidmakthålla uppmärksamhet. I förmågan ingår även en tidsaspekt. En person behöver viljemässigt kunna rikta sin uppmärksamhet under lång tid, alltså vara uthållig.
+Med exekutiv funktion avses förmågan att planera, initiera, genomföra, korrigera och avsluta en handling.
+Exempel: Att rikta, reglera och uthålligt bevara uppmärksamheten är en stor svårighet för en person med ADHD/ADD. Tillfälliga svårigheter kan bero på sjukdom (till exempel sömnstörning, depression eller utmattning) eller skada (till exempel hjärnskakning) och uppkomma när som helst under livet. Även svårigheter med exekutiva funktioner är vanliga vid ADHD/ADD men förekommer även vid andra tillstånd.
+Fält 5: Annan psykisk funktion
+Med annan psykisk funktion avses övriga psykiska funktioner, som psykiska språkfunktioner, emotionella funktioner, minnesfunktioner och psykiska funktioner som berör energinivå, förmågan till impulskontroll, motivation, omdöme, medvetenhet om det egna beteendet samt att vara orienterad till tid, plats, situation och person.
+Exempel: I denna ruta kan till exempel affektiva svårigheter, svårigheter att reglera sitt temperament, beteendestörningar och missbruk ingå. Även påverkan på medvetande och orienteringsförmåga samt förvirring sekundärt till kroppslig sjukdom kan ingå.
+Fält 5: Sinnesfunktioner och smärta
+Med sinnesfunktion avses förmågan att tolka de fem sinnena, syn, hörsel, känsel, lukt och smak. Begreppet sinnesfunktion används oftast synonymt med perception. Man kan vara särskilt känslig och uppleva obehag vid ljud, ljus, temperatur, beröring, smak eller lukt eller vara mindre känslig.
+Med smärta avses här förnimmelse av obehaglig känsla som tyder på tänkbar eller faktisk skada i någon del av kroppen. Det innefattar förnimmelser av generell eller lokal smärta i en eller flera kroppsdelar, smärta i ett dermatom (hudavsnitt), huggande, brännande, molande smärta och värk samt funktionsnedsättningar såsom myalgi (muskelsmärta), analgesi (okänslighet för smärta) och hyperalgesi (överkänslighet för smärta).
+Exempel: Avvikelser vad gäller sinnesfunktion (perception) är vanligt till exempel inom det neuropsykiatriska området men saknar ofta specifik medicinsk diagnos. Smärtproblematik är dock mycket vanligt och kan utgöra både en primär svårighet och sekundär till annan sjukdom.
+Fält 5: Balans, koordination och motorik
+Med balans avses kroppens balansfunktion och förnimmelse av kroppsställning (positionsuppfattning). Med koordination avses till exempel öga-handkoordination, gångkoordination och att samordna rörelser av armar och ben. Med motorik avses svårigheter med finmotorik, grovmotorik eller till exempel munmotorik.
+Exempel: Svårigheter med dessa områden kan ha uppstått tidigt som till exempel vid en CP-skada eller uppkommit senare i livet till följd av till exempel en stroke eller neurologisk sjukdom.
+Fält 5: Annan kroppslig funktion
+Med annan kroppslig funktion avses här avvikelser eller förlust i kroppsfunktion och fysiologiska funktioner utifrån ICF:s intentioner. Här beskrivs observerade funktionsnedsättningar (direkt/indirekt) med avvikelser i status men även sådana som framkommit i annan medicinsk utredning.
+Exempel: Med annan kroppslig funktion avses konsekvenser av somatisk sjukdom som till exempel avvikelser i kroppsligt status, röntgen och laboratoriefynd samt kliniskt fysiologiska undersökningar.
+Fält 6: Aktivitetsbegränsningar – beskriv vad patienten har svårt att göra på grund av den eller de funktionsnedsättningar som beskrivs ovan
+I din beskrivning kan du utgå från kapitlen om aktiviteter och delaktighet i ICF som stöd:
+Lärande och att tillämpa kunskap
+Allmänna uppgifter och krav
+Kommunikation
+Förflyttning
+Personlig vård
+Hemliv
+Mellanmänskliga interaktioner och relationer
+Viktiga livsområden: exempelvis utbildning, arbete, sysselsättning och ekonomi
+Samhällsgemenskap, socialt och medborgerligt liv: exempelvis som fritidsintressen.
+Beskriv hur du själv har observerat begränsningarna. Om uppgiften baseras på anamnes/intervju eller någon annans observationer anger du det.
+Ange även om det finns någon typ av aktivitet som patienten bör undvika på grund av betydande medicinsk risk eller allvarlig olycksrisk.
+Fält 8: Beskriv även om det finns medicinska skäl till särskilda arbetstider
+Särskilda arbetstider kan vara annan än ordinarie förläggning av arbetstiden, till skillnad från att minska arbetstiden lika mycket varje dag.
+Beskriv vad patienten kan göra trots sin sjukdom eller sina begränsningar
+Beskriv här om patienten har några speciella förmågor som kan tas till vara även om det inte är i en arbetssituation. Informationen är till för att hjälpa Försäkringskassan i sitt samordningsuppdrag där ansvar för rehabilitering och samordning ingår.
+Fält 10: Kontakt med Försäkringskassan
+Försäkringskassans handläggare tar kontakt med dig när underlaget har kommit in och handläggningen kan påbörjas.
+Vem ska göra vad?
+Patienten ska:
+Ansöka om sjukersättning hos Försäkringskassan.
+Be om ett läkarutlåtande från läkaren.
+Skicka in läkarutlåtande till Försäkringskassan.
+Läkaren ska:
+Skriva ett läkarutlåtande för sjukersättning.
+Ge läkarutlåtandet till patienten.
+7800 Läkarutlåtande för sjukersättning
+ Pdf, 1 MB.
+Försäkringskassan ska:
+Bedöma om patienten har rätt till sjukersättning och betala ut ersättning om alla villkor är uppfyllda.
+        Om Försäkringskassan föreslår att sjukpenning byts ut mot sjukersättning
+    
+    
+Om Försäkringskassan föreslår att sjukpenning byts ut mot sjukersättning blir ansvarsområdena lite annorlunda.
+Vem ska göra vad?
+Patienten ska:
+Patienten behöver inte göra någonting.
+Läkaren ska:
+Skriva ett läkarutlåtande för sjukersättning.
+Skicka läkarutlåtandet till Försäkringskassan.
+7800 Läkarutlåtande för sjukersättning
+ Pdf, 1 MB.
+Försäkringskassan ska:
+Be om ett läkarutlåtande från läkaren.
+Bedöma om patienten har rätt till sjukersättning och betala ut ersättning om alla villkor är uppfyllda.
+Vid behov kalla till ett avstämningsmöte.
+        Om Försäkringskassan begär ett detaljerat läkarutlåtande
+    
+    
+Försäkringskassan behöver i vissa fall ett detaljerat läkarutlåtande (E213) när en person är bosatt i Sverige och har varit bosatt eller arbetat i något av EU:s medlemsländer. Blanketten (E213) är gemensam för alla EU-länder och 
+används alltid i dessa sammanhang.
+Så går det till:
+Patienten skickar in sin ansökan om sjukersättning tillsammans med läkarutlåtandet.
+Försäkringskassan ser att patienten har bott utomlands.
+Försäkringskassan kontaktar dig som är läkare och ber dig skriva ett detaljerat läkarutlåtande.
+För att blanketten ska fungera korrekt:
+Spara blanketten på din dator, exempelvis på ditt skrivbord.
+Öppna blanketten från skrivbordet.
+För att all information ska hanteras korrekt, måste du öppna filen och fylla i blanketten med programmet Adobe Acrobat Reader.
+E213 Detaljerat läkarutlåtande
+ Pdf, 2 MB.
+        Om du vill ansöka om ersättning för utlåtande eller medverkan på avstämningsmöte
+    
+    
+Läkarutlåtanden
+Försäkringskassan kan i vissa fall betala ut ersättning för utfärdandet av läkarutlåtanden. Det gäller även när patienten har begärt läkarutlåtande för att bifoga till sin ansökan om sjukersättning.
+Ersättning betalas bara ut för ett fullständigt läkarutlåtande. I de fall Försäkringskassan behöver begära komplettering av ett utlåtande betalas alltså ersättningen ut först när kompletteringen har kommit in. Ett annat villkor är att avgift för utlåtandet inte tagits ut av patienten.
+Vem kan få ersättning?
+Ersättning kan bara betalas ut till läkare som arbetar på privata vårdenheter som har samverkansavtal med landstinget enligt den nationella taxan samt läkare som helt står utanför den offentligt finansierade hälso- och sjukvården. Läkare som är anställda av landstinget eller arbetar på en privat vårdenhet som har vårdavtal med landstinget eller ingår i vårdvalssystemet kan inte få ersättning.
+Hur stort är arvodet?
+Arvodet är 3 200 kronor för
+ett utlåtande om hälsotillstånd
+ett detaljerat läkarutlåtande
+ett utlåtande för sjukersättning.
+Du kan få ersättning även när patienten har begärt ett läkarutlåtande för att ansöka om sjukersättning. Om vi samtycker till att du tar hjälp i utredningen av någon med en annan kompetens, får även den tiden räknas in i den totala tidsåtgången. I så fall kan arvodet bli högre.
+Så begär du ersättning för ett läkarutlåtande
+Läkare som har utfärdat ett utlåtande om hälsotillstånd eller ett utlåtande för sjukersättning kan begära arvode på blanketten 7807 Begäran om ersättning för läkarutlåtande – sjukersättning, aktivitetsersättning och livränta.
+7807 Begäran om ersättning för läkarutlåtande – sjukersättning, aktivitetsersättning och livränta
+ Pdf, 728 kB.
+Avstämningsmöten
+Den personliga handläggaren avgör om det behövs ett avstämningsmöte. Du som läkare kan ta initiativ till ett avstämningsmöte för en patient genom att kontakta Försäkringskassans handläggare.
+Du kan få ersättning om du har deltagit i ett avstämningsmöte. Arvodet är högst 750 kronor för den första timmen och därefter högst 375 kronor per påbörjad halvtimme. Faktura för deltagande i avstämningsmöte skickas till Försäkringskassan.
+Inköp och upphandling
+Frågor och svar
+Vem kan få sjukersättning?
+Villkoren för att få sjukersättning finns beskrivna på Försäkringskassans sidor för privatpersoner.
+Information för patienten om sjukersättning
+Kan en patient som är nyanländ ha rätt till sjukersättning?
+Ja, om patienten har uppehållstillstånd kan hen ha rätt till ersättning från Försäkringskassan. Villkoren finns beskrivna på Försäkringskassans sidor för privatpersoner.
+Information för patient som har fått uppehållstillstånd i Sverige
+Om patienten är asylsökande och inte har fått uppehållstillstånd ännu har hen inte rätt till ersättning från Försäkringskassan.
+Information för patient som fått asyl i Sverige
+En patient har sjukersättning men vill prova att arbeta eller studera. Går det?
+Ja, patienten kan prova att jobba eller studera på hel‑ eller deltid.
+Information för patienten om sjukersättning
+Om arbetsträning kan vara en väg tillbaka till arbetet
+Jag behöver komma i kontakt med min patients handläggare. Kan ni hjälpa mig?
+Ja. Ring till oss på 
+0771-17 90 00
+ så hjälper vi dig. Vi kan tyvärr inte publicera kontaktuppgifter till våra handläggare på webbplatsen.
+Måste det vara en läkare som skriver läkarutlåtandet? Jag som är fysioterapeut träffar ju patienten mycket oftare och vet mer om hens tillstånd.
+Ja, det måste vara en läkare som skriver läkarutlåtandet. Men du bör bidra med din kunskap om patientens tillstånd genom att skriva ett utlåtande som kan vara med som ett komplement till läkarutlåtandet. Diskutera med läkaren.
+Har ni någon ordlista med vanliga begrepp?
+Ja, här hittar du korta beskrivningar av vanliga begrepp inom sjuk- och funktionsnedsättning.
+Sjukpenning
+Ersättning från Försäkringskassan när en patient inte kan arbeta på grund av sjukdom.
+Aktivitetsersättning
+Ersättning från Försäkringskassan till den som är under 30 år och har nedsatt arbetsförmåga med minst en fjärdedel under minst ett år på grund av sjukdom, skada eller funktionsnedsättning.
+Sjukersättning
+Ersättning från Försäkringskassan när en patient inte kommer att återfå sin arbetsförmåga.
+Läkarintyg
+Ett läkarintyg ska användas om du bedömer att din patient inte kan arbeta på grund av sjukdom.
+Läkarutlåtande
+Ett utlåtande ska användas vid bedömningar i ett ärende, till exempel när en patient har ansökt om sjuk‑ eller aktivitetsersättning.
+Vilka är skillnaderna mellan det gamla läkarutlåtandet (3200) och det nya läkarutlåtandet (7800)?
+I det nya läkarutlåtandet läggs stor tyngd vid beskrivningen av funktionsnedsättningen. Funktionsnedsättningen ska beskrivas utifrån olika funktionsområden och graderas. I det nya utlåtandet efterfrågar vi konkreta exempel på vad patienten har svårt att göra på grund av sin funktionsnedsättning. Vi efterfrågar inte en bedömning av arbetsförmågan, utan en bedömning av patientens medicinska förutsättningar för arbete.
+En annan skillnad är att tidigare och planerad medicinsk behandling eller åtgärd ska redovisas mer utförligt än tidigare. Det finns även möjlighet för intygsskrivande läkare att hänvisa till tidigare utredningar.
+Finns det krav på att ett läkarutlåtande ska bifogas ansökan om sjukersättning?
+Ja, de som ansöker om sjukersättning ska skicka med ett läkarutlåtande.
+Det är lämpligt att läkarutlåtandet lämnas på den blankett som Försäkringskassan har fastställt, vilket minskar risken för behov av komplettering.
+        Relaterade länkar
+    
+Information för patienten
+Sjukersättning
+Relaterad information
+Utbetalningsdatum och handläggningstider
+Rehabilitering
+Försäkringsmedicin på Försäkringskassan
+Externa länkar
+Försäkringsmedicinskt beslutsstöd (socialstyrelsen.se)
+ Länk till annan webbplats, öppnas i nytt fönster.
+Socialförsäkringsbalken (riksdagen.se)
+ Länk till annan webbplats, öppnas i nytt fönster.
+Socialstyrelsens föreskrifter om utfärdande av intyg inom hälso- och sjukvården (socialstyrelsen.se)
+ Länk till annan webbplats, öppnas i nytt fönster.
+Senast uppdaterad 
+17 juni 2025

@@ -1,0 +1,117 @@
+Releaseinformation för LEFI prenumeration - Försäkringskassan
+Kakor på Försäkringskassan
+ 
+På forsakringskassan.se använder vi kakor (cookies) för att webbplatsen ska fungera så bra som möjligt för dig.
+Vi använder också kakor för webbanalys för att göra webbplatsen bättre.
+ 
+Så här använder Försäkringskassan kakor
+ 
+Godkänner du att vi också använder kakor för webbanalys?
+ 
+Ja, jag godkänner alla kakor
+ 
+Nej, jag godkänner bara nödvändiga kakor
+Gå till innehåll
+Tänk på att...
+Din webbläsare är av en äldre modell. Det innebär att du kanske inte kan använda alla funktioner på webbplatsen. Vi rekommenderar att du uppdaterar till en nyare version.
+Releaseinformation för LEFI prenumeration
+Här publiceras information om kommande och genomförda driftsättningsreleaser av tjänsten LEFI Prenumeration.
+        Information om förändringar i tjänsten LEFI prenumeration
+    
+    
+Efter driftsättningshelgen 18–19 maj 2024 kommer LEFI prenumeration att påverkas av förändringar i förmånssystemen som tjänsten nyttjar för att hämta förmånsinformation.
+Information rörande förmånerna sjukpenning och rehabiliteringspenning påverkas av förändringen (den sistnämnda förmånen heter Rehabersättning i schemat för LEFI prenumeration). Utöver det kommer även en förändring att ske i LEFI prenumeration vad rör hantering av pensionsprognos.
+Information rörande sjukpenning och rehabersättning
+Förmånssystemen för sjukpenning och rehabiliteringspenning byter teknisk plattform under helgen den 18–19 maj 2024. Detta innebär följande för LEFI prenumeration:
+Utbetalningar
+Efter releasen kommer historisk information om utbetalningar av sjukpenning och rehabersättning att levereras som tidigare.
+Information om nya utbetalningar kommer att levereras från system på ny teknisk plattform, vilket innebär följande:
+Värdet på beloppstyp kommer att ha ett färre antal möjliga värden.
+Följande värden på beloppstyp kommer att levereras av LEFI prenumeration för sjukpenning:
+10 – sjukpenning tim/dag
+11 – sjukpenning A-inkomst
+12 – sjukpenning i särskilda fall
+13 – sjukpenning B-inkomst
+22 – förebyggande sjukpenning A-inkomst
+23 – förebyggande sjukpenning B-inkomst
+36 – fler dagar med sjukpenning på normalnivå särskilda fall
+40 – sjukpenning på fortsättningsnivå särskilda fall
+51 – sjukpenning frivillig
+52 – sjukpenning merutgifter för resor
+80 – sjukpenning karensavdrag
+83 – sjukpenning karensavdrag särskilda fall
+Följande värden på beloppstyp kommer att levereras av LEFI prenumeration för rehabersättning:
+1 – rehabpenning i särskilda fall
+2 – rehabpenning A-inkomst
+3 – rehabpenning B-inkomst
+4 – resor
+5 – traktamenten
+6 – kursavgifter
+7 – läromedel
+8 – förskott – särskilt bidrag
+9 – rehabpenning avdrag annan ersättning
+37 – förlängd rehabpenning A-inkomst
+39 – förlängd rehabpenning B-inkomst
+38 – rehabpenning på fortsättningsnivå i särskilda fall
+Dagpenningärenden:
+Information om dagpenningärenden kommer att levereras från system på ny teknisk plattform, vilket innebär följande:
+Värdet på sjukpenningtyp kommer att ha ett färre antal möjliga värden.
+Obs! Ersättningsdagar kan rapporteras dubbelt, i det fall att ersättning för sjukpenning eller rehabersättning beviljats först genom ett interimistiskt beslut och sedan genom ett slutgiltigt beslut. Det måste hanteras av mottagaren, genom att inte räkna en ersättningsdag mer än en gång.
+Följande värden på sjukpenningtyp kommer att kunna levereras av LEFI prenumeration för sjukpenning:
+För sjukpenning (inklusive förebyggande sjukpenning i LEFI prenumeration):
+101 – sjukpenning
+102 – sjukpenning (redare)
+104 – sjukpenning enligt LAF
+105 – särskild arbetsskadeersättning
+106 – sjukpenning YFL
+108 – sjukpenning LSP
+109 – särskild sjukförsäkring för studerande
+111 – reseersättning (arbetsresor)
+112 – förebyggande sjukpenning i särskilda fall
+113 – sjukpenning i särskilda fall
+125 – sjukpenning på fortsättningsnivå
+126 – fler dagar med sjukpenning på normalnivå
+131 – förebyggande sjukpenning
+132 – förebyggande sjukpenning på fortsättningsnivå
+133 – fler dagar med förebyggande sjukpenning på normalnivå
+141 – sjuklönegaranti
+Följande värden på sjukpenningtyp kommer att kunna levereras av LEFI prenumeration för rehabersättning:
+111 – reseersättning (arbetsresor)
+114 – rehabpenning i särskilda fall
+121 – rehabpenning
+123 – särskilt bidrag
+127 – rehabpenning på fortsättningsnivå
+128 – fler dagar med rehabpenning på normalnivå
+Nedanstående dokument innehåller ett förtydligande om förändrade värden i sjukpenning och vilka de ersatts med.
+Förändring sjukpenninginformation MajR24
+ Pdf, 108 kB, öppnas i nytt fönster.
+Information rörande pensionsprognos
+Information och händelser rörande pensionsprognos levereras inte i LEFI prenumeration sedan 2020.
+Efter helgen 18–19 maj 2024 kommer inte heller bevakningar/heluppdateringar av ”pensionsprognos” att hanteras av LEFI prenumeration.
+Detta innebär att en beställning av enbart ”pensionsprognos” kommer att hanteras som en tom beställning. I övrigt fungerar tjänsten som tidigare.
+Pågående bevakningar påverkas inte, men levererar inte heller någon information. Schemat påverkas inte av förändringen.
+Uppdatering av höjd garantipension har genomförts i LEFI-systemet
+(publicerad 2022‑09‑16)
+Uppdatering av höjd garantipension har nu genomförts i LEFI‑systemet och ska finnas med i förmånsinformationen.
+Status kring Implementering av riksdagens beslut om att höja garantipensionen från och med augusti 2022
+(publicerad 2022‑08‑19)
+22 juni beslutade riksdagen att höja garantipensionen från och med augusti 2022. På grund av kort utvecklingstid och anpassning av IT-systemen är ändringen tyvärr ännu inte gjord i förmånsinformationen för ålderspension i LEFI‑tjänsterna. Däremot finns aktuellt korrekt belopp för augusti i LEFI online (under utbetalningsinformationen). Arbetet pågår för fullt att göra anpassningen helt klar och vi återkommer till er så snart arbetet är klart.
+Förändringar avseende levnadsintyg
+Pensionsmyndigheten har beslutat att flytta utskicksperioden för levnadsintyg från augusti‑november till maj‑augusti från och med 2022.
+Syftet är att försöka sprida ut alla utskick från myndigheten så jämnt som möjligt under kalenderåret. Samtidigt har det fattats beslut om att påminnelseutskicket tas bort då Pensionsmyndigheten inte ser att effekten av det brevet är särskilt stor.
+Tiden mellan utskick och indragningsbeslut kommer i stort att vara densamma. Exempelvis kommer det första utskicket 2022 göras i slutet av maj 2022 och indragningsbeslutet i slutet av september (med indragning från och med oktober).
+Vi hoppas att ändringen inte medför alltför stora förändringar i mottagande system.
+Regeringen har beslutat om att höja garantipensionen och bostadstillägget
+(publicerad 2022‑06‑28)
+Den 22 juni beslutade riksdagen att höja garantipensionen med upp till 1 000 kronor före skatt samt att bostadstillägget höjs med ytterligare 100 kronor från och med augusti 2022.
+Det tidigare förslaget om ett garantitillägg är inte längre aktuellt. Istället har ett annat förslag röstats igenom idag i riksdagen som innebär höjd garantipension och ytterligare höjning av bostadstillägget.
+Beslut om höjda pensioner | Pensionsmyndigheten
+ Länk till annan webbplats, öppnas i nytt fönster.
+Den 21‑24 juli kommer omräkning att ske hos Pensionsmyndigheten. Det kommer inte att skickas ut några beslut till pensionärerna utan de nya beloppen syns på utbetalningsbesked gällande augusti månads utbetalning 2022.
+I tjänsten hanteras redan garantipension så det får ingen systempåverkan. För användande partner blir effekten endast att informationen om utbetald garantipension ökar och på grund av det kommer bostadstillägg för pensionärer och även det vanliga bostadstillägget att beräknas om i berörda fall.
+        Relaterade länkar
+    
+Aktuellt
+Driftinformation
+Senast uppdaterad 
+14 juni 2024

@@ -1,0 +1,134 @@
+Taxation of social benefits - Försäkringskassan
+Cookies used by the Swedish Social Insurance Agency
+ 
+On forsakringskassan.se, we use cookies to make the website work as well as possible for you.
+We also use cookies for web analytics that help us to improve the website.
+ 
+How the Swedish Social Insurance Agency uses cookies
+ 
+Do you accept our use of cookies for web analytics?
+ 
+Yes, I accept all cookies
+ 
+No, I only accept necessary cookies
+Go to content
+Keep in mind...
+You are using an older version of your web browser. This means that you might not be able to use all of the functions of the website. We recommend that you update to a newer version.
+Taxation of social benefits
+Försäkringskassan distributes social benefits, some of which are taxable while others are tax-free. All social insurance payments are subject to preliminary tax deductions.
+Deductions made prior to payment
+Försäkringskassan deducts tax each time a payment is issued. The state tax brackets (tax rates) determine what deductions are made to social insurance payments. In general tax is withdrawn:
+according to decisions from the Tax Agency,
+with regards to a tax table or
+by 30 percent.
+If the amount is less than SEK 100, no tax deduction is usually made.
+There are two forms of preliminary tax, which can change during the income year (tax year) if the Tax Agency re-calculates the final tax.
+Preliminary tax (skatteverket.se)
+ External link, opens in new window.
+As a rule, entrepreneurs who run business as sole traders are approved for F‑tax. If you are a sole trader and also receive income from employment, you need to be registered for both F-tax and A-tax, which is known as FA-tax status. 
+Employees and senior citizens are liable for A-tax.
+If your main source income is from Försäkringskassan, tax deductions are made in accordance with the state tax table. In other cases, social insurance payments are regarded as additional income and therefore subject to 30 percent tax.
+        If you are self-employed
+    
+    
+For those who have F-tax, special rules apply which means we deduct 30 percent in tax. For those who have FA-tax, we deduct tax in accordance with A-tax regulations and general tax tables, unless you invoke your F-tax in writing. In that case inform us in writing that you have a F-tax status.
+We do not deduct tax if you have F-tax or SA-tax (special A-tax) as well as eligible for benefits for a sickness, rehabilitation or as a disease carrier. However, this requires that the Tax Agency has decided that you are to pay preliminary tax during the year in the form of F-tax or SA-tax.
+        Special tax table for activity grants
+    
+    
+Since the activity grant is issued for a maximum of five days a week, a special tax table is used. This table is published by the Tax Agency annually and then distributed to Försäkringskassan. The table is not available online.
+        Special tax tables for daily allowances
+    
+    
+Daily allowance refers to benefits for pregnancy, parental allowance, temporary parental allowence, sickness, rehabilitation, disease carriers, care of closely related persons, total defence service and compensation under Section 20 of the Act on Sickness Payments (1991:1047).
+Special tax tables apply when Försäkringskassan deducts preliminary tax from daily allowances. This does not apply to activity grants. The tax tables include various percentage rates relating to the sickness benefit qualifying income (SGI) and indicate the size of tax deductions as a percentage.
+The Tax Agency publishes updated tax tables online every year.
+        Retroactive compensation
+    
+    
+When Försäkringskassan is the main distributer of backdated benefits, tax is deducted according to the tax table for one-off amounts. This is done to avoid possible tax debts and can result in a higher percentage rate of tax on payment.
+Benefits can be paid in one go, if you are granted retroactive benefits and compensation over a longer period of time. Prior to receiving this type of payment, you need to apply for a tax adjustment through the Tax Agency, in accordance with the rules on accumulated income. Remember to also attach the decision on retroactive payments from Försäkringskassan.
+The decision from the Tax Agency then needs to be submitted to Försäkringskassan, so that the correct preliminary tax can be deduced. Later, when you declare income on your tax return, you must once again request that the Tax Agency calculates the tax according to the rules on accumulated income.
+        Benefits that are taxed
+    
+    
+parental benefit,
+temporary parental benefit,
+pregnancy benefit,
+sickness benefit,
+sickness compensation,
+activity compensation,
+guarantee benefit,
+benefit for care of closely related persons,
+disease carrier allowance,
+rehabilitation benefit,
+activity grant,
+daily cash benefit for total defence service people,
+childcare allowance under older legislation (but not the part relating to additional costs),
+care allowance for children with special needs,
+family benefit for conscripts that is provided in the form of a livelihood allowance.
+Avoid tax debts
+Since tax deductions are preliminary, if too little tax is deducted during the year, you may incur a tax debt. This can be the case if you receive income from several different sources. Therefore, it is important to regularly review tax deductions on each income source.
+Notify Försäkringskassan if the tax rate needs to be adjusted. If your income seems to be higher or lower than expected, you also need to re-submit a preliminary income tax return to the Tax Agency. Subsequently, Försäkringskassan can adjust benefit payments according to the up to date changes. 
+Correct your preliminary tax (skatteverket.se)
+ External link, opens in new window.
+Tax-free benefits
+A number of benefits issued by Försäkringskassan are tax-free.
+        Benefits that are tax-free
+    
+    
+housing allowance,
+general child allowance,
+extended child allowance,
+large family supplement,
+maintenance support,
+adoption allowance,
+family allowance for total defence service people (except in the form of livelihood allowance),
+disability allowance under older legislation,
+additional cost allowance,
+assistance allowance,
+car allowance,
+childcare allowance under older legislation (the additional cost part),
+compensation for extra costs for business travel,
+housing supplement to sickness compensation and activity compensation,
+residential supplement,
+introduction benefit,
+supplementary introduction benefit,
+introduction benefit for housing,
+development allowance,
+payment of supplement to sickness compensation after reconciliation of the sickness compensation in the form of a continuous deduction,
+supplementary disbursement after reconciliation of housing allowance.
+Declaration of income – annual tax return forms
+The payments we issue are also reported on a monthly basis to the Swedish Tax Agency (Skatteverket). We declare how much money you have received each month including how much tax has been deducted.
+However, we do not send personal verifications. Therefore, we recommend you save every payment notice until you have to file your tax return so that you can check that all the information in is accurate.
+If you receive the same amount of compensation each month, you will get an annual statement. The total amount that is issued to you is then prefilled on your tax return form.
+Special income tax for people residing abroad (SINK)
+Expatriates residing in the EU are taxed a flat rate of 25 percent.
+Apply for a special income tax as a non-resident through the Tax Agency.
+Application – Special income tax on non-residents (skatteverket.se)
+ External link, opens in new window.
+Non-residents that are not eligible for SINK-tax are subject to preliminary tax.
+        Double taxation
+    
+    
+Double taxation means a person is taxed for the same income in two or more countries.
+There is the possibility of removing or modifying this type of taxation – a matter which is decided on by Tax Agency.
+        Border commuters
+    
+    
+A border commuter is a person who lives in a border municipality and commutes to work in another country. In general, a commuter's income is only taxed in the country of residence. However, benefits from Försäkringskassan are not covered by these rules. Read more about double taxation and on the taxation of border commuters on the Tax Agency’s website.
+        Relaterade länkar
+    
+Learn more about Försäkringskassan
+About the Swedish Social Insurance Agency
+Taxation in Sweden
+Find more about declaring and paying taxes as an individual, an employee or a business owner.
+Swedish Tax Agency (skatteverket.se)
+ External link, opens in new window.
+Last updated: 
+2025-03-04
+            Your Europe (europa.eu)
+        
+            Help us improve (foq.youreurope.europa.eu)
+        
+            Contact Assistance Service (asf.youreurope.europa.eu)

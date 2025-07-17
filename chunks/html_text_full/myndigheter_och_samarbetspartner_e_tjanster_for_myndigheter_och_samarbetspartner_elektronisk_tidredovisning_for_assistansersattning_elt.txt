@@ -1,0 +1,23 @@
+Elektronisk tidredovisning för assistansersättning, ELT - Försäkringskassan
+Kakor på Försäkringskassan
+ 
+På forsakringskassan.se använder vi kakor (cookies) för att webbplatsen ska fungera så bra som möjligt för dig.
+Vi använder också kakor för webbanalys för att göra webbplatsen bättre.
+ 
+Så här använder Försäkringskassan kakor
+ 
+Godkänner du att vi också använder kakor för webbanalys?
+ 
+Ja, jag godkänner alla kakor
+ 
+Nej, jag godkänner bara nödvändiga kakor
+Gå till innehåll
+Tänk på att...
+Din webbläsare är av en äldre modell. Det innebär att du kanske inte kan använda alla funktioner på webbplatsen. Vi rekommenderar att du uppdaterar till en nyare version.
+Elektronisk tidredovisning för assistansersättning, ELT
+Nyheter ELT
+Här publicerar vi nyheter och driftmeddelanden som gäller vår tjänst, ELT. Håll dig uppdaterad med senaste nytt.
+Användarstöd för ELT
+Här finns teknisk beskrivning av vår tjänst samt information om support. Informationen riktar sig främst till dig som är teknisk kontaktperson hos en systemleverantör.
+Anslutning till ELT
+Den här sidan beskriver vad som krävs för dig som systemleverantör för att ansluta dig till vårt webbgränssnitt och hur anslutningsprocessen går till.

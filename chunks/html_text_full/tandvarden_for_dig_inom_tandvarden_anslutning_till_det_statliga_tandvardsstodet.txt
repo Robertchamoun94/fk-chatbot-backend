@@ -1,0 +1,114 @@
+Anslutning till det statliga tandvårdsstödet - Försäkringskassan
+Kakor på Försäkringskassan
+ 
+På forsakringskassan.se använder vi kakor (cookies) för att webbplatsen ska fungera så bra som möjligt för dig.
+Vi använder också kakor för webbanalys för att göra webbplatsen bättre.
+ 
+Så här använder Försäkringskassan kakor
+ 
+Godkänner du att vi också använder kakor för webbanalys?
+ 
+Ja, jag godkänner alla kakor
+ 
+Nej, jag godkänner bara nödvändiga kakor
+Gå till innehåll
+Tänk på att...
+Din webbläsare är av en äldre modell. Det innebär att du kanske inte kan använda alla funktioner på webbplatsen. Vi rekommenderar att du uppdaterar till en nyare version.
+Anslutning till det statliga tandvårdsstödet
+Här kan du läsa om hur du ansluter din verksamhet till det statliga tandvårdsstödet och begär ersättning.
+För att kunna begära ersättning måste du ansluta din verksamhet till det statliga tandvårdsstödet. Det gör du genom att skicka in en ansökan om att bli ansluten till e-tjänsten Tandvårdsportalen. När du är ansluten ska du även registrera uppgifter om din verksamhet i Tandvårdsportalen för att kunna begära ersättning.
+ Allt statligt tandvårdsstöd begärs elektroniskt. Har du ett journalsystem som kan kommunicera med Försäkringskassans IT-system, begär du ersättning och gör förhandsprövningar direkt i ditt journalsystem. Har du inget elektroniskt journalsystem, begär du ersättning och gör förhandsprövningar i Tandvårdsportalen.
+Så här ansluter du din verksamhet
+        Om du är ny vårdgivare och vill ansöka om anslutning
+    
+    
+Om du vill ansöka om att ansluta din verksamhet fyller du i den här blanketten och skickar den till Försäkringskassan. Information om hur du fyller i den och vilka bilagor som ska skickas med finns på blanketten. Läs igenom informationen på blanketten innan du fyller i den.
+7003 Ansökan om anslutning till Tandvårdsportalen – vårdgivare
+ Pdf, 883 kB.
+Vårt mål är att du ska få ett beslut inom 30 dagar. Så snart Försäkringskassan fattat ett beslut kommer du att få ett brev om du har blivit ansluten eller inte. Om du har blivit ansluten ska du fylla i din mottagnings bankgironummer i Tandvårdsportalen, så att vi kan betala ut ersättning.
+        Om du ska ansluta mottagningar
+    
+    
+För att få ersättning måste du som är vårdgivare även ansluta dina mottagningar. Det gör du genom att fylla i den här blanketten och skicka den till Försäkringskassan. Information om hur du fyller i den finns på blanketten.
+7002 Ansökan — Anslutning till Tandvårdsportalen mottagning
+ Pdf, 916 kB.
+Vårt mål är att du ska få ett beslut inom 30 dagar. Så snart Försäkringskassan fattat ett beslut, kommer du att få ett brev om du har blivit ansluten eller inte. Om du har blivit ansluten, ska du fylla i din mottagnings bankgironummer i Tandvårdsportalen så att vi kan betala ut ersättning.
+        Om din verksamhet förändras
+    
+    
+Anmäl till Försäkringskassan om något av följande ändras i din verksamhet:
+Vem som är firmatecknare
+Vilka legitimerade behandlare som finns i verksamheten
+Vem som är vårdgivaradministratör
+Vem som är mottagningsadministratör
+Vem som är normalanvändare eller har väsentligt inflytande över verksamheten
+Företagets godkännande för F-skatt
+Anmäl ändrade uppgifter till Försäkringskassan genom att fylla i den här blanketten. Information om hur du fyller i den finns på blanketten.
+7004 Anslutning – nya eller ändrade uppgifter
+ Pdf, 1 MB.
+Vårt mål är att vi ska ha ändrat uppgifterna inom 30 dagar. Om ändringen är att din anslutning ska upphöra, så får du som vårdgivare ett beslut om det.
+        Om du som vårdgivare överlåter din verksamhet
+    
+    
+Om du som redan är ansluten till det statliga tandvårdsstödet överlåter din verksamhet till någon annan ska du anmäla det på den här blanketten. Information om hur du fyller i den finns på blanketten.
+7004 Anslutning – nya eller ändrade uppgifter
+ Pdf, 1 MB.
+        Om du vill avsluta din anslutning
+    
+    
+Om du ska upphöra med din verksamhet eller inte längre vill vara ansluten till det statliga tandvårdsstödet, ska du anmäla det senast tre månader i förväg.
+Om vårdgivaren och alla mottagningar ska upphöra att vara anslutna fyller du i den här blanketten och skickar den till Försäkringskassan. Information om hur du fyller i den finns på blanketten.
+7010 Ansökan, anslutning upphör – vårdgivare
+ Pdf, 699 kB.
+Om vårdgivaren ska vara kvar, men en eller flera mottagningar ska upphöra att vara anslutna, fyller du i den här blanketten och skickar den till Försäkringskassan. Information om hur du fyller i den finns på blanketten.
+7014 Ansökan, anslutning upphör - mottagning
+ Pdf, 74 kB.
+Vårt mål är att vi ska ha handlagt ditt ärende inom 30 dagar. Så snart vi har avslutat din anslutning får du ett meddelande om det.
+Så här använder du Tandvårdsportalen
+Tandvårdsportalen är till för att du som vårdgivare ska kunna gå in och ändra administrativ information om din verksamhet och dina mottagningar. Den är också till för att du som inte använder ett elektroniskt journalsystem ska kunna skicka in underlag och begära ersättning.
+            
+                Logga in på Tandvårdsportalen
+            
+            
+ Till e-tjänsten
+Information om hur du använder Tandvårdsportalen finns i användarhandledningen för tandvårdssystemet.
+Användarhandledning för tandvårdssystemet
+ Pdf, 15 MB, öppnas i nytt fönster.
+        Tekniska krav för tandvårdsportalen
+    
+    
+Webbläsare
+Rekommenderad webbläsare för Tandvårdsportalen är Microsoft Edge. 
+Tandvårdsportalen kan fungera med andra webbläsare, men vi har då ingen möjlighet att ge något tekniskt stöd vid eventuella problem.
+Språkinställning
+Tandvårdsportalen är inte kompatibel med andra språkinställningar i enhetens operativsystem än svenska.
+Mobila enheter
+Tandvårdsportalen är ännu inte helt anpassad för mobila enheter, och vi kan inte lova att funktionerna fungerar fullt ut.
+        BankID för inloggning
+    
+    
+För att kunna logga in och använda Tandvårdsportalen behöver din verksamhet vara ansluten till e-tjänsten Tandvårdsportalen samt att du behöver ha ett giltigt BankID.
+För att kunna skaffa ett BankID måste du ha ett svenskt personnummer, vara kund i någon av de banker som ger ut BankID och ha identifierat dig med en godkänd svensk ID-handling.
+Här hittar du information om vilka banker som utfärdar BankID, om du behöver hjälp med det ska du vända dig direkt till den bank som utfärdar ditt BankID.
+Banker som utfärdar BankID (bankid.com)
+ Länk till annan webbplats, öppnas i nytt fönster.
+Frågor och svar
+Jag arbetar inom Folktandvården eller Praktikertjänst men tänker övergå i privat regi, ska jag ansluta mig till det statliga tandvårdsstödet?
+Ja, det ska du göra om du vill att dina patienter ska kunna få tandvårdsstöd när de får behandling av dig.
+Jag arbetar både på Folktandvården och på min egna privata mottagning. Måste jag ansluta mig?
+Ja, du måste ansluta din egen verksamhet.
+Jag använder redan ett elektroniskt journalsystem, måste jag ändå ansluta mig?
+Ja, du måste ansluta dig för att Försäkringskassan ska kunna betala ut ersättning.
+Jag ska gå i pension eller sälja min mottagning, måste jag avsluta min anslutning?
+Ja, om du som vårdgivare inte längre vill vara ansluten till det statliga tandvårdsstödet, eller om din verksamhet upphör så ska du anmäla det till Försäkringskassan.
+När sker utbetalningen av statligt tandvårdsstöd?
+Utbetalningen sker på torsdagar. Om torsdagen är en helgdag görs utbetalningen den närmast följande vardagen.
+        Relaterade länkar
+    
+Aktuellt
+Planerade avbrott och underhållsarbeten
+Externa länkar
+Hämta Adobe Acrobat Reader
+ Länk till annan webbplats, öppnas i nytt fönster.
+Senast uppdaterad 
+18 juni 2025

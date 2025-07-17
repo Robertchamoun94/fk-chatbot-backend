@@ -1,0 +1,231 @@
+Statistikdatabas - Försäkringskassan
+Kakor på Försäkringskassan
+ 
+På forsakringskassan.se använder vi kakor (cookies) för att webbplatsen ska fungera så bra som möjligt för dig.
+Vi använder också kakor för webbanalys för att göra webbplatsen bättre.
+ 
+Så här använder Försäkringskassan kakor
+ 
+Godkänner du att vi också använder kakor för webbanalys?
+ 
+Ja, jag godkänner alla kakor
+ 
+Nej, jag godkänner bara nödvändiga kakor
+Tänk på att...
+Din webbläsare är av en äldre modell. Det innebär att du kanske inte kan använda alla funktioner på webbplatsen. Vi rekommenderar att du uppdaterar till en nyare version.
+Hem
+Statistik och analys
+Statistikdatabas
+Statistik inom området funktionsnedsättning
+Antal förstagångsbeviljanden av assistansersättning efter typ av behov
+Antal förstagångsbeviljanden av assistansersättning efter typ av behov
+ 
+Vänligen vänta
+Vänligen vänta
+Årsstatistik från och med år 2018 över antal förstagångsbeviljanden och genomsnittligt antal timmar per vecka efter kön, ålder, typ av behov och personkrets.
+Välj vilken statistik du vill se
+ 
+Vänligen vänta
+Vänligen vänta
+Mått
+Markera alla
+Antal beviljanden
+Genomsnittligt antal timmar per vecka
+År
+Markera alla
+2024
+2023
+2022
+2021
+2020
+2019
+2018
+Kön
+Markera alla
+Kvinnor och män
+Kvinnor
+Män
+Typ av behov
+Markera alla
+Samtliga grundläggande och andra personliga behov
+Samtliga grundläggande behov
+Personlig hygien
+På- och avklädning
+Måltider
+Kommunikation
+Annan hjälp som förutsätter ingående kunskaper
+Andning
+Sondmatning
+Stöd för att förebygga skada vid en psykisk funktionsnedsättning
+Stöd som behöver ges löpande på grund av ett medicinskt tillstånd
+Uppdelat på
+Ålder
+Personkrets
+Visa valda filter
+Dölj valda filter
+Antal beviljanden
+Ta bort
+Antal beviljanden
+2018
+Ta bort
+2018
+2019
+Ta bort
+2019
+2020
+Ta bort
+2020
+2021
+Ta bort
+2021
+2022
+Ta bort
+2022
+2023
+Ta bort
+2023
+2024
+Ta bort
+2024
+Kvinnor och män
+Ta bort
+Kvinnor och män
+Personlig hygien
+Ta bort
+Personlig hygien
+På- och avklädning
+Ta bort
+På- och avklädning
+Måltider
+Ta bort
+Måltider
+Kommunikation
+Ta bort
+Kommunikation
+Andning
+Ta bort
+Andning
+Sondmatning
+Ta bort
+Sondmatning
+Stöd för att förebygga skada vid en psykisk funktionsnedsättning
+Ta bort
+Stöd för att förebygga skada vid en psykisk funktionsnedsättning
+Stöd som behöver ges löpande på grund av ett medicinskt tillstånd
+Ta bort
+Stöd som behöver ges löpande på grund av ett medicinskt tillstånd
+Exportera till Excel
+När du exporterar till Excel skapas din fil. Om det är mycket information kan det ta upp till 3 minuter.
+Exportera all statistik till excel
+export
+Stapeldiagram
+Linjediagram
+Stapeldiagram
+Tabell
+Om statistiken
+Antal beviljanden
+ 
+Vänligen vänta
+Vänligen vänta
+Tänk på att...
+Din filtrering gav fler än 300 linjer. Prova att ändra din filtrering eller exportera resultatet till Excel.
+Tänk på att...
+Du måste välja:
+Vi kan inte visa någon statistik utifrån de filter du har valt. Det kan bero på att det ännu inte finns någon statistik för den tidsperiod du har valt.
+Created with Highcharts 10.3.3
+Antal beviljanden
+ 
+Vänligen vänta
+Vänligen vänta
+Tänk på att...
+Din filtrering gav fler än 300 staplar. Prova att ändra din filtrering eller exportera resultatet till Excel.
+Tänk på att...
+Du måste välja:
+Vi kan inte visa någon statistik utifrån de filter du har valt. Det kan bero på att det ännu inte finns någon statistik för den tidsperiod du har valt.
+Created with Highcharts 10.3.3
+ 
+Vänligen vänta
+Vänligen vänta
+Om statistiken
+Statistiken visar antal förstagångsbeviljanden per år från och med 2018 och fördelas på uppgift om kön, ålder, typ av behov och personkrets.
+För att få assistansersättning behöver man inte få beviljande timmar för alla behov. Antal och timmar för respektive behovstyp räknas bara för de som har blivit beviljade timmar för behovet. 
+Mått
+Antal förstagångsbeviljanden
+Antal förstagångsbeviljanden avser antal ansökningar om rätten till assistansersättning där beslututfallet för första gången blev ett beviljande.
+Genomsnittligt antal timmar per vecka
+Avser de timmar som de assistansberättigade är beviljade vid angivet referensår.
+Variabler som statistiken fördelas på
+År
+Det finns statistik från år 2018. Uppgift om år baseras på det år då beslutet är fattat.
+Kön
+Anger juridiskt kön på individen.
+Ålder
+Ålder visas i åldersklasser (0-19 år, 19- år). Uppgift om ålder mäts då beslutet är fattat.
+Typ av behov
+Behoven som assistansersättning beviljas för delas in i grundläggande behov och andra personliga behov.
+Grundläggande behov
+För att kunna få assistansersättning behöver individen bedömas ha minst 20 timmars behov av assistans i veckan för något av de sju grundläggande behoven:
+personlig hygien
+på- och avklädning
+måltider
+kommunikation
+andning
+stöd för att förebygga skada vid en psykisk funktionsnedsättning
+stöd som behöver ges löpande på grund av ett medicinskt tillstånd.
+De grundläggande behoven redovisas både tillsammans och var för sig i statistiken. Sondmatning ingår i det grundläggande behovet måltider, men särredovisas i statistiken som ett eget behov.
+Andra personliga behov
+Om en individ får assistansersättning för något av de grundläggande behoven går det också att få assistans för fler personliga behov. Dessa särredovisas inte utan ingår i kategorin andra personliga behov.
+Från och med år 2023 är inte längre "annan hjälp som förutsätter ingående kunskaper" ett grundläggande behov. Det har också tillkommit två grundläggande behov:
+stöd för att förebygga skada vid en psykisk funktionsnedsättning
+stöd som behöver ges löpande på grund av ett medicinskt tillstånd.
+Personkrets
+För att få assistansersättning måste man tillhöra en av tre personkretsar:
+1) Personer med utvecklingsstörning, autism eller autismliknande tillstånd.
+2) Personer med betydande och bestående begåvningsmässigt funktionshinder efter hjärnskada i vuxen ålder föranledd av yttre våld eller kroppslig sjukdom.
+3) Personer med andra varaktiga fysiska eller psykiska funktionshinder som uppenbart inte beror på normalt åldrande, om de är stora och förorsakar betydande svårigheter i den dagliga livsföringen och därmed ett omfattande behov av stöd eller service.
+Att ta hänsyn till vid jämförelser
+Statistiken sträcker sig över lång tid och påverkas i hög grad av regeländringar som skett. Det är särskilt viktigt att ta hänsyn till regelförändringar vid jämförelser över tid. Vilka regeländringar som skett under perioden kan du läsa om i Förändringar inom socialförsäkrings- och bidragsområdena.
+Förändringar inom socialförsäkrings- och bidragsområdena.
+Skydd av enskilda individer
+Försäkringskassan publicerar inte statistik som omfattar få individer om statistiken riskerar att leda till skada eller men för enskilda individer. När vi inte kan redovisa uppgifter markeras celler i tabeller med "..".
+Källor och datakvalitet
+Statistiken baseras på ärenden rapporterats till Försäkringskassan inom det statliga tandvårdsstödet. Mindre avvikelser och enstaka felaktigheter som beror på felkodningar i källsystemen kan förekomma. Mer information om källor och datakvalitet finns i kvalitetsdeklarationen.
+Kvalitetsdeklaration – Assistansersättning
+Assistansersättning (scb.se)
+Kontakt
+Om du har frågor om statistiken är du välkommen att kontakta Försäkringskassans statistikservice: 
+statistikenheten@forsakringskassan.se
+In English
+Social Insurance in Figures
+Important concepts translated to English
+For information in English please contact us at 
+statistikenheten@forsakringskassan.se
+Om ersättningen
+Assistansersättning
+Assistansersättning kan betalas ut till den som har en stor och varaktig funktionsnedsättning och behöver personlig assistans för att klara sin vardag. För att få ersättning från Försäkringskassan måste man behöva assistans i mer än 20 timmar i veckan. Den som klarar sig med färre timmar ska få hjälp från sin kommun.
+För att få assistansersättning måste man tillhöra en av tre personkretsar:
+Personkrets 1 omfattar personer med utvecklingsstörning, autism eller autismliknande tillstånd.
+Personkrets 2 omfattar personer med betydande och bestående begåvningsmässiga funktionsnedsättningar efter en hjärnskada i vuxen ålder som orsakats av yttre våld eller kroppslig sjukdom.
+Personkrets 3 omfattar med andra fysiska eller psykiska funktionsnedsättningar som inte uppenbart beror på åldrande.
+Assistansersättningen kan betalas ut direkt till den som får assistansen, som då är arbetsgivare åt sina assistenter. Den kan också betalas ut till kommunen, till ett privat företag eller till ett kooperativ som utför assistansen.
+Mer information om ersättningarna
+Assistansersättning för vuxna
+Dela sidan
+ 
+Dela sidan på 
+ 
+Facebook
+ 
+ (öppnas i nytt fönster)
+ 
+Dela sidan på 
+ 
+X
+ 
+ (öppnas i nytt fönster)
+ 
+Dela sidan med 
+ 
+Mejl
+ 
+ (öppnas i nytt fönster)

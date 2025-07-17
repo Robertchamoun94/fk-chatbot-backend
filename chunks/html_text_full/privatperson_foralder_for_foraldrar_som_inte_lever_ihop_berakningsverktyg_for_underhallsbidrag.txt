@@ -1,0 +1,354 @@
+Beräkningsverktyg för underhållsbidrag - Försäkringskassan
+Kakor på Försäkringskassan
+ 
+På forsakringskassan.se använder vi kakor (cookies) för att webbplatsen ska fungera så bra som möjligt för dig.
+Vi använder också kakor för webbanalys för att göra webbplatsen bättre.
+ 
+Så här använder Försäkringskassan kakor
+ 
+Godkänner du att vi också använder kakor för webbanalys?
+ 
+Ja, jag godkänner alla kakor
+ 
+Nej, jag godkänner bara nödvändiga kakor
+Gå till innehåll
+Tänk på att...
+Din webbläsare är av en äldre modell. Det innebär att du kanske inte kan använda alla funktioner på webbplatsen. Vi rekommenderar att du uppdaterar till en nyare version.
+Beräkningsverktyg för underhållsbidrag
+        Beräkningsverktyg
+    
+            Tar cirka 15 minuter
+        
+För vem?
+Verktyget är till för föräldrar som gemensamt vill räkna ut underhåll för gemensamma barn som bor mest hos den ena föräldern.
+Ni kan inte använda verktyget om ni har flera gemensamma barn och de inte bor tillsammans hos en av er.
+Ni kan inte heller använda verktyget om barnet eller barnen bor ungefär lika mycket hos er båda (växelvist boende).
+Hur funkar det?
+Fyll i barnets kostnader och dina egna inkomster efter skatt samt dina utgifter. Spara uppgifterna och skicka länken till beräkningen till den andra föräldern så att hen kan fylla i sina inkomster efter skatt och sina utgifter.
+Du kan såklart också göra beräkningen på egen hand, men tänk på att du behöver veta vilka inkomster och utgifter den andra föräldern har för att få rätt belopp uträknat.
+Vad får ni?
+När ni båda fyllt i era uppgifter får ni ett förslag på ett underhållsbidrag och en avtalsmall som ni kan använda för att göra en giltig överenskommelse om underhållsbidrag.
+Uppdatering
+Senast uppdaterad 
+Barn och föräldrar
+Här fyller du i uppgifter om barns hushåll, hur många barn du vill beräkna underhållsbidrag för samt ditt och den andra förälderns namn.
+Här fyller du i uppgifter om barns hushåll, hur många barn du vill beräkna underhållsbidrag för samt ditt och den andra förälderns namn.
+Hur många personer bor det totalt i hushållet där barnet eller barnen bor?
+Välj ett av alternativen.
+Välj
+1
+2
+3
+4
+5
+6
+7
+8
+9
+10
+11
+12
+Barn
+Hur många barn vill du beräkna underhållsbidrag för?
+Välj ett av alternativen.
+Välj
+1
+2
+3
+4
+5
+6
+7
+8
+Föräldrar
+Ditt namn
+Fyll i text.
+Den andra förälderns namn
+Fyll i text.
+Uppgifter om boendesituation
+        Information om frågan barnet eller barnen bor mest hos
+    
+Uppgifter om boendesituation
+Det här verktyget är till för situationer där barnet/barnen bor mest hos den ena föräldern. Det beror på att det bara är då som den andra föräldern ska betala underhållsbidrag. Om barnet bor ungefär lika mycket hos båda föräldrarna är ingen förälder skyldig att betala underhållsbidrag.
+        Stäng
+    
+Stäng
+Var bor barnet eller barnen mest?
+Hos mig
+        
+Hos den andra föräldern
+        
+Du har slutfört 20 %.
+Fyll i
+Barn och föräldrar
+Vill du ändra antalet personer i hushållet?
+Om du ändrar antalet personer i hushållet kommer det att påverka kostnader för barn.
+Nej, ändra inte
+Ja, ändra
+Stäng
+Vill du ändra antal barn?
+Alla uppgifter du fyllt i om barnet och barnets kostnader kommer att försvinna.
+Nej, ändra inte antal barn
+Ja, ändra antal barn
+Stäng
+Vill du ändra antalet invånare på din ort?
+Om du ändrar antalet invånare på din ort kommer det att påverka kostnader för barn.
+ Nej, ändra inte
+Ja, ändra
+Stäng
+                Sammanlagd kostnad för barn
+                0
+                kronor per månad
+            
+Spara uträkningen
+Inkomster och utgifter för dig
+Steget är komplett ifyllt.
+Här fyller du i dina inkomster efter skatt samt dina utgifter.
+Här fyller du i dina inkomster efter skatt samt dina utgifter.
+Din månadsinkomst efter skatt
+Inkomst i kronor per månad
+        Information om inkomst
+    
+Inkomst i kronor per månad
+För att räkna ut din inkomst efter skatt kan du använda dig av Skatteverkets beräkningsverktyg som du hittar på Skatteverkets hemsida. 
+I månadsinkomsten ingår lön och andra inkomster som man betalar skatt på. Det kan till exempel vara sjukpenning, a-kassa, föräldrapenning, studiebidrag, studielån eller pension.
+Om du arbetar oregelbundet kan du dela din årsinkomst med 12 för att få fram en genomsnittlig månadsinkomst.
+        Stäng
+    
+Stäng
+Fyll i ett belopp.
+Dina övriga inkomster efter skatt
+Här kan du fylla i övriga inkomster, till exempel avkastning på kapitalinkomster. Lägg in inkomsterna efter skatt. Skatten på kapitalinkomster är alltid 30 procent. 
+Lägg till inkomst
+Dina utgifter
+Levnadskostnader i kronor per månad
+Fyll i levnadskostnader per månad. Här ingår till exempel mat, kläder, el, telefon, TV-licens, försäkringsavgifter och resor till och från arbetet. Maxgränsen för levnadskostnader i beräkningen av underhåll är 5 880 kronor.
+Bostadskostnad i kronor per månad
+        Information om bostadskostnad
+    
+Bostadskostnad
+Om du bor i hyresrätt är hyran din bostadskostnad.
+Om du bor i bostadsrätt ingår bostadsrättsavgiften och 70 procent av räntekostnaden på lån i din bostadskostnad, men inte amorteringar. 
+Om du bor i hus ingår driftskostnaderna och 70 procent av räntekostnaderna på lån i bostadskostnaden,  men inte amorteringar. 
+Om du eller den du bor med får bostadsbidrag eller bostadstillägg för den bostad ni bor i ska du dra av det från bostadskostnaden. 
+Exempel
+Hyran är 5 000 kronor per månad. Stina bor tillsammans med Lasse och får bostadsbidrag på 1 000 kronor. Bostadskostnaden blir därför 4 000 kronor per månad. Eftersom Stina delar bostad med en annan vuxen blir hennes bostadskostnad 2 000 kronor per månad.
+        Stäng
+    
+Stäng
+Fyll i bostadskostnad per månad. Delar du bostaden med en annan vuxen fyller du i halva bostadskostnaden.
+Fyll i ett belopp.
+Dina övriga utgifter
+Här kan du fylla i övriga utgifter. Det kan till exempel vara höga medicinkostnader, dubbel bosättning eller kostnader för arbetskläder.
+Lägg till utgift
+                Överskott för
+                dig
+            
+Överskottet är den summa som blir över när man tar inkomsterna minus utgifterna.
+                -5 880
+                kronor per månad
+            
+Du har slutfört 33 %.
+Fyll i
+Inkomster och utgifter för dig
+Inkomster och utgifter för den andra föräldern
+Steget är komplett ifyllt.
+Här fyller du i den andra förälderns inkomster efter skatt och dennes utgifter.
+Här fyller du i den andra förälderns inkomster efter skatt och dennes utgifter.
+Den andra förälderns månadsinkomst efter skatt
+Inkomst i kronor per månad
+        Information om inkomst
+    
+Inkomst i kronor per månad
+För att räkna ut din inkomst efter skatt kan du använda dig av Skatteverkets beräkningsverktyg som du hittar på Skatteverkets hemsida. 
+I månadsinkomsten ingår lön och andra inkomster som man betalar skatt på. Det kan till exempel vara sjukpenning, a-kassa, föräldrapenning, studiebidrag, studielån eller pension.
+Om du arbetar oregelbundet kan du dela din årsinkomst med 12 för att få fram en genomsnittlig månadsinkomst.
+        Stäng
+    
+Stäng
+Fyll i ett belopp.
+Den andra förälderns övriga inkomster efter skatt
+Här kan du fylla i övriga inkomster, till exempel avkastning på kapitalinkomster. Lägg in inkomsterna efter skatt. Skatten på kapitalinkomster är alltid 30 procent. 
+Lägg till inkomst
+Den andra förälderns utgifter
+Levnadskostnader i kronor per månad
+Fyll i levnadskostnader per månad. Här ingår till exempel mat, kläder, el, telefon, TV-licens, försäkringsavgifter och resor till och från arbetet. Maxgränsen för levnadskostnader i beräkningen av underhåll är 5 880 kronor.
+Bostadskostnad i kronor per månad
+        Information om bostadskostnad
+    
+Bostadskostnad
+Om du bor i hyresrätt är hyran din bostadskostnad.
+Om du bor i bostadsrätt ingår bostadsrättsavgiften och 70 procent av räntekostnaden på lån i din bostadskostnad, men inte amorteringar. 
+Om du bor i hus ingår driftskostnaderna och 70 procent av räntekostnaderna på lån i bostadskostnaden,  men inte amorteringar. 
+Om du eller den du bor med får bostadsbidrag eller bostadstillägg för den bostad ni bor i ska du dra av det från bostadskostnaden. 
+Exempel
+Hyran är 5 000 kronor per månad. Stina bor tillsammans med Lasse och får bostadsbidrag på 1 000 kronor. Bostadskostnaden blir därför 4 000 kronor per månad. Eftersom Stina delar bostad med en annan vuxen blir hennes bostadskostnad 2 000 kronor per månad.
+        Stäng
+    
+Stäng
+Fyll i bostadskostnad per månad. Delar du bostaden med en annan vuxen fyller du i halva bostadskostnaden.
+Fyll i ett belopp.
+Den andra förälderns övriga utgifter
+Här kan du fylla i övriga utgifter. Det kan till exempel vara höga medicinkostnader, dubbel bosättning eller kostnader för arbetskläder.
+Lägg till utgift
+Familjesituation
+Bor det andra barn hemma hos den andra föräldern som hen är förälder till?
+Ja
+Nej
+                Överskott för
+                den andra föräldern
+            
+Överskottet är den summa som blir över när man tar inkomsterna minus utgifterna.
+                -5 880
+                kronor per månad
+            
+Du har slutfört 50 %.
+Fyll i
+Inkomster och utgifter för den andra föräldern
+Underhållsbidrag och avtalsmall
+Fyll i uppgifterna ovan för att se vad underhållsbidraget blir.
+Så här beräknas underhåll
+Öppnas i ett nytt fönster
+Spara eller dela beräkningen
+        Information om spara/dela
+    
+Spara/dela beräkningen
+Här kan du skapa en länk till sidan där din beräkning finns. Länken kan du spara, till exempel som ett bokmärke på din dator eller telefon, eller mejla till någon du vill dela beräkningen med. 
+Beräkningen är tillgänglig via den sparade länken i 2 år. Det betyder att du kan ändra uppgifterna i din beräkning när som helst under den tiden. När du har ändrat uppgifterna ska du spara en länk till den nya beräkningen. Den nya länken är då tillgänglig i 2 år från och med att du sparade den. 
+En fördel med att spara länken är att underhållsbidraget ska räknas om när barnet blir äldre eller om föräldrarnas situation förändras, till exempel att någon av er får ny lön.
+När det är dags att räkna fram ett nytt underhållsbidrag kan du gå in på den sparade länken och fylla i era aktuella kostnader, inkomster och utgifter. Då behöver du inte fylla i alla uppgifter från början. 
+        Stäng
+    
+Stäng
+Skapa en länk för att spara beräkningen eller dela den med någon annan.
+    Skapa länk till beräkningen
+Skapa länk till beräkningen
+Det gick inte att kopiera länken automatiskt. Men du kan markera länken och kopiera den manuellt på din dator eller telefon.
+Något gick fel
+Det gick tyvärr inte att skapa en länk. Försök igen.
+                Kopiera länk
+            
+                Länken är kopierad
+            
+                Det gick inte att kopiera länken automatiskt. 
+            
+Mejla länk
+Länken är giltig i 2 år. Alla uppgifter som du skriver in sparas helt anonymt och kan inte läsas av Försäkringskassan.
+Stäng
+Glöm inte att göra ett avtal
+Ladda ner avtalsmall (för barn 0-17 år) (pdf)
+Öppnas i ett nytt fönster
+Ladda ner avtalsmall (för barn över 18 år) (pdf)
+Öppnas i ett nytt fönster
+Tips på hur ni går vidare
+Gör en skriftlig överenskommelse för underhållsbidraget. Ni kan använda avtalsmallen som finns i verktyget.
+Sätt en löpande överföring för underhållsbidraget och märk betalningen med underhållsbidrag.
+Tänk på att se över överenskommelsen när barnet blir äldre eller om era livssituationer förändras, till exempel om någon av er får fler barn, högre inkomst eller blir arbetslös.
+Umgängesavdrag
+Om barnet bor tillfälligt under minst 6 dygn i månaden eller under 5 dygn i sträck hos dig som ska betala underhållsbidraget kan du dra av 1/40 av underhållsbidraget per dag.
+Så här räknar du ut avdraget
+Om du ska betala 2 500 kronor i underhållsbidrag och barnet bor hos dig i en vecka (7 dagar) räknar du så här. 
+1/40 x 2 500 = 62,50 kronor
+62,5 kronor x 7= 437,50 kronor
+Avdraget avrundas nedåt. Nästa gång du betalar underhållsbidrag kan du dra av 437 kronor.
+  Du kan bara göra umgängesavdrag om ni föräldrar inte redan har kommit överens om underhållsbidrag med ett stående umgängesavdrag per månad, ett så kallat nettoavtal.
+Minimera
+Tänk på att... 
+Försäkringskassan sparar inte den information du fyller i här. Men du kan själv välja att spara din beräkning eller dela den med någon annan. För att informationen inte ska hamna hos fel person, kontrollera att du har skrivit in rätt e-postadress innan du delar länken med e-post. Tänk också på att stänga ner webbläsaren helt om du delar dator med någon annan. 
+Summering
+Barn
+Kostnad
+Förälder
+Överskott
+                -5 880
+                kronor
+            
+                -5 880
+                kronor
+            
+Underhållsbidrag och avtalsmall
+Glöm inte att göra ett avtal
+    Du kan ladda ner en avtalsmall för att göra en giltig överenskommelse med den andra föräldern. 
+    
+        Ladda ner avtalsmall (för barn 0-17 år) (pdf)
+    
+        Ladda ner avtalsmall (för barn över 18 år) (pdf)
+    
+Tips på hur ni går vidare
+Gör en skriftlig överenskommelse för underhållsbidraget. Ni kan använda avtalsmallen som finns i verktyget.
+Sätt en löpande överföring för underhållsbidraget och märk betalningen med underhållsbidrag.
+Tänk på att se över överenskommelsen när barnet blir äldre eller om era livssituationer förändras, till exempel om någon av er får fler barn, högre inkomst eller blir arbetslös.
+Umgängesavdrag
+Om barnet bor tillfälligt under minst 6 dygn i månaden eller under 5 dygn i sträck hos dig som ska betala underhållsbidraget kan du dra av 1/40 av underhållsbidraget per dag.
+Så här räknar du ut avdraget
+Om du ska betala 2 500 kronor i underhållsbidrag och barnet bor hos dig i en vecka (7 dagar) räknar du så här. 
+1/40 x 2 500 = 62,50 kronor
+62,5 kronor x 7= 437,50 kronor
+Avdraget avrundas nedåt. Nästa gång du betalar underhållsbidrag kan du dra av 437 kronor.
+  Du kan bara göra umgängesavdrag om ni föräldrar inte redan har kommit överens om underhållsbidrag med ett stående umgängesavdrag per månad, ett så kallat nettoavtal.
+Inkomster och utgifter för 
+Inkomster
+Inkomst
+Belopp
+Inkomst
+                        
+                        kronor
+                    
+Totala inkomster
+                        0
+                        kronor
+                    
+Utgifter
+Utgift
+Belopp
+Bostadskostnad
+                        0
+                        kronor
+                    
+Levnadskostnader
+                        5 880
+                        kronor
+                    
+Totala utgifter
+                        5 880
+                        kronor
+                    
+    Överskott för
+    dig
+    -5 880
+    kronor per månad
+Inkomster och utgifter för 
+Inkomster
+Inkomst
+Belopp
+Inkomst
+                        
+                        kronor
+                    
+Totala inkomster
+                        0
+                        kronor
+                    
+Utgifter
+Utgift
+Belopp
+Bostadskostnad
+                        0
+                        kronor
+                    
+Levnadskostnader
+                        5 880
+                        kronor
+                    
+Totala utgifter
+                        5 880
+                        kronor
+                    
+    Överskott för
+    den andra föräldern
+    -5 880
+    kronor per månad
+Hjälp oss att göra den här e-tjänsten bättre
+Svara på frågorna i enkäten och skriv vad du tyckte om tjänsten.
+Till enkäten
+ Länk till annan webbplats, öppnas i nytt fönster.

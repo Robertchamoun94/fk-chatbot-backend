@@ -1,0 +1,20 @@
+<html><head><meta name="color-scheme" content="light dark"></head><body><pre style="word-wrap: break-word; white-space: pre-wrap;">&lt;!ELEMENT shs.management (datetime, (confirmation | error))&gt;
+&lt;!ATTLIST shs.management
+	version CDATA #FIXED "1.2"
+	corr.id NMTOKEN #REQUIRED
+	content.id NMTOKEN #REQUIRED
+&gt;
+&lt;!ELEMENT datetime (#PCDATA)&gt;
+&lt;!ELEMENT confirmation (appinfo*)&gt;
+&lt;!ELEMENT error (appinfo*)&gt;
+&lt;!ATTLIST error
+	errorcode NMTOKEN #REQUIRED
+	errorinfo CDATA #IMPLIED
+&gt;
+&lt;!ELEMENT appinfo (#PCDATA)&gt;
+&lt;!ATTLIST appinfo
+	name NMTOKEN #REQUIRED
+&gt;
+
+
+</pre></body></html>

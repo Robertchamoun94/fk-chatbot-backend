@@ -1,0 +1,54 @@
+Användarstöd för E-IOA - Försäkringskassan
+Kakor på Försäkringskassan
+ 
+På forsakringskassan.se använder vi kakor (cookies) för att webbplatsen ska fungera så bra som möjligt för dig.
+Vi använder också kakor för webbanalys för att göra webbplatsen bättre.
+ 
+Så här använder Försäkringskassan kakor
+ 
+Godkänner du att vi också använder kakor för webbanalys?
+ 
+Ja, jag godkänner alla kakor
+ 
+Nej, jag godkänner bara nödvändiga kakor
+Gå till innehåll
+Tänk på att...
+Din webbläsare är av en äldre modell. Det innebär att du kanske inte kan använda alla funktioner på webbplatsen. Vi rekommenderar att du uppdaterar till en nyare version.
+Användarstöd för E-IOA
+Tjänsten E-IOA används för att lämna uppgifter om en assistent till Försäkringskassan. Du som är systemleverantör för elektroniska system kan ansluta dig till vårt webbgränssnitt för att erbjuda tjänsten till assistansanordnare. Här finns teknisk beskrivning och information om support. Informationen riktar sig främst till dig som teknisk kontaktperson hos en systemleverantör.
+Assistansanordnare ska lämna uppgifter om en assistent till oss innan assistansen börjar utföras och vid ändrade förhållanden.
+Anordnare som använder ett elektroniskt system kan skicka in uppgifter om en assistent digitalt via vårt webbgränssnitt, E-IOA. För att kunna använda tjänsten krävs en anpassning av systemleverantörens system för uppgifter om assistenten.
+Systemet behöver till exempel justeras så att mängden anrop är cirka ett per sekund för att inte det inte ska bli kapacitetsbegränsningar hos oss. Om det skulle uppkomma situationer där gränssnittet riskerar att nå sitt tak, kommer vi att stänga av den systemleverantör som skickar för stora volymer. Vi ansvarar för upprätthållandet av E-IOA (teknisk förvaltning och drift) på vår sida.
+Teknisk beskrivning av E-IOA
+Vi tillhandahåller ett webbtjänstgränssnitt (SOAP) för att ta emot signerade anmälningar av assistenter ”SkickaAnmalanFranArbetsgivare”.
+Webbtjänsten sker över TLS (Transport Layer Security) med certifikat utställt av Expisoft AB.
+Lösningen baserar sig på PKI-signering för att skydda informationens integritet. Signering av anmälningarna görs via bank-id, så systemen behöver kunna använda signeringsproceduren ”Method Sign”. I dokumentet Elektronisk information om assistentteknisk beskrivning hittar du mer ingående teknisk information.
+Elektronisk information om assistent, teknisk beskrivning
+ Pdf, 348 kB, öppnas i nytt fönster.
+Ett tips till dig som utvecklar systemet är att spara responsen, när en anmälan är inlämnad, i en logg eller liknande, för eventuell felsökning i produktion. Vi returnerar ett ”tx-id” som kan användas för att enkelt spåra anropet i våra system.
+Exempel:
+<soapenv:Envelope xmlns:soapenv="
+http://schemas.xmlsoap.org/soap/envelope/
+ Länk till annan webbplats.
+">
+<soapenv:Body>
+<SkickaAnmalanFranArbetsgivareResponse xmlns="urn:shs:emottagning: SkickaAnmalanFranArbetsgivare:1">
+<tx-id>ae4e8de6-aa1b-4dcf-abd6-b320896f37ba</tx-id>
+</SkickaAnmalanFranArbetsgivareResponse>
+</soapenv:Body>
+</soapenv:Envelope>
+Tekniska filer
+WSDL-schema och xsd-filer för E-IOA
+ Zip, 5 kB, öppnas i nytt fönster.
+Teknisk support
+Om du som systemleverantör har tekniska frågor om tjänsten kan du mejla dem till vår support. Ange ”Systemleverantör assistansersättning” i ämnesraden. Glöm inte att skicka med ditt namn, mejladress och mobilnummer så vi kan kontakta dig om det skulle behövas. Inga andra personuppgifter får anges.
+svarsulev@forsakringskassan.se
+Om du är anordnare och har frågor om tjänsten ska du vända dig till din systemleverantör.
+        Relaterade länkar
+    
+Aktuellt
+Nyheter för E-IOA
+Bra att veta
+Anslutning till E-IOA
+Senast uppdaterad 
+18 februari 2025

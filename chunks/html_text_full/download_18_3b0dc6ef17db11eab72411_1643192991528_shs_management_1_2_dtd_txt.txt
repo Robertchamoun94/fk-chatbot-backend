@@ -1,0 +1,17 @@
+<!ELEMENT shs.management (datetime, (confirmation | error))>
+<!ATTLIST shs.management
+	version CDATA #FIXED "1.2"
+	corr.id NMTOKEN #REQUIRED
+	content.id NMTOKEN #REQUIRED
+>
+<!ELEMENT datetime (#PCDATA)>
+<!ELEMENT confirmation (appinfo*)>
+<!ELEMENT error (appinfo*)>
+<!ATTLIST error
+	errorcode NMTOKEN #REQUIRED
+	errorinfo CDATA #IMPLIED
+>
+<!ELEMENT appinfo (#PCDATA)>
+<!ATTLIST appinfo
+	name NMTOKEN #REQUIRED
+>

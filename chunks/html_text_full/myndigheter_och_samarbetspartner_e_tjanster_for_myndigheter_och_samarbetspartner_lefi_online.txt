@@ -1,0 +1,34 @@
+LEFI Online - Försäkringskassan
+Kakor på Försäkringskassan
+ 
+På forsakringskassan.se använder vi kakor (cookies) för att webbplatsen ska fungera så bra som möjligt för dig.
+Vi använder också kakor för webbanalys för att göra webbplatsen bättre.
+ 
+Så här använder Försäkringskassan kakor
+ 
+Godkänner du att vi också använder kakor för webbanalys?
+ 
+Ja, jag godkänner alla kakor
+ 
+Nej, jag godkänner bara nödvändiga kakor
+Gå till innehåll
+Tänk på att...
+Din webbläsare är av en äldre modell. Det innebär att du kanske inte kan använda alla funktioner på webbplatsen. Vi rekommenderar att du uppdaterar till en nyare version.
+LEFI Online
+LEFI Online står för leverera förmånsinformation och innehåller socialförsäkringsinformation från Försäkringskassan och Pensionsmyndigheten. Målgruppen är externa partner som har ett verksamhetsbehov och rättslig grund att få utlämnat socialförsäkringsinformation från Försäkringskassan och Pensionsmyndigheten. Den kan användas via två olika sätt, LEFI Onlines e‑tjänst och LEFI Onlines system till systemgränssnitt.
+Logga in till LEFI Online
+Här loggar du in till e-tjänsten.
+Användarstöd
+Information och användarstöd kring tjänsten.
+Avtal och anslutning
+Information om hur du skriver avtal och ansluter till tjänsten.
+Ändring av tjänsteleverantör
+Information om hur du ändrar tjänsteleverantör.
+För dig som är utvecklare
+Information och användarstöd kring tjänsten ur ett tekniskt perspektiv.
+Driftinformation och öppettider
+Driftinformation och öppettider om tjänsten.
+Releaseinformation
+Information om kommande och genomförda driftsättningsreleaser av tjänsten.
+Support
+Kontaktvägar och öppettider om support.

@@ -1,0 +1,314 @@
+Statistikdatabas - Försäkringskassan
+Kakor på Försäkringskassan
+ 
+På forsakringskassan.se använder vi kakor (cookies) för att webbplatsen ska fungera så bra som möjligt för dig.
+Vi använder också kakor för webbanalys för att göra webbplatsen bättre.
+ 
+Så här använder Försäkringskassan kakor
+ 
+Godkänner du att vi också använder kakor för webbanalys?
+ 
+Ja, jag godkänner alla kakor
+ 
+Nej, jag godkänner bara nödvändiga kakor
+Tänk på att...
+Din webbläsare är av en äldre modell. Det innebär att du kanske inte kan använda alla funktioner på webbplatsen. Vi rekommenderar att du uppdaterar till en nyare version.
+Hem
+Statistik och analys
+Statistikdatabas
+Statistik inom området sjuk
+Antal startade sjukfall
+Antal startade sjukfall
+ 
+Vänligen vänta
+Vänligen vänta
+Månadsstatistik från och med januari 2000 över antal startade sjukfall och förändring jämfört med föregående år samma månad  efter kön, län, ålder och sjukfall längre än 14 dagar.
+Välj vilken statistik du vill se
+ 
+Vänligen vänta
+Vänligen vänta
+Mått
+Markera alla
+Antal startade fall
+Förändring i % från motsvarande månad föregående år
+År
+Markera alla
+2024
+2023
+2022
+2021
+2020
+2019
+2018
+2017
+2016
+2015
+2014
+2013
+2012
+2011
+2010
+2009
+2008
+2007
+2006
+2005
+2004
+2003
+2002
+2001
+2000
+Månad
+Markera alla
+Januari
+Februari
+Mars
+April
+Maj
+Juni
+Juli
+Augusti
+September
+Oktober
+November
+December
+Kön
+Markera alla
+Kvinnor och män
+Kvinnor
+Män
+Startade sjukfall
+Markera alla
+Alla startade sjukfall
+Sjukfall längre än 14 dagar
+Uppdelat på
+Län
+Ålder
+Visa valda filter
+Dölj valda filter
+Antal startade fall
+Ta bort
+Antal startade fall
+2000
+Ta bort
+2000
+2001
+Ta bort
+2001
+2002
+Ta bort
+2002
+2003
+Ta bort
+2003
+2004
+Ta bort
+2004
+2005
+Ta bort
+2005
+2006
+Ta bort
+2006
+2007
+Ta bort
+2007
+2008
+Ta bort
+2008
+2009
+Ta bort
+2009
+2010
+Ta bort
+2010
+2011
+Ta bort
+2011
+2012
+Ta bort
+2012
+2013
+Ta bort
+2013
+2014
+Ta bort
+2014
+2015
+Ta bort
+2015
+2016
+Ta bort
+2016
+2017
+Ta bort
+2017
+2018
+Ta bort
+2018
+2019
+Ta bort
+2019
+2020
+Ta bort
+2020
+2021
+Ta bort
+2021
+2022
+Ta bort
+2022
+2023
+Ta bort
+2023
+2024
+Ta bort
+2024
+Oktober
+Ta bort
+Oktober
+November
+Ta bort
+November
+December
+Ta bort
+December
+Januari
+Ta bort
+Januari
+Februari
+Ta bort
+Februari
+Mars
+Ta bort
+Mars
+April
+Ta bort
+April
+Maj
+Ta bort
+Maj
+Juni
+Ta bort
+Juni
+Juli
+Ta bort
+Juli
+Augusti
+Ta bort
+Augusti
+September
+Ta bort
+September
+Kvinnor och män
+Ta bort
+Kvinnor och män
+Kvinnor
+Ta bort
+Kvinnor
+Män
+Ta bort
+Män
+Alla startade sjukfall
+Ta bort
+Alla startade sjukfall
+Exportera till Excel
+När du exporterar till Excel skapas din fil. Om det är mycket information kan det ta upp till 3 minuter.
+Exportera all statistik till excel
+export
+Linjediagram
+Linjediagram
+Stapeldiagram
+Tabell
+Om statistiken
+Antal startade fall
+ 
+Vänligen vänta
+Vänligen vänta
+Tänk på att...
+Din filtrering gav fler än 300 linjer. Prova att ändra din filtrering eller exportera resultatet till Excel.
+Tänk på att...
+Du måste välja:
+Vi kan inte visa någon statistik utifrån de filter du har valt. Det kan bero på att det ännu inte finns någon statistik för den tidsperiod du har valt.
+Created with Highcharts 10.3.3
+Antal startade fall
+ 
+Vänligen vänta
+Vänligen vänta
+Tänk på att...
+Din filtrering gav fler än 300 staplar. Prova att ändra din filtrering eller exportera resultatet till Excel.
+Tänk på att...
+Du måste välja:
+Vi kan inte visa någon statistik utifrån de filter du har valt. Det kan bero på att det ännu inte finns någon statistik för den tidsperiod du har valt.
+Created with Highcharts 10.3.3
+ 
+Vänligen vänta
+Vänligen vänta
+Om statistiken
+Statistiken utgår från sjukfall som ersatts av Försäkringskassan med sjuk- eller rehabiliteringspenning samt varianter av dessa.
+Statistiken är inte fryst. Det innebär att data för samtliga månader uppdateras vid varje publicering. Detta kan medföra att små förändringar av siffrorna kan ske mellan varje publicering. Det är i huvudsak senaste månadens statistik som kan påverkas. Förändringarna beror på att retroaktiva ärenden har hunnit registreras och adderats till materialet. Då relativt stora förändringar sker de närmaste månaderna visas statistiken med sex månaders eftersläpning.
+Statistiken fördelas på uppgift om kön, ålder, län och sjukfall längre än 14 dagar.
+Mått
+Antal startade sjukfall
+Måttet antal startade sjukfall anger antal startade sjukfall med sjukpenning, rehabiliteringspenning samt varianter av dessa under en månad. Sjukfallens start är periodiserade efter tidpunkten utbetalningen avsåg, vilket kan skilja sig åt från tidpunkten då utbetalningen skedde. Startade sjukfall som enbart innehåller utbetalningar för sjukpenning i förebyggande syfte ingår inte i statistiken.
+Förändring i % från motsvarande månad föregående år
+Måttet förändring i % från motsvarande månad föregående år visar den procentuella förändringen av antalet startade sjukfall i aktuell månad jämfört med samma månad föregående år. Ex: Om startade sjukfall i månad 201701 är 57 000 och startade sjukfall i månad 201601 är 55 000 blir förändringsmåttet i månad 201701 = 3,63 %. ( ( (57 000 / 55 000) -1) * 100 )
+Variabler som statistiken fördelas på
+År och månad
+Det finns statistik från januari år 2000.
+Ålder
+Ålder visas i åldersklasser (16-19 år, 20–29 år, 30–39 år, 40–49 år, 50–59 år, 60–64 år, 65 år och över). Uppgift om ålder hämtas vid sjukfallets start.
+Län
+Uppgift om län baseras på mottagarens folkbokföringsadress vid sjukfallets start. I statistiken på riksnivå ingår även individer som saknar folkbokföringsadress.
+Heby kommun bytte län från Västmanlands län till Uppsala län år 2007. För perioden i Västmanlands län ingår Heby i länstotalen och särredovisas inte. I statistiken särredovisas Heby kommun i Uppsala län från och med november 2006.
+Startade sjukfall
+Statistiken visas för alla startade sjukfall eller endast för startade sjukfall som överstigit 14 dagar. Denna uppdelning är gjord då Försäkringskassan i de flesta fall betalar ut ersättning från dag 15 i sjukfallet. Anställda har en sjuklöneperiod under vilken arbetsgivaren betalar ut sjuklön. I alla startade sjukfall ingår också kortare sjukfall för individer som saknar arbetsgivarinträde(sjuklöneperiod), exempelvis arbetslösa. Under perioden juli 2003 - december 2004 var sjuklöneperioden 21 dagar. Det förklarar den nedgång i antal startade sjukfall som syns i statistiken under dessa månader.
+Att ta hänsyn till vid jämförelser
+Samtliga månader uppdateras vid varje publicering. Detta kan medföra att små förändringar av siffrorna kan ske mellan varje publicering. Det är i huvudsak senaste månadens statistik som kan påverkas. Förändringarna beror på att retroaktiva ärenden har hunnit registreras och adderats till materialet. Då relativt stora förändringar sker de närmaste månaderna visas statistiken med sex månaders eftersläpning.
+Statistiken sträcker sig över lång tid och påverkas i hög grad av regeländringar som skett. Det är särskilt viktigt att ta hänsyn till regelförändringar vid jämförelser över tid. Vilka regeländringar som skett under perioden kan du läsa om i Förändringar inom socialförsäkrings- och bidragsområdena.
+Förändringar inom socialförsäkrings- och bidragsområdena.
+Skydd av enskilda individer
+Försäkringskassan publicerar inte statistik som omfattar få individer om statistiken riskerar att leda till skada eller men för enskilda individer. När vi inte kan redovisa uppgifter markeras celler i tabeller med "..". Celler i tabeller som saknar innehåll, det vill säga att värdet är noll, markeras med "-".
+Källor och datakvalitet
+Statistiken om antal pågående sjukfall och andel pågående sjukfall baseras på Försäkringskassans datalager som i sin tur baseras Försäkringskassans handläggningssystem och administrativa register. Mer information om källor och datakvalitet finns i kvalitetsdeklarationen. 
+Kvalitetsdeklaration – Sjukfall
+Sjukfall (scb.se)
+Kontakt
+Om du har frågor om statistiken är du välkommen att kontakta Försäkringskassans statistikservice: 
+statistikenheten@forsakringskassan.se
+In English
+Social Insurance in Figures
+English keywords for sickness and rehabilitation cash
+For information in English please contact us at 
+statistikenheten@forsakringskassan.se
+Om ersättningarna
+Sjukpenning
+En person kan ha rätt till sjukpenning om hen har en arbetsförmåga som är tillfälligt nedsatt med minst en fjärdedel på grund av sjukdom.
+  Sjukpenning i förebyggande syfte
+En person som behöver avstå från att arbeta under minst en fjärdedel av sin arbetsdag på grund av en medicinsk behandling eller rehabilitering kan ha rätt till sjukpenning i förebyggande syfte. Behandlingen eller rehabiliteringen ska vara ordinerad av läkare och syfta till att förebygga eller förkorta sjukdom.
+Rehabiliteringspenning
+En person som har nedsatt arbetsförmåga kan få rehabiliteringspenning när hen deltar i arbetslivsinriktad rehabilitering. Rehabiliteringspenning kan även betalas ut vid medicinsk behandling eller rehabilitering som syftar till att förebygga sjukdom eller förkorta sjukdomstiden.
+Beroende på i vilken omfattning arbetsförmågan är nedsatt kan sjukpenning och rehabiliteringspenning betalas ut som hel, tre fjärdedels, halv eller en fjärdedels ersättning.
+Sjuklön
+Under de första 14 dagarna i en sjukperiod får en anställd sjuklön av sin arbetsgivare. Om hens arbetsförmåga fortfarande är nedsatt även efter det att sjuklöneperioden har löpt ut kan en hen få sjuk- eller rehabiliteringspenning från Försäkringskassan. För till exempel egenföretagare, arbetslösa och studenter gäller andra regler.
+Mer information om ersättningarna
+Sjuk
+Dela sidan
+ 
+Dela sidan på 
+ 
+Facebook
+ 
+ (öppnas i nytt fönster)
+ 
+Dela sidan på 
+ 
+X
+ 
+ (öppnas i nytt fönster)
+ 
+Dela sidan med 
+ 
+Mejl
+ 
+ (öppnas i nytt fönster)

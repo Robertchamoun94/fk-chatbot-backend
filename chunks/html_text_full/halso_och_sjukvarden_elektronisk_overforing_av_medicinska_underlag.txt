@@ -1,0 +1,108 @@
+Elektronisk överföring av medicinska underlag - Försäkringskassan
+Kakor på Försäkringskassan
+ 
+På forsakringskassan.se använder vi kakor (cookies) för att webbplatsen ska fungera så bra som möjligt för dig.
+Vi använder också kakor för webbanalys för att göra webbplatsen bättre.
+ 
+Så här använder Försäkringskassan kakor
+ 
+Godkänner du att vi också använder kakor för webbanalys?
+ 
+Ja, jag godkänner alla kakor
+ 
+Nej, jag godkänner bara nödvändiga kakor
+Gå till innehåll
+Tänk på att...
+Din webbläsare är av en äldre modell. Det innebär att du kanske inte kan använda alla funktioner på webbplatsen. Vi rekommenderar att du uppdaterar till en nyare version.
+Elektronisk överföring av medicinska underlag
+Här kan du som arbetar inom hälso‑ och sjukvården läsa om elektronisk överföring av medicinska underlag och annan elektronisk kommunikation med Försäkringskassan.
+Vårdgivartjänsten är en tjänst som knyter an till Försäkringskassans system och som möjliggör elektronisk kommunikation mellan hälso‑ och sjukvården och Försäkringskassan.
+Vårdgivartjänsten möjliggör fyra olika funktioner: 
+Försäkringskassan kan ta emot elektroniska medicinska underlag från Hälso- och sjukvården.
+Försäkringskassan kan ta emot elektroniska medicinska underlag via Mina intyg på vårdens webbplats Vårdguiden, 1177.se.
+Medicinsk respektive administrativ dialog, det vill säga elektronisk kommunikation i ärendet.
+Ta emot makulering av medicinska underlag från hälso- och sjukvården.
+Varför elektronisk överföring?
+Elektronisk överföring av medicinska underlag möjliggör snabbare, enklare och säkrare hantering. Den förenklar för läkaren genom ett ifyllnadsstöd och förkortar handläggningstiden hos Försäkringskassan. Kvaliteten förbättras genom att all nödvändig information måste fyllas i för att det ska gå att signera och skicka in underlaget till Försäkringskassan. Vi slipper dessutom onödig pappershantering.
+Vilka medicinska underlag kan skickas in elektroniskt till Försäkringskassan?
+Den nuvarande tekniska plattformen hanterar följande elektroniska medicinska underlag:
+läkarintyg för sjukpenning (7804)
+läkarutlåtande för aktivitetsersättning vid nedsatt arbetsförmåga (7801)
+läkarutlåtande för aktivitetsersättning vid förlängd skolgång (7802)
+läkarutlåtande för sjukersättning (7800)
+läkarutlåtande för närståendepenning (3226)
+läkarutlåtande för merkostnadsersättning vuxen (7809)
+intyg om graviditet (7210)
+intyg för tillfällig föräldrapenning, vård av sjukt barn (7472).
+Patienten ska samtycka
+De medicinska underlagen är patientens handling. Om vårdgivaren är ansluten till Ineras intygstjänst kan du som läkare efter önskemål och samtycke från patienten skicka in underlaget elektroniskt till Försäkringskassan. Om patienten inte lämnar sitt samtycke får du inte skicka in det medicinska underlaget elektroniskt.
+Patienten kan själv se, skriva ut och skicka in det medicinska underlaget elektroniskt till Försäkringskassan via Mina intyg på hälso‑ och sjukvårdens webbplats Vårdguiden 1177.
+Vårdguiden 1177 (1177.se)
+ Länk till annan webbplats, öppnas i nytt fönster.
+När ska läkarintyget inte skickas in till Försäkringskassan?
+Om patienten har en arbetsgivare och blir frisk inom fjorton dagar (sjuklöneperioden) ska läkarintyget inte skickas in till Försäkringskassan. Försäkringskassan ska inte heller ha intyg som utfärdas för att patienten behöver ett läkarintyg för att ge till sin arbetsgivare.–
+Kommunikation och säkerhet
+De tekniska lösningarna för elektronisk överföring av medicinska underlag följer den nationella IT-strategin för vård och omsorg. Underlaget skickas krypterat och uppfyller alla krav på säkerhet och sekretess för elektronisk överföring av information.
+Viktigt angående sjukanmälan
+Sjukanmälan registreras inte automatiskt när ett elektroniskt läkarintyg kommer in till Försäkringskassan. Det innebär bland annat att en patient som inte har någon arbetsgivare måste precis som vanligt göra sjukanmälan till Försäkringskassan redan första sjukdagen.
+Vad händer med medicinska underlaget hos Försäkringskassan?
+När ett medicinsk underlag kommer in till Försäkringskassan kommer det direkt in i Försäkringskassans handläggningssystem. Patienten kan själv kontrollera om underlaget har kommit in genom att logga in på Mina sidor på Försäkringskassans webbplats.
+        Så fungerar den elektroniska funktionen för Medicinsk och administrativ dialog
+    
+    
+Vad är elektronisk ärendekommunikation?
+Utöver möjligheten att skicka de nya medicinska underlagen elektroniskt finns möjlighet till elektronisk kommunikation mellan hälso- och sjukvården och Försäkringskassan. Det innebär att kommunikationen med Försäkringskassan kan skötas smidigare och snabbare än till exempel via telefon och det minskar dessutom pappershantering.
+Det finns två former för digital kommunikation, en medicinsk dialog och en administrativ dialog.
+Den medicinska dialogen startar Försäkringskassan om vi behöver kompletterande information kring ett elektroniskt medicinskt underlag eller ett ärende.
+Den administrativa dialogen kan användas för frågor av administrativ karaktär som att skapa kontakt, boka ett avstämningsmöte eller ställa övriga frågor. Den administrativa dialogen kan initieras av både Försäkringskassan och hälso- och sjukvården.
+När kan jag använda elektronisk ärendekommunikation?
+Den elektroniska ärendekommunikationen med Försäkringskassan är kopplad till ett insänt elektroniskt medicinskt underlag. Du kan använda den elektroniska ärendekommunikationen oavsett om det är din patient eller om det är du som elektroniskt har skickat in det medicinska underlaget.
+Vad bör jag tänka på?
+Det är viktigt att du som vårdgivare och din vårdinrättning bevakar systemet med elektronisk ärendekommunikation. Obesvarade frågor kan medföra att patienten får vänta längre på beslutet eller i värsta fall få avslag på sin ansökan om till exempel sjukpenning på grund av bristande underlag. Kontakta ansvarig inom din organisation om du är osäker på rutinerna hos er.
+Hur ska ärendekommunikationen användas vid kompletteringar?
+Om Försäkringskassan ställt en fråga via den medicinska dialogen innebär det en komplettering av det medicinska underlaget, det vill säga att ny information tillförs det gamla underlaget. Då ska du skriva in kompletteringen eller tilläggsinformationen och skicka underlag till Försäkringskassan.
+Du som läkare ska inhämta patientens eller hens ställföreträdares samtycke innan du gör kompletteringen.
+        Om du behöver teknisk support vid elektronisk överföring
+    
+    
+Support (användare från vården)
+Försäkringskassans har ingen direkt anslutning till någon region, utan all kommunikation går via den nationella tjänsteplattformen som förvaltas av Inera. Tjänsteplattformen och Ineras Intygstjänst kommunicerar med vårdens journalsystem. Support- och felsökningskedjan nedan är anpassad utifrån detta.
+Teknisk support
+Kontakta din lokala IT-support om det uppstår fel eller problem med elektroniska läkarintyg eller fråga/svarsfunktionen.
+Den lokala IT-supporten hjälper dig och felsöker lokalt med stöd av checklistor som tagits fram av Inera. Checklistorna finns publicerade på Ineras webbplats.
+Om problemet eller felet inte kan lösas lokalt kontaktar den lokala IT-supporten Ineras servicedesk. Kontaktuppgifter finns på Ineras webbplats.
+Inera kontaktar Försäkringskassan, driftsleverantör eller applikationsleverantör vid behov.
+www.inera.se (inera.se)
+ Länk till annan webbplats, öppnas i nytt fönster.
+Frågor om sjukförsäkring och läkarintyg
+Ring till oss på 
+0771-17 90 00
+ så hjälper vi dig.
+Generella frågor om tjänsten och anslutning
+Har du generella frågor om elektronisk överföring ska du i första hand vända dig till din region. Du kan också få viss information av Ineras nationella kundservice. På Ineras webbplats hittar du aktuella kontaktuppgifter. Där kan du också läsa om Intygstjänster som hanterar hälso- och sjukvårdens elektroniska kommunikation med Försäkringskassan.
+Inera har ett fristående Webcert som webblösning för privatläkare och regioner som saknar funktioner för elektroniska läkarintyg och elektronisk ärendekommunikation i sina journalsystem. Med denna webblösning kan medicinska underlag skickas in elektroniskt och det går även att använda sig elektronisk ärendekommunikation. Har du frågor om Webcert inklusive anslutning till tjänsten ska du vända dig till Inera.
+Inera (inera.se)
+ Länk till annan webbplats, öppnas i nytt fönster.
+Frågor och svar
+Är det någon skillnad på intyg och utlåtanden?
+Ja. Ett intyg är ett dokument som redogör för sakuppgifter. Begreppet utlåtande används när det handlar om att bedömningar i något avseende.
+Kan jag få blanketterna utan dokumentskydd?
+Ja, du som är vårdgivare eller leverantör av journalsystem kan få tillgång till våra blanketter utan dokumentskydd.
+Kontakta oss i så fall via vårt kontaktformulär.
+I fältet ”I vilken roll är du partner till Försäkringskassan” väljer du ”Sjukvården”. Skriv ”Blanketter utan dokumentskydd” som rubrik i meddelanderutan.
+            
+                Skicka allmänna frågor via mejl
+            
+            
+ Till e-tjänsten
+        Relaterade länkar
+    
+Relaterad information
+Medicinska underlag och blanketter
+Externa länkar
+1177 Vårdguiden (1177.se)
+ Länk till annan webbplats, öppnas i nytt fönster.
+Inera (inera.se)
+ Länk till annan webbplats, öppnas i nytt fönster.
+Senast uppdaterad 
+13 februari 2025

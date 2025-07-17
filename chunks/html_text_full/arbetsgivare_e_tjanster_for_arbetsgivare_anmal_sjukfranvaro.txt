@@ -1,0 +1,122 @@
+Sjukanmäl medarbetare - Försäkringskassan
+                Du verkar inte ha någon internetuppkoppling just nu.
+            
+Kakor på Försäkringskassan
+ 
+På forsakringskassan.se använder vi kakor (cookies) för att webbplatsen ska fungera så bra som möjligt för dig.
+Vi använder också kakor för webbanalys för att göra webbplatsen bättre.
+ 
+Så här använder Försäkringskassan kakor
+ 
+Godkänner du att vi också använder kakor för webbanalys?
+ 
+Ja, jag godkänner alla kakor
+ 
+Nej, jag godkänner bara nödvändiga kakor
+Gå till innehåll
+Tänk på att...
+Din webbläsare är av en äldre modell. Det innebär att du kanske inte kan använda alla funktioner på webbplatsen. Vi rekommenderar att du uppdaterar till en nyare version.
+Sjukanmäl medarbetare
+ Här kan du som är arbetsgivare sjukanmäla en medarbetare som har varit sjuk i 14 dagar. Du kan sjukanmäla 25 personer åt gången. 
+Klicka på Spara när du har fyllt i sjukanmälan för medarbetaren
+Klicka på Skicka in när du är klar med alla sjukanmälningar
+ Om du redan har sjukanmält medarbetaren och hen börjar jobba deltid eller ändrar graden på sin sjukfrånvaro så behöver du som arbetsgivare inte göra någon ny sjukanmälan. Det behöver medarbetaren själv meddela Försäkringskassan. 
+Om du vill ladda upp en xml-fil med sjukanmälningar behöver du först logga in.
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Vänligen vänta
+ 
+ Sjukanmälan 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Vänligen vänta
+        Organisationsnummer
+         
+(999999-9999)
+ 
+ 
+ 
+ 
+ 
+ Vilket personnummer har medarbetaren?  
+ 
+Skriv personnumret med 12 siffror,
+ 
+(ååååmmdd-nnnn)
+ 
+ 
+ 
+ 
+ 
+ Vilken var den första sjukdagen?  
+Den dag (eller del av dag) då medarbetaren skulle ha jobbat men inte kunde på grund av sjukdom
+(åååå-mm-dd)
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Blev medarbetaren frisk och sedan sjuk igen inom fem kalenderdagar?  
+ 
+ 
+ 
+ 
+Nej
+ 
+Ja
+ Spara 
+ Avbryt 
+ 
+Lägg till sjukanmälan
+Skicka in
+ 
+ 
+ 
+ 
+ 
+Kryssruta ej kryssad
+ 
+ 
+Jag har granskat uppgifterna
+Uppgifterna finns i de sparade sjukanmälningarna ovan
+ Skicka in 
+Avbryt
+Anmäl sjukfrånvaro
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Vänligen vänta

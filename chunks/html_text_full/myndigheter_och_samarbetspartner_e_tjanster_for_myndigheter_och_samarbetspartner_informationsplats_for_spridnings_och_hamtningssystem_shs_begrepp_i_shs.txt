@@ -1,0 +1,23 @@
+Begrepp i SHS - Försäkringskassan
+Kakor på Försäkringskassan
+ 
+På forsakringskassan.se använder vi kakor (cookies) för att webbplatsen ska fungera så bra som möjligt för dig.
+Vi använder också kakor för webbanalys för att göra webbplatsen bättre.
+ 
+Så här använder Försäkringskassan kakor
+ 
+Godkänner du att vi också använder kakor för webbanalys?
+ 
+Ja, jag godkänner alla kakor
+ 
+Nej, jag godkänner bara nödvändiga kakor
+Gå till innehåll
+Tänk på att...
+Din webbläsare är av en äldre modell. Det innebär att du kanske inte kan använda alla funktioner på webbplatsen. Vi rekommenderar att du uppdaterar till en nyare version.
+Begrepp i SHS
+Här hittar du de olika begreppen som används inom SHS, informationsplats för spridnings- och hämtningssystem.
+Aktör – ägare av SHS-nod kallas för aktör. Meddelanden skickas alltid mellan aktörer och noder.
+Produkttyp – alla meddelanden är märkta med produkttyp som definierar innehållet i meddelandet.
+Katalogtjänst – genom en gemensam katalogtjänst publicerar de olika SHS-aktörerna information.
+Senast uppdaterad 
+22 november 2024

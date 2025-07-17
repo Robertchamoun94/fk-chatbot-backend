@@ -1,0 +1,78 @@
+Tillgänglighetsredogörelse – appen - Försäkringskassan
+Kakor på Försäkringskassan
+ 
+På forsakringskassan.se använder vi kakor (cookies) för att webbplatsen ska fungera så bra som möjligt för dig.
+Vi använder också kakor för webbanalys för att göra webbplatsen bättre.
+ 
+Så här använder Försäkringskassan kakor
+ 
+Godkänner du att vi också använder kakor för webbanalys?
+ 
+Ja, jag godkänner alla kakor
+ 
+Nej, jag godkänner bara nödvändiga kakor
+Gå till innehåll
+Tänk på att...
+Din webbläsare är av en äldre modell. Det innebär att du kanske inte kan använda alla funktioner på webbplatsen. Vi rekommenderar att du uppdaterar till en nyare version.
+Tillgänglighets­redogörelse – appen
+Försäkringskassan står bakom appen "Försäkringskassan". Vi vill att så många som möjligt ska kunna använda våra digitala tjänster. Sidan beskriver hur appen "Försäkringskassan" uppfyller lagen om tillgänglighet till digital offentlig service, eventuella kända tillgänglighetsproblem och hur du kan rapportera brister till oss så att vi kan åtgärda dem.
+Hur tillgänglig är appen?
+Vi är medvetna om att delar av appen inte är helt tillgängliga och vi jobbar för att uppnå så hög tillgänglighet som möjligt.
+Om du inte kan använda appen
+Om du inte kan använda appen, så kan du logga in på Mina sidor i stället.
+            
+                Mina sidor
+            
+            
+ Till e-tjänsten
+Rapportera brister i appens tillgänglighet
+Vi strävar hela tiden efter att förbättra den digitala tillgängligheten i appen. Om du upptäcker problem som inte beskrivs på den här sidan, eller om du anser att vi inte uppfyller lagens krav, meddela oss så att vi får veta att problemet finns.
+Glöm inte att berätta
+Glöm inte berätta
+vad du har för mobil eller surfplatta
+vilket operativsystem du använder på din mobil eller surfplatta (om du kan).
+            
+                Anmäl brister i vår digitala tillgänglighet
+            
+            
+ Till e-tjänsten
+Tillsyn
+Myndigheten för digital förvaltning (DIGG) har ansvaret för tillsyn för lagen om tillgänglighet till digital offentlig service. Om du inte är nöjd med hur vi hanterar dina synpunkter kan du kontakta, och påtala det för DIGG.
+Anmäl bristande tillgänglighet (digg.se)
+ Länk till annan webbplats, öppnas i nytt fönster.
+Teknisk information om digitala tillgängligheten i våra appar
+Appen "Försäkringskassan" är inte förenlig med lagen om tillgänglighet till digital offentlig service. Otillgängliga delar beskrivs nedan.
+Appen finns för operativsystemen iOS och Android.
+iOS används i Apples produkter, till exempel Iphone och Ipad. Android används i de flesta andra fall, till exempel för Samsung, Huawei, OnePlus, Xiami, Nokia och Google.
+Bristande förenlighet med lagkraven
+Det som beskrivs nedan är på ett eller annat sätt inte helt tillgängligt.
+Problem vid användning av externt tangentbord
+iOS
+Fokus flyttas inte alltid som det ska. Det ska fungera bättre för enheter som har iOS17, eftersom Apple har förbättrat tillgängligheten på sina egna komponenter.
+Valideringen fungerar inte när användaren lämnar textfälten. Oftast fungerar valideringen när användaren går tillbaka till textfältet igen. Det här problemet uppstår när Voice over är inaktivt.
+Fokus-indikatorn kan ibland hamna på fel fält när användare tabbar mellan timmar och minuter.
+Fokus-indikatorn för det externa tangentbordet hamnar i vissa fall direkt på fortsätt-knappen, vilket innebär att användaren behöver navigera sig bakåt för att nå de element som behöver fyllas i.
+Android
+När Talkback är inaktivt så kan fokus-indikatorn försvinna i vyn för utbetalningar. Om det händer så har fokus-indikatorn hamnat på den tidigare vyn och det är möjligt att tabba sig fram igen om man tabbar igenom samtliga utbetalningar tills man är tillbaka till den vy som är i bild.
+När Talkback är inaktivt har fokus-indikatorn sämre konstrast än vad den ska ha. Det är ett problem som är kopplat till Androids komponenter och det gäller främst när användaren ska välja datum.
+Vissa knappar går inte att aktivera/trycka på med space-tangenten, i enstaka fall fungerar det med enter-tangenten istället. Detta är ett problem som tyvärr är kopplat till Androids komponenter.
+iOS och Android
+I vissa vyer finns en funktion för att dra och släppa objekt för att uppdatera en lista längre ned i vyn. Det gäller till exempel Utbetalningar och Ärenden. Den funktionen fungerar inte när ett externt tangentbord används.
+Problem vid användning av skärmläsare
+iOS
+När Voice over är aktivt och ESC-knappen används för att backa tillbaka till föregående vy så kan det uppstå ett problem om det finns ett varningsmeddelande på den föregående vyn ni lämnar. T.ex. på Mina uppgifter vyn, om ni ändrar något och lämnar vyn med ESC-knappen så kommer varningsmeddelandet inte att dyka upp.
+Android
+När en lista har använts för att strukturera upp exempelvis ärenden på Ärende-vyn ligger både rubriker och själva ärendena i listan. Det kan upplevas som förvirrande då Talk back läser upp antalet element i listan och då tar med rubrikerna.
+Om en användare ska välja timmar och minuter så kan det vara förvirrande då standardkomponenten inte läser upp vad man väljer, utan den säger enbart siffran. Användaren behöver navigera sig vidare för att förstå att det är timmar eller minuter som valts.
+Generella problem
+Android
+I det scenario där användaren använder sig av dark mode så är det svårt att se dagens datum för kalenderväljaren, t.ex. när dag ska läggas till i VAB‑flödet. Markören som visar vilken dag vi står på är i samma färg som den färg numret för datumet, vilket gör att det saknas en kontrast mellan de två. Det är ett känt fel från Google som dyker upp när vi använder oss av deras komponent för att välja datum.
+Hur vi testat appen
+Vi har gjort en självskattning (intern testning) av appen "Försäkringskassan". Vi har också låtit utomstående experter granska appen.
+Den senaste bedömningen gjordes den 13 december 2023.
+Redogörelsen uppdaterades den 18 januari 2024.
+        Relaterade länkar
+    
+Tillgänglighets­redogörelse för forsakringskassan.se
+Senast uppdaterad 
+14 mars 2025

@@ -1,0 +1,131 @@
+Inköp och upphandling - Försäkringskassan
+Kakor på Försäkringskassan
+ 
+På forsakringskassan.se använder vi kakor (cookies) för att webbplatsen ska fungera så bra som möjligt för dig.
+Vi använder också kakor för webbanalys för att göra webbplatsen bättre.
+ 
+Så här använder Försäkringskassan kakor
+ 
+Godkänner du att vi också använder kakor för webbanalys?
+ 
+Ja, jag godkänner alla kakor
+ 
+Nej, jag godkänner bara nödvändiga kakor
+Gå till innehåll
+Tänk på att...
+Din webbläsare är av en äldre modell. Det innebär att du kanske inte kan använda alla funktioner på webbplatsen. Vi rekommenderar att du uppdaterar till en nyare version.
+Inköp och upphandling
+Alla inköp hos Försäkringskassan måste följa lagen om offentlig upphandling. Här kan du som är leverantör läsa om vad som gäller och vilka upphandlingar som är aktuella just nu.
+Försäkringskassans upphandlingar
+Försäkringskassan köper varor och tjänster till ett värde av 2,3 miljarder kronor per år. Inköpen sker vanligtvis via ramavtal som vi själva har upphandlat eller som ingår i den statliga inköpssamordningen. De största inköpsområdena är it relaterade varor och tjänster, förbrukningsvaror och konsulttjänster.
+Försäkringskassans upphandlingar genomförs i enlighet med lagen (2016:1145) om offentlig upphandling.
+Bra att veta för dig som leverantör
+Försäkringskassan finansieras av skattepengar och ansvarar för mycket känslig information.
+Våra riktlinjer för mutor och bestickning är strikta. Vi tar inte mot gåvor eller andra erbjudanden av våra leverantörer, som till exempel middagar.
+När vi köper in varor och tjänster, ställer vi hållbarhetskrav. Det kan gälla allt från strömförbrukning till transporter och skrotning av varor.
+Leverantörer som vill lägga anbud i våra upphandlingar måste kunna ta emot elektroniska beställningar och skicka elektroniska fakturor. Minimikraven är att kunna ta mot en order via mejl och skicka e-faktura.
+Vid lämnande av anbud i våra upphandlingar måste samtliga frågor besvaras och alla efterfrågade underlag bifogas då det endast är inkommit underlag som kan utvärderas. 
+Offentlighet och sekretess i samband med upphandling
+Här redogörs översiktligt för de regler om offentlighet och sekretess, som gäller i samband med upphandlingar. Likartade regler gäller vid köp från ramavtal (avrop).
+        Offentlighetsprincipen och allmänna handlingars offentlighet
+    
+    
+Offentlighetsprincipen innebär att allmänheten och massmedierna ska ha insyn i statlig och kommunal verksamhet. Offentlighetsprincipen kommer bland annat till uttryck genom allmänna handlingars offentlighet, yttrandefrihet för tjänstemän, offentlighet vid domstolsförhandlingar och offentlighet vid beslutande församlingars sammanträden.
+Allmänna handlingars offentlighet innebär att i princip alla svenska och utländska medborgare har rätt att ta del av allmänna handlingar som finns hos myndigheterna.
+Vad som är en allmän handling framgår av 2 kap. 1 § tryckfrihetsförordningen (1949:105) (TF). En handling är allmän om den förvaras hos en myndighet och enligt särskilda regler har kommit in dit eller blivit upprättad där. Till exempel är ett utkast till beslut, skrivelse eller liknande i ett ärende ett internt arbetsmaterial och normalt inte en allmän handling.
+Begreppet handling är en framställning i skrift eller bild, men också en upptagning som man kan läsa, avlyssna eller uppfatta på annat sätt om man har hjälp av något tekniskt hjälpmedel som till exempel en bandinspelning, mejl eller ett sms.
+        Upphandlingsdokumentet
+    
+    
+Ett upphandlingsdokument blir en allmän handling först när upphandlingen har annonserats och upphandlingsdokumentet har annonserats så att leverantörer och övriga kan få tillgång till det. Före denna tidpunkt är upphandlingsdokumentet ett internt arbetsmaterial och således inte en allmän handling, även om det skulle vara färdigställt.
+Vid selektivt-, förhandlat- och urvalsförfarande blir den del av upphandlingsunderlaget som ska skickas till utvalda, kvalificerade leverantörer allmän handling först när expediering till dem är gjord.
+        Sekretess
+    
+    
+I offentlighets- och sekretesslagen (2009:400) (OSL) finns begränsningar i rätten att ta del av allmänna handlingar. Sekretess innebär ett förbud mot att röja en uppgift, vare sig det är muntligen, genom utlämnande av en allmän handling eller på något annat sätt (3 kap. 1 § OSL).
+Sekretess innebär således både handlingssekretess och tystnadsplikt. En allmän handling är antingen (helt eller delvis) offentlig eller sekretessbelagd (hemlig). Handlingen kan bara vara sekretessbelagd och hållas hemlig om det finns stöd för det i någon bestämmelse i OSL eller i annan lag dit OSL hänvisar.
+        Absolut sekretess under pågående upphandling
+    
+    
+Vid offentlig upphandling gäller som huvudregel absolut sekretess. Av 19 kap. 3 § andra stycket OSL följer att uppgift som rör anbud med mera inte i något fall får lämnas till någon annan än den som har lämnat anbudet eller erbjudandet förrän alla anbud offentliggjorts eller beslut om leverantör och anbud (tilldelningsbeslut) fattats eller ärendet dessförinnan har slutförts (till exempel om det blir avbrutet).
+Absolut sekretess innebär att myndigheten inte ens behöver pröva om ett utlämnande skulle innebära skada eller inte. Det är förbjudet att röja uppgifter som omfattas av absolut sekretess.
+Ett anbud anses enligt 2 kap 6 § TF inte ha kommit in till myndigheten före den tidpunkt som har bestämts för öppnandet. Först då blir anbudet en allmän handling. Anbud omfattas av absolut sekretess enligt vad som framgår ovan. Vid elektronisk auktion gäller ett antal undantag från den absoluta sekretessen, vilka inte närmare redogörs för i denna information.
+I praktiken innebär den absoluta sekretessen i 19 kap. 3 § OSL, med undantag för vad som gäller vid elektronisk auktion, att uppgifter om vilka eller hur många som har begärt ut upphandlingsdokument samt kommit in med anbudsansökningar eller anbud, utvärderingsprotokoll, förhandlingsunderlag och protokoll med mera är hemliga fram till dess att alla anbud offentliggjorts eller beslut om leverantör och anbud fattats eller ärendet dessförinnan har slutförts.
+Information om anbudsansökningar och anbud får före denna tidpunkt inte lämnas ut till någon annan än den som lämnat ansökan eller anbudet.
+        När upphör den absoluta sekretessen?
+    
+    
+När tilldelningsbeslut har fattats, alla anbud offentliggjorts eller om ärendet dessförinnan har slutförts, upphör den absoluta sekretessen att gälla och vanliga offentlighets- och sekretessregler gäller. Det innebär att samtliga handlingar som rör upphandlingen som huvudregel blir offentliga, det vill säga att var och en har rätt att ta del av dem.
+Sekretess kan dock gälla till skydd för det allmännas ekonomiska intresse enligt 19 kap. 3 § första stycket OSL eller till skydd för enskild enligt 31 kap. 16 § första stycket OSL. Sekretess kan även gälla enligt andra bestämmelser i OSL eller enligt bestämmelser dit OSL hänvisar.
+Ett exempel är 21 kap. 3 § OSL där det finns ett generellt skydd för enskildas adressuppgifter och andra jämförbara uppgifter vid förföljelse. Skyddet gäller om det av någon särskild anledning kan antas att den enskilde eller någon som står denne nära kan komma att utsättas för hot eller våld eller lida annat allvarligt men om uppgiften röjs.
+        Begäran om utlämnande av allmänna handlingar
+    
+    
+Om någon begär ut handlingar eller uppgifter i ett upphandlingsärende, är myndigheten skyldig att skyndsamt pröva om sekretess gäller för någon uppgift i handlingarna. I syfte att underlätta sekretessbedömningen uppmanar Försäkringskassan i sina upphandlingar anbudssökande och anbudsgivare att redan i ansökan eller i anbudet ange vilka uppgifter de anser bör sekretessbeläggas och skälen för detta. Det är dock Försäkringskassan som beslutar om en uppgift ska lämnas ut eller sekretessbeläggas.
+Försäkringskassans beslut om att inte lämna ut en uppgift kan överklagas till Kammarrätten i Stockholm.
+Försäkringskassan kan komma att ta ut en avgift vid utlämnande allmän handling om antalet sidor eller filer överstiger 9.
+        E-handel och E-faktura
+    
+    
+Myndigheter ska effektivisera sina beställnings-, leverans- och fakturahanteringsprocesser genom att använda IT-system. Formella krav och gemensamma standarder för e-handel i staten underlättar och ger en effektiv e-handel och en enklare leverantörsanslutning. Detta innebär att Försäkringskassan ska kunna ta emot och skicka elektroniska fakturor samt att hantera sina utgående beställningar elektroniskt. En beställning ska normalt vara godkänd av budgetansvarig eller motsvarande innan den skickas till leverantör.
+Försäkringskassan använder Statens servicecenters e-handelstjänst Visma Proceedo med systemleverantören Visma Commerce.
+Vad innebär e‑handel för dig som leverantör?
+Försäkringskassan ställer krav på e-handel vid upphandlingar. Minimikravet är att du som leverantören ska kunna ta emot en order via mejl samt skicka e-faktura.
+Försäkringskassan följer de standarder som Myndigheten för digital förvaltning (DIGG) och SFTI samt Upphandlingsmyndigheten tagit fram för e-handel. För mer information om standarder, se DIGG:s hemsida.
+Myndigheten för digital förvaltning (digg.se)
+ Länk till annan webbplats, öppnas i nytt fönster.
+Det finns olika sätt att skicka e-faktura
+Läs mer om detta i:
+Att skicka e-faktura till Försäkringskassan
+ Pdf, 102 kB, öppnas i nytt fönster.
+Leverantör kan kostnadsfritt verifiera de format som rekommenderas för e-handel.
+Test och kvalitetssäkring (sfti.se)
+ Länk till annan webbplats, öppnas i nytt fönster.
+Specifikation över referenstaggar för E-faktura per formattyp
+ Pdf, 188 kB, öppnas i nytt fönster.
+Allmänt om fakturor
+Försäkringskassans policy är att betala fakturor inom avtalad tid, vilket förutsätter att alla fakturor är korrekta och kompletta när de kommer till oss. Fakturor som skickas till Försäkringskassan ska ha betalningsvillkor på 30 dagar.
+Faktureringsavgift, administrationsavgift eller motsvarande avgifter får inte debiteras, gäller även vid kreditfakturor. Om Försäkringskassan inte betalar fakturan inom 30 dagar får skälig påminnelseavgift debiteras.
+På fakturan ska följande uppgifter finnas med, för att den ska godkännas av Försäkringskassan:
+vad fakturan avser
+fakturanummer
+avtalsnummer (vid beställning från avtal)
+ordernummer (FKXXXXXXX), eller abonnemangsnummer
+fakturadatum
+förfallodatum
+leveransdatum
+beställarens namn
+er referens
+tillämpad skattesats samt momsbelopp (vid befrielse från moms – hänvisa till bestämmelse)
+bankgiro/plusgiro/bankkonto
+ert organisationsnummer (momsregisteringsnummer)
+F- eller A-skatt
+Frågor och svar
+Hur gör jag för att lägga ett anbud i en av era upphandlingar?
+Försäkringskassan tar endast emot anbud digitalt via myndighetens upphandlingssystem Kommer Annons. För att lämna anbud behöver man vara registrerad hos Kommers Annons. Registrering är kostnadsfri.
+Kommers Annons.  (kommerannons.se)
+ Länk till annan webbplats, öppnas i nytt fönster.
+Om du vill prenumerera på upphandlingar som annonseras inom ett viss område (från myndigheter, kommuner med flera) går det att göra mot en kostnad. Registrering kan göras hos Kommers Annons.
+Hur gör jag för att få veta vem som vann ett anbud i en av era upphandlingar?
+Alla leverantörer som har lämnat anbud får automatiskt meddelande om vem som vann (tilldelningsbeslut) via Försäkringskassans upphandlingssystem Kommers Annons.
+Om du inte har lämnat något anbud, men ändå vill veta vem som vann upphandlingen, kan du skicka ett mejl och uppge diarienummer samt upphandlingens namn.
+huvudkontoret@forsakringskassan.se
+Hur gör jag för att begära ut handlingar kring en upphandling?
+För att begära ut handlingar kring en upphandling kan du skicka ett mejl och uppge diarienummer, upphandlingens namn och vilka dokument du önskar ta del av.
+huvudkontoret@forsakringskassan.se
+Jag jobbar på Statens servicecenter, kan jag använda er logotyp?
+Ja, om du jobbar på Statens servicecenter går det bra att använda logotypen i Visma Proceedo.
+        Relaterade länkar
+    
+Upphandlingar
+Försäkringskassans aktuella upphandlingar (kommersannons.se)
+ Länk till annan webbplats, öppnas i nytt fönster.
+Villkor och riktlinjer
+Försäkringskassans etiska principer
+ Pdf, 201 kB, öppnas i nytt fönster.
+Försäkringskassans riktlinje för gåvor och mutor
+ Pdf, 111 kB, öppnas i nytt fönster.
+ Information till leverantörer om elektroniska fakturor
+ Pdf, 102 kB, öppnas i nytt fönster.
+Senast uppdaterad 
+31 januari 2024

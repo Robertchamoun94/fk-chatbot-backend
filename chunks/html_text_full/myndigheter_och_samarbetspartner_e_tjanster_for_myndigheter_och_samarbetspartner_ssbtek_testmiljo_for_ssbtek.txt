@@ -1,0 +1,83 @@
+Testmiljö för SSBTEK - Försäkringskassan
+Kakor på Försäkringskassan
+ 
+På forsakringskassan.se använder vi kakor (cookies) för att webbplatsen ska fungera så bra som möjligt för dig.
+Vi använder också kakor för webbanalys för att göra webbplatsen bättre.
+ 
+Så här använder Försäkringskassan kakor
+ 
+Godkänner du att vi också använder kakor för webbanalys?
+ 
+Ja, jag godkänner alla kakor
+ 
+Nej, jag godkänner bara nödvändiga kakor
+Gå till innehåll
+Tänk på att...
+Din webbläsare är av en äldre modell. Det innebär att du kanske inte kan använda alla funktioner på webbplatsen. Vi rekommenderar att du uppdaterar till en nyare version.
+Testmiljö för SSBTEK
+Testmiljön för SSBTEK vänder sig till systemutvecklare för integrationer och automationstestning mot tjänsten. För slutanvändare hänvisas till användarstöd för tjänsten.
+Varför en testmiljö till SSBTEK?
+Syftet med testmiljön är att skapa ett bättre stöd för teknisk anslutning till tjänsten SSBTEK samt stöd vid förändringar av SSBTEK alternativt integrationer mot tjänsten SSBTEK.
+Vad innehåller SSBTEK testmiljö och hur fungerar den?
+Testmiljön innehåller vanligen de versioner som produktionsmiljön av tjänsten SSBTEK stödjer, det till säga senaste version samt föregående version. Kommande version kommer finnas i testmiljön i tid innan den nya versionen driftsätts i produktionsmiljön.
+För att få tillgång till tabell och beskrivning över testpersoner som finns i testmiljön och beställa underlaget, mejla till 
+AnslutningExterntInformationsutbyte@forsakringskassan.se
+Då syftet med testmiljön är att underlätta och ge ett stöd vid anslutning till tjänsten SSBTEK så fungerar testmiljön på samma sätt som den skarpa versionen förutom att testmiljön bara levererar på ett antal specifika personnummer samt alltid levererar samma data. Anropet och svaret görs enligt gällande schema för tjänsten SSBTEK. Testmiljön får användas för att utföra funktionella tester. Den är inte skapad för att utföra ickefunktionella tester såsom prestanda- och lasttester.
+Hur ansluter man sig till SSBTEK testmiljö?
+Som användare behöver du ansluta dig till SSBTEK testmiljö, vilket görs separat från anslutningen till produktionsmiljön för tjänsten SSBTEK. Begäran om anslutning till testmiljön görs genom att kontakta Försäkringskassan på 
+AnslutningExterntInformationsutbyte@forsakringskassan.se
+ och meddela att man begär om att ansluta sig till testmiljön för tjänsten SSBTEK. Genom att begära anslutning till testmiljön så accepterar man även användarvillkoren för testmiljön som återfinns i dokumentet Användarvillkor SSBTEK testmiljö nedan. Anslutningen handläggs i normalfallet inom 10 arbetsdagar. Därefter sker återkoppling till part.
+SSBTEK testmiljö användarvillkor
+ Pdf, 122 kB, öppnas i nytt fönster.
+Allmän information om Testmiljön SSBTEK
+Inlämningsadress till SSBTEK testmiljö är för samtliga IP-nummer/DNS-namn: 194.71.80.30 (DNS shsext.forsakringskassan.se)
+Inlämningsadress för intressenter:
+https://shsext.forsakringskassan.se:8200/ws
+ Länk till annan webbplats, öppnas i nytt fönster.
+https://shsext.forsakringskassan.se:8200/shs2
+ Länk till annan webbplats, öppnas i nytt fönster.
+https://shsext.forsakringskassan.se:443/ws
+ Länk till annan webbplats, öppnas i nytt fönster.
+Certifikathantering för produktion och test
+Försäkringskassan IT har en säkerhetspolicy som gör att vi för tillfället enbart använder servercertifikat för produktion i samtliga externt uppkopplade miljöer.
+Det måste inte vara samma certifikat som ska användas i produktion och test men det måste vara samma CA.
+Certifikathantering Försäkringskassan
+ Pdf, 538 kB, öppnas i nytt fönster.
+Godkända utgivare är Expisoft (tidigare Steria) och certifikat från Siths.
+Expisoft (eid.expisoft.se)
+ Länk till annan webbplats, öppnas i nytt fönster.
+Inera (inera.se)
+ Länk till annan webbplats, öppnas i nytt fönster.
+Gå in på eid.expisoft för instruktioner hur du beställer ett Steria/expisoft server certifikat.
+Observera att Försäkringskassan IT inte supportar några certifikatfrågor. Tekniska frågor gällande certifikaten hänvisas till respektive CA utfärdare (Steria/expisoft i detta fall).
+Öppettider
+Testmiljön är öppen dygnet runt med garanterad öppettid vardagar 8–16 med undantag av planerade servicetider.
+        Planerade servicetider
+    
+    
+Test Service fönster hos FK
+FK servicefönster nedan bestämda tider inträffar mellan 7–17. 
+Innebär att det inte går att testa mot FK under dessa dagar:
+2022
+Tisdag 18 januari
+Torsdag 17 februari
+Torsdag 24 mars
+Tisdag 12 april
+Tisdag 24 maj
+Torsdag 9 juni
+Torsdag 18 augusti
+Tisdag 27 september
+Torsdag 20 oktober
+Tisdag 6 december
+Support
+Allmänna frågor och felanmälan görs genom ringa till Kundcenter för Partner, på telefon 
+0771‑17 90 00
+Driftinformation
+Driftinformation om SSBTEK testmiljö publiceras under driftinformation.
+        Relaterade länkar
+    
+Bra att veta
+Användarstöd för SSBTEK
+Driftinformation för SSBTEK
+Senast uppdaterad 
+2 maj 2025

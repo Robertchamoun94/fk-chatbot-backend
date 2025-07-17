@@ -1,0 +1,114 @@
+Sickness compensation in Sweden - Försäkringskassan
+Cookies used by the Swedish Social Insurance Agency
+ 
+On forsakringskassan.se, we use cookies to make the website work as well as possible for you.
+We also use cookies for web analytics that help us to improve the website.
+ 
+How the Swedish Social Insurance Agency uses cookies
+ 
+Do you accept our use of cookies for web analytics?
+ 
+Yes, I accept all cookies
+ 
+No, I only accept necessary cookies
+Go to content
+Keep in mind...
+You are using an older version of your web browser. This means that you might not be able to use all of the functions of the website. We recommend that you update to a newer version.
+Sickness compensation in Sweden – information to external parties
+In Sweden the invalidity pension is called sickness compensation. The purpose is to provide an income to individuals who probably never will be able to work full time due to illness, injury or disability.
+According to the requirements of the Social Insurance Code (Socialförsäkringsbalken) 33 chapter 5-6§§ a person with at least 25 percent reduced ability to work can receive 25, 50, 75 or 100 percent sickness compensation. The ability to work is assessed in relation to the person’s livelihood. Subsidized work as well as protected work are accommodated within the definition of work ability. Also adapted (custom) work in the open labor market can be included in the definition of work ability depending on whether the adaptation can be considered reasonable from the employer’s point of view.
+The assessment of whether the disease or disability affects the person’s livelihood must be hypothetical. It doesn’t have to be related to concrete work within certain professional fields or certain types of work. However, the person has to be able to perform work in such a way that an employer wants to pay for it.
+The ability to work has to be permanently reduced and all rehabilitation opportunities, medical as well as vocational, have to be exhausted.
+Sickness compensation can be paid from the age of 30 up through the month before a person turns 66, which is the current age for old age pension. In some cases, a person can be eligible from the age of 19.
+For persons who have less than five years until they cannot, because of old age, be eligible for sickness compensation any more, the definition of work ability will differ slightly:
+The ability to work is still assessed in relation to whether the disease or disability affects the person’s livelihood, but for this group only in relation to work on the labour market in which the person has experiences through the last 15 years, or in relation to another concrete available work that the person could perform.
+EU/EEA-countries
+People who live in another EU/EEA-country or in a country with which Sweden has an agreement on social security can be insured for Swedish sickness compensation. An application for invalidity pension in another EU/EEA-country will automatically generate an application for sickness compensation in Sweden when the person has lived or worked in Sweden.
+Assessment procedure
+To determine if a person meets the criteria for sickness compensation Försäkringskassan needs an extensive medical certificate. The medical certificate has to answer the questions below (under The medical certificate).
+The doctor’s statement is the basis for the assessment. Social circumstances or economic situation, education, former work experiences or age are not taken into consideration. Försäkringskassan may however inquire about the economic and social circumstances to get a holistic perspective on the applicant’s situation.
+The applicant will get a case handler from Försäkringskassan who conducts the inquiry. The case handler may call or meet the applicant and ask further questions. The case handler may also make inquires to the physician in charge or to other legitimate healthcare staff as well as to other actors. When the case handler has sufficient basis for decision he or she assesses the right to the compensation according to Swedish legislation and the Swedish requirements for getting sickness compensation.
+A special decision maker officer makes a quality control and makes the final decision for sickness compensation.
+The medical certificate
+In order to be able to consider if a person is eligible for sickness compensation Försäkringskassan (the Swedish Social Security Agency has to get a detailed medical certificate. It is important that the following items are considered in the medical certificate. Please answer as extensively as possible:
+a) Which are the diagnoses that affect the ability to work? Please denote the diagnoses with the most important impact on work ability first. Please avoid abbreviations. Please enter the ICD-10 code as well.
+b) When was/were the diagnosis/diagnoses made?
+c) Is there any reason to make a new assessment of the diagnosis/diagnoses?
+Are there any other medical examinations or supporting documents that are relevant for the assessment? If that is the case please enter them and attach the documents if possible.
+Please describe in the fields noted below, the patient’s disability that are relevant to the work ability
+a) Intellectual function
+b) Communication and social interaction
+c) Attention and concentration
+d) Other psychological functions
+e) Vision, hearing and speech
+f) Balance/coordination, motor skills and pain
+g) Other bodily functions
+Please give specific examples of what the patient has difficulties doing because of her/his disabilities as described above, so called activity restrictions (disabilities).
+Has any medical treatment or remedies been performed?
+a) If that is the case, during which periods did they last and what results did they give?
+Are medical treatment or remedies in progress?
+Are medical treatment or remedies planned?
+a) If that is the case, please set the timetable if possible.
+To what extent do you judge the work ability impaired, compared to all acquisitions in the labor market including subsidized work or protected work?
+How do you judge that the patient’s medical conditions/abilities for work, completely or partially, can develop over time?
+a) What can the patient do despite her/his medical condition and limitations?
+Does the patient have less than five years until regular old age pension?
+        Sidans information på svenska
+    
+    
+Sjukersättning i Sverige – information till externa aktörer
+I Sverige kallas invalidpensionen för sjukersättning. Syftet är att ge en inkomst till personer som sannolikt aldrig kommer att kunna arbeta på grund av sjukdom, skada eller funktionsnedsättning.
+Enligt villkoren i 33 kap. 5-6 §§ socialförsäkringsbalken kan en person med minst 25 procents nedsatt arbetsförmåga få sjukersättning motsvarande 25, 50, 75 eller 100 procent.
+Arbetsförmågan bedöms i förhållande till personens möjligheter att försörja sig. Såväl subventionerat arbete som skyddat arbete ryms inom definitionen av arbetsförmåga. Även anpassat arbete på den öppna arbetsmarknaden kan ingå i definitionen av arbetsförmåga beroende på om anpassningen kan anses som rimlig utifrån arbetsgivarens synvinkel.
+Bedömningen av om sjukdomen eller funktionsnedsättningen påverkar personens möjligheter att försörja sig måste vara hypotetisk. Det behöver inte vara relaterat till konkret arbete inom vissa yrkesområden eller vissa typer av arbeten. Däremot måste personen kunna utföra arbete på ett sådant sätt att en arbetsgivare är villig att betala för det.
+Arbetsförmågan ska vara stadigvarande nedsatt och alla möjligheter till rehabilitering, såväl medicinsk som arbetsinriktad, ska vara uttömda. Sjukersättning kan ges från 30 års ålder fram till månaden innan personen fyller 65 år, vilket är den nuvarande åldern för ålderspension. I vissa fall kan en person få sjukersättning från 19 års ålder.
+För personer som har mindre än fem år kvar till dess att de inte längre kan få sjukersättning på grund av ålder, skiljer sig definitionen av arbetsförmåga något:
+Arbetsförmågan bedöms fortfarande i förhållande till om sjukdomen eller funktionsnedsättningen påverkar personens förmåga att försörja sig själv, men för den här gruppen av personer handlar det endast om arbeten som han eller hon har erfarenhet av de senaste 15 åren, eller något annat konkret arbete som finns tillgängligt och som personen skulle kunna utföra.
+EU/EES - länder
+Personer som bor i ett annat EU/EES-land eller ett land som Sverige har ett socialförsäkringsavtal med kan vara försäkrade för sjukersättning i Sverige. En ansökan om invalidpension i ett annat EU/EES-land genererar automatiskt en ansökan om sjukersättning i Sverige när personen har bott eller arbetat här.
+Bedömningen av rätten till sjukersättning
+För att avgöra om en person uppfyller villkoren för sjukersättning behöver Försäkringskassan ett utförligt läkarutlåtande. Läkarutlåtandet ska besvara frågorna här nedan.
+Läkarens utlåtande ligger till grund för bedömningen. Sociala förhållanden eller ekonomisk situation, utbildning, arbetslivserfarenhet eller ålder (förutom i ovan beskrivna fall) beaktas inte. Försäkringskassan frågar ändå om sociala förhållanden och ekonomisk situation för att få ett helhetsperspektiv på sökandes livssituation.
+En handläggare på Försäkringskassan genomför utredningen. Handläggaren träffar eller ringer den försäkrade för att ställa frågor. Handläggaren kan också ställa frågor till behandlande läkare, annan vårdpersonal såväl som till andra aktörer. När handläggaren har samlat tillräckligt med information gör han eller hon en bedömning utifrån svensk lagstiftning och utifrån villkoren för sjukersättning om den försäkrade uppfyller villkoren för att få ersättning.
+En särskilt utsedd beslutsfattare kvalitetssäkrar utredningen och fattar ett slutligt beslut om sjukersättning.
+Läkarutlåtandet
+För att kunna avgöra om en person uppfyller villkoren för att kunna få sjukersättning måste Försäkringskassan be om ett detaljerat läkarutlåtande. Det är viktigt att följande punkter beaktas i läkarutlåtandet. Vänligen svara så utförligt som möjligt:
+Vilka diagnoser påverkar arbetsförmågan? Vänligen ange först de diagnoser som har störst inverkan på arbetsförmågan. Undvik förkortningar. Ange även ICD-10-koden.
+När ställdes diagnosen?
+Finns det skäl att utreda diagnosen på nytt?
+Finns andra medicinska undersökningar eller dokument som är relevanta för bedömningen? Vänligen ange dem och bifoga handlingarna om möjligt.
+Beskriv I fälten nedan hur funktionsnedsättningen påverkar arbetsförmågan.
+Intellektuella funktioner
+Kommunikation and social interaktion
+Uppmärksamhet and koncentration
+Andra psykologiska funktioner
+Syn, hörsel och tal
+Balans, coordination, motoriska färdigheter
+Andra kroppsfunktioner
+Vänligen ge konkreta exempel på de svårigheter patienten har på grund av de ovan beskrivna funktionsnedsättningarna, så kallade aktivitetsbegränsningar.
+Har någon medicinsk behandling utförts? Om det är fallet, under vilken period gjordes det och vad blev utfallet?
+Pågår någon medicinsk behandling?
+Är någon medicinsk behandling inplanerad? I så fall när och under hur lång tid?
+Till vilken grad bedömer du att arbetsförmågan är nedsatt i förhållande till alla arbeten på arbetsmarknaden inklusive subventionerat arbete eller skyddat arbete?
+Hur bedömer du att patientens medicinska tillstånd/arbetsförmåga, hel eller partiell, kan utvecklas över tid?
+Vad kan patienten göra trots sitt medicinska tillstånd och sina begränsningar?
+Har patienten mindre än fem år kvar till ålderspension?
+        Related links
+    
+Learn more about Försäkringskassan
+Social insurance system
+Healthcare
+Information about healthcare in Sweden (1177.se)
+ External link, opens in new window.
+          Do you want information in another language than English?
+    
+        Information in other languages
+        
+    
+Last updated: 
+2025-01-27
+            Your Europe (europa.eu)
+        
+            Help us improve (foq.youreurope.europa.eu)
+        
+            Contact Assistance Service (asf.youreurope.europa.eu)

@@ -1,0 +1,141 @@
+Avtal och anslutning - Försäkringskassan
+Kakor på Försäkringskassan
+ 
+På forsakringskassan.se använder vi kakor (cookies) för att webbplatsen ska fungera så bra som möjligt för dig.
+Vi använder också kakor för webbanalys för att göra webbplatsen bättre.
+ 
+Så här använder Försäkringskassan kakor
+ 
+Godkänner du att vi också använder kakor för webbanalys?
+ 
+Ja, jag godkänner alla kakor
+ 
+Nej, jag godkänner bara nödvändiga kakor
+Gå till innehåll
+Tänk på att...
+Din webbläsare är av en äldre modell. Det innebär att du kanske inte kan använda alla funktioner på webbplatsen. Vi rekommenderar att du uppdaterar till en nyare version.
+Avtal och anslutning
+Information om hur du skriver avtal och ansluter till e-tjänsten LEFI Online.
+        För försäkringsbolag och försäkringsförmedlare
+    
+    
+Juridiska förutsättningar
+Utlämnande av uppgifter kan begäras för samordning av ersättningar, skadereglering, riskbedömning eller för pensionsprognos.
+För att kunna få uppgifter utlämnade via LEFI Online måste det finnas ett avtal mellan Försäkringsbolaget och Försäkringskassan.
+Utlämnande av uppgifter enligt avtalet sker med stöd av:
+110 kap. 39 § Socialförsäkringsbalken (2010:110) (Utlämnande för samordning).
+Utlämnande! på medium för automatiserad behandling sker med stöd av:
+114 24 § och 9 § Socialförsäkringsbalken (2010:110) (Utlämnande av samordning)
+Försäkringskassans ansvar
+Att svaret i tjänsten innehåller de uppgifter som finns i Försäkringskassans register och databaser vid tidpunkten för frågetillfället.
+Att sammanställning av levererade uppgifter och hur de visas hos mottagaren via webbgränssnittet (i de fall som LEFI Online, system– till systemgränssnittet används ansvarar mottagaren för hur uppgifterna presenteras).
+Att snarast efter att avanmälan av persons behörighet till LEFI Onlines webbgränssnitt har inkommit, avregistrera användaren och se till att han eller hon inte längre har tillgång till tjänsten.
+Försäkringsbolagets och försäkringsförmedlarens ansvar
+Om mottagaren inte längre ska vara ansluten till LEFI Online måste avtalet mellan försäkringsbolaget/försäkringsförmedlaren och Försäkringskassan sägas upp.
+Hur ansluter försäkringsbolaget/försäkringsförmedlaren sig till tjänsten?
+Fyll i blanketten Anmälan till LEFI Online för anslutande parter 
+Anmälan till LEFI Online för anslutande parter
+ Pdf, 727 kB, öppnas i nytt fönster.
+ 
+och skicka in den till Försäkringskassan på 
+AnslutningExterntInformationsutbyte@forsakringskassan.se
+Försäkringskassan meddelar när anmälan godkänts och ni får ett avtal skickat till er via mejl.
+Följ instruktionerna i mejlet.
+När båda parter har undertecknat avtalet kan Försäkringsbolaget anslutas till LEFI Online.
+Anmälan/avanmälan för behörigheter till e-tjänsten
+Om er organisation vill ge användare behörighet eller avanmäla behörighet till e-tjänsten ska ni:
+beställa blanketten Beslut om behörighet från Försäkringskassan. Blanketten beställs via mejl till 
+AnslutningExterntInformationsutbyte@forsakringskassan.se
+ I ämnesraden ska ni ange: "LEFI Online: Begäran om ny behörighet till e-tjänsten"
+I mejlet ska ni ange följande:
+att ärendet gäller beställning av blankett Beslut om behörighet för LEFI Online e-tjänst
+organisationsnummer
+organisationsnamn
+Ifylld och undertecknad blankett (ska undertecknas av ansvarig chef för de användare som ska tilldelas behörigheter) ska sedan skickas in till Försäkringskassan på blanketten angiven adress.
+Uppsägning
+För avtalsparter (Försäkringsbolag/försäkringsförmedlare) sker uppsägning enligt tecknat avtal.
+Uppsägning görs via mejl till Försäkringskassan och ska innehålla följande uppgifter:
+att ärendet gäller uppsägning
+organisationsnummer
+organisationsnamn
+från vilket datum uppsägningen ska gälla.
+Uppsägning ska skickas till 
+AnslutningExterntInformationsutbyte@forsakringskassan.se
+Om ditt uppdrag som ombud upphör
+När ett uppdrag som ombud upphör ska detta skriftligen meddelas till Försäkringskassan. Anmälan om upphörande som ombud skickas till Försäkringskassan på följande adress:
+Försäkringskassan 
+Huvudregistraturen 
+126 26 Hägersten
+        För statliga och kommunala myndigheter
+    
+    
+Juridiska förutsättningar
+Uppgiftsutlämnande via tjänsten förutsätter att det finns ett ärende hos myndigheten på den person vars uppgifter efterfrågas.
+Utlämnande av uppgifter från tjänsten sker med stöd av:
+2 och 3 § förordningen (1980:995) om skyldighet för Försäkringskassan att lämna uppgifter till andra myndigheter
+3 förordningen (2008:975) om uppgiftsskyldighet i vissa fall enligt socialtjänstlagen (2001:453)
+2 förordningen (2009:555) om uppgiftsskyldighet enligt lagen (2008:307) om kommunalt vårdnadsbidrag
+Utlämnande på medium för automatiserad behandling från tjänsten sker med stöd av:
+110 24 § och 8 § Socialförsäkringsbalken (2010:110)
+Försäkringskassans ansvar
+Att tjänsten innehåller de uppgifter som finns i Försäkringskassans register och databaser vid tidpunkten för frågetillfället.
+Att sammanställning av levererade uppgifter och hur de visas hos mottagaren, ansvarar mottagaren själva för. Detta gäller i de fall som LEFI Online, system- till systemgränssnittet används.
+Att snarast efter att avanmälan 
+a
+v 
+persons behörighet till LEFI Onlines webbgränssnitt har inkommit, avregistrera användaren och se till att han eller hon inte längre har tillgång till tjänst
+Statliga och kommuners ansvar
+En statlig eller kommunal mottagare kan anlita ett personuppgiftsbiträde, så kallat ombud, som behandlar personuppgifter för mottagarens räkning. I ett sådant fall ansvarar mottagaren för att det upprättas ett personuppgiftsbiträdesavtal mellan de 
+tv
+å 
+parterna.
+Hur ansluter statliga och kommunala myndigheter sig till tjänsten?
+Fyll i blanketten Anmälan till LEFI Online för anslutande parter
+Anmälan till LEFI Online för anslutande parter
+ Pdf, 727 kB, öppnas i nytt fönster.
+och skicka in den till Försäkringskassan på
+AnslutningExterntInformationsutbyte@forsakringskassan.se
+Försäkringskassan meddelar när anmälan godkänts och ni får en överenskommelse skickad till er via mej
+Följ instruktionerna i
+När båda parter har undertecknat överenskommelsen kan myndigheten eller kommunen anslutas till LEFI Online.
+Anmälan/avanmälan för behörigheter till e-tjänsten
+Om er organisation vill ge användare behörighet eller avanmäla behörighet till e-tjänsten ska ni:
+beställa blanketten Beslut om behörighet från Försäkringskassan. Blanketten beställs via mejl till 
+AnslutningExterntInformationsutbyte@forsakringskassan.se
+ I ämnesraden ska ni ange: "LEFI Online: Begäran om ny behörighet till e­ tjänsten"
+I mejlet ska ni ange följande:
+att ärendet gäller beställning av blankett Beslut om behörighet för LEFI Online e-tjänst
+organisationsnummer
+organisationsnamn.
+Ifylld och undertecknad blankett (ska undertecknas av ansvarig chef för de användare som ska tilldelas behörigheter) ska sedan skickas in till Försäkringskassan på blanketten angiven adress.
+Uppsägning
+För avtalsparter myndigheten eller kommunen sker uppsägning enligt tecknad överenskommelse.
+Uppsägning görs via mejl till Försäkringskassan och ska innehålla följande uppgifter:
+att ärendet gäller uppsägning
+organisationsnummer
+organisationsnamn
+från vilket datum uppsägningen ska gäll
+Uppsägning ska skickas till 
+AnslutningExterntInformationsutbyte@forsakringskassan.se
+Om ditt uppdrag som ombud upphör
+När ett uppdrag som ombud upphör ska detta skriftligen meddelas till Försäkringskassan. Anmälan om upphörande som ombud skickas till Försäkringskassan på följande adress:
+Försäkringskassan
+Huvudregistraturen
+126 26 Hägersten
+        Avgiftsmodell
+    
+    
+Med anledning av ny version av LEFI Online och framtida avveckling av prenumerationstjänsten LEFI Prenumeration under första kvartalen 2026, har Försäkringskassan justerat avgifterna för LEFI Online. Försäkringskassan kommer behöva göra en ny prövning av avgifter med anledningar av kommande förändringar under år 2026.
+Avgifter för tjänsten har justerats från och med 1 april 2025. För information om gällande avgift se 
+Avgiftsmodell för LEFI Online
+:
+Avgiftsmodell LEFI Online
+ Pdf, 71 kB, öppnas i nytt fönster.
+        Servicenivåer (SLA)
+    
+    
+Information om vad som ska levereras och med vilken kvalitet- och servicenivå finner du i:
+SLA
+ Pdf, 204 kB, öppnas i nytt fönster.
+Senast uppdaterad 
+11 april 2025

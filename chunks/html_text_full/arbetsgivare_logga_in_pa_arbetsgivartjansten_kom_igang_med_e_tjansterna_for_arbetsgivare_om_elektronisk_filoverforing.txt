@@ -1,0 +1,64 @@
+Om elektronisk filöverföring - Försäkringskassan
+Kakor på Försäkringskassan
+ 
+På forsakringskassan.se använder vi kakor (cookies) för att webbplatsen ska fungera så bra som möjligt för dig.
+Vi använder också kakor för webbanalys för att göra webbplatsen bättre.
+ 
+Så här använder Försäkringskassan kakor
+ 
+Godkänner du att vi också använder kakor för webbanalys?
+ 
+Ja, jag godkänner alla kakor
+ 
+Nej, jag godkänner bara nödvändiga kakor
+Gå till innehåll
+Tänk på att...
+Din webbläsare är av en äldre modell. Det innebär att du kanske inte kan använda alla funktioner på webbplatsen. Vi rekommenderar att du uppdaterar till en nyare version.
+Om elektronisk filöverföring
+En del av den information du som arbetsgivare ska lämna till Försäkringskassan kan skickas elektroniskt via fil. Du kan använda filöverföring för att anmäla sjukfrånvaro.
+Överföringarna är snabba och enkla, och det finns flera olika alternativ beroende på behov. Gemensamt för alla alternativ är att de förenklar informationsutbytet med Försäkringskassan.
+Välj på vilket sätt du vill skicka filen
+Du kan skicka filer elektroniskt på flera sätt:
+I e-tjänster för arbetsgivare. 
+Via SHS-nod, egen eller via infratjänstleverantör. 
+Via SHS-satellit.
+Via cURL.
+        Logga in som arbetsgivare
+    
+    
+Ett enkelt sätt att komma igång med elektronisk informationsöverföring till eller från Försäkringskassan är att logga in och skicka filer.
+Den enda tekniklösning som behövs är en dator med internetanslutning och en webbläsare som stöds av Försäkringskassan. Vi ser sedan till att informationen skickas och levereras med säker överföring.
+        Via SHS-nod eller satellit
+    
+    
+SHS-nod innebär en komplett SHS-installation medan en SHS-satellit innebär att du kan utnyttja många av fördelarna med säker SHS-överföring utan att behöva investera i en egen nod. I stället fungerar SHS-satelliten som ett slags filöverföringsprogram.
+        Via cURL
+    
+    
+cURL är en programvara för automatiserad filöverföring. I nuläget kan denna teknik endast användas för att skicka filer till Försäkringskassan, men längre fram ska du också kunna hämta filer.
+Skicka och hämta filer med automatik till och från Försäkringskassan
+    Automatisk filöverföring till och från Försäkringskassan
+    
+Pdf, öppnas i nytt fönster.
+Behöver du hjälp?
+Ring kundcenter på 
+0771-17 90 00
+ för support vid inloggning.
+Fördjupad information
+Information om elektroniskt informationsutbyte mellan arbetsgivare och Försäkringskassan.
+    Elektroniskt informationsutbyte mellan arbetsgivare och Försäkringskassan
+    
+Pdf, öppnas i nytt fönster.
+Certifikathantering Försäkringskassan
+För att använda Försäkringskassans externt frontade tjänster via internet krävs ett giltigt certifikat.
+    Certifikathantering Försäkringskassan
+    
+Pdf, öppnas i nytt fönster.
+        Relaterade länkar
+    
+Postbeskrivning – sjukanmälan
+ Pdf, 258 kB, öppnas i nytt fönster.
+DTD beskrivningar
+ Zip, 3 kB, öppnas i nytt fönster.
+Senast uppdaterad 
+19 februari 2025

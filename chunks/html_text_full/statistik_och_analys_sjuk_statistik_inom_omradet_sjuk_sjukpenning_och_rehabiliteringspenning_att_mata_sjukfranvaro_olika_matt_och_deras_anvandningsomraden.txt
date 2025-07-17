@@ -1,0 +1,103 @@
+Att mäta sjukfrånvaro – olika mått och deras användningsområden - Försäkringskassan
+Kakor på Försäkringskassan
+ 
+På forsakringskassan.se använder vi kakor (cookies) för att webbplatsen ska fungera så bra som möjligt för dig.
+Vi använder också kakor för webbanalys för att göra webbplatsen bättre.
+ 
+Så här använder Försäkringskassan kakor
+ 
+Godkänner du att vi också använder kakor för webbanalys?
+ 
+Ja, jag godkänner alla kakor
+ 
+Nej, jag godkänner bara nödvändiga kakor
+Gå till innehåll
+Tänk på att...
+Din webbläsare är av en äldre modell. Det innebär att du kanske inte kan använda alla funktioner på webbplatsen. Vi rekommenderar att du uppdaterar till en nyare version.
+Att mäta sjukfrånvaro – olika mått och deras användningsområden
+Sjukfrånvaro är komplext på flera sätt och påverkas av en mängd faktorer, exempelvis sjukförsäkringens regelverk och utvecklingen i arbetslivet. Dessutom kan den på samhällsnivå mätas på olika sätt och måtten belyser olika aspekter av sjukfrånvaron.
+På den här sidan beskriver vi de mått på sjukfrånvaro som Försäkringskassan redovisar och när det lämpar sig att använda respektive mått.
+Från sjuklön till sjukpenning
+Under de första 14 dagarna i en sjukperiod får en anställd sjuklön av sin arbetsgivare. Om hens arbetsförmåga fortfarande är nedsatt även efter det att sjuklöneperioden har löpt ut kan hen få sjukpenning eller rehabiliteringspenning från Försäkringskassan. Personer som inte omfattas av sjuklön, exempelvis egenföretagare och arbetslösa, kan få sjukpenning de första 14 dagarna i en sjukperiod .
+I statistiken kallas den sammanhängande perioden med sjukpenning och rehabiliteringspenning för ett "sjukfall". Sjukfrånvaro under sjuklöneperiodens första 14 dagar kan följas genom Statistikmyndigheten SCB:s statistik om 
+Anställningar (scb.se)
+ Länk till annan webbplats, öppnas i nytt fönster.
+.
+Olika mått på sjukfrånvaro
+Startade sjukfall
+visar hur många nya sjukskrivningar som startas under en viss period
+ger en bild av sjukfrånvarons inflöde, så kallad incidens
+kan användas för att se hur många sjukfall som startas en given period med en viss diagnos, till exempel stressdiagnos (F43).
+Pågående sjukfall
+visar hur många som har en pågående sjukskrivning i slutet av en månad
+ger en bild av sjukfrånvarons omfattning, så kallad prevalens
+ger en ögonblicksbild av hur många som är sjukskrivna vid en given tidpunkt
+kan användas för att se hur många som är sjukskrivna i en viss diagnos vid en given tidpunkt, till exempel hur många som har ett pågående sjukfall med stressdiagnos (F43).
+Diagnos är viktigt för ett sjukfalls duration eller varaktighet, det vill säga hur länge ett sjukfall pågår. Diagnoser med längre varaktighet är alltid överrepresenterade eller mer vanligt förekommande i pågående sjukfall. Exempelvis står psykiatriska diagnoser för ungefär en tredjedel av de startade sjukfallen men närmare hälften av de pågående sjukfallen.
+Ohälsomått
+Ohälsomått är ett relationsmått där antalet sjukdagar sätts i relation till antalet personer som skulle kunna bli aktuella för ersättningen. Ohälsomåtten baseras på ersättningarna
+sjukpenning, rehabiliteringspenning, aktivitetsersättning och sjukersättning. Måtten kan användas för att följa sjukfrånvarons utveckling.
+Sjukpenningtalet 2.0
+visar antal utbetalda dagar med sjuk- och rehabiliteringspenning i relation till antalet sysselsatta och arbetssökande i åldern 15–69 år
+tar hänsyn till hur många som är sysselsatta eller arbetssökande i en kommun (eller ett län) och därmed kan få sjuk- eller rehabiliteringspenning
+är det bästa måttet att använda för att göra jämförelser av sjukfrånvaro mellan kön och åldersgrupper eller mellan olika län och kommuner.
+Sjukpenningtalet 1.0
+visar antal utbetalda sjuk- och rehabiliteringsdagar i relation till befolkningen 16—64 år
+finns publicerad från år 2000 och är därför bästa måttet att använda om man är intresserad av utvecklingen över lång tid.
+Sjuktalet
+är ett äldre mått som bara innehåller sjukpenning och visar utvecklingen från 1955
+är bästa måttet om man vill se utvecklingen över en mycket lång tidsperiod.
+Ohälsotalet
+innehåller utöver sjuk- och rehabiliteringspenning även aktivitetsersättning och sjukersättning.
+Sjukpenning och rehabiliteringspenning visar sjukfrånvaron vid tillfälligt nedsatt arbetsförmåga. Aktivitetsersättning och sjukersättning visar i stället sjukfrånvaron vid varaktigt nedsatt arbetsförmåga.
+kan användas för att visa hur den samlade sjukfrånvaron med ersättning från sjukförsäkringen ser ut, satt i relation till befolkningen i åldern 16‑64 år.
+Regelförändringar påverkar statistiken
+Alla mått påverkas i hög grad av förändringar i lagar och regler. Tänk därför på att sådana förändringar kan påverka vad måtten visar över tid.
+Förändringar inom socialförsäkrings och bidragsområdena
+ Pdf, 714 kB, öppnas i nytt fönster.
+Statistik
+Startade sjukfall
+Antal startade sjukfall 
+Startade sjukfall efter diagnoskapitel
+ Länk till annan webbplats.
+Startade sjukfall på grund av stress
+ Länk till annan webbplats.
+Startade sjukfall efter diagnos
+ Länk till annan webbplats.
+Pågående sjukfall
+Antal pågående sjukfall
+ Länk till annan webbplats.
+Antal pågående sjukfall efter diagnoskapitel
+ Länk till annan webbplats.
+Antal pågående sjukfall på grund av stress
+ Länk till annan webbplats.
+Ohälsomått
+Sjukpenningtalet 2.0
+ Länk till annan webbplats.
+Sjukpenningtalet 1.0
+ Länk till annan webbplats.
+Sjuktalet
+ Länk till annan webbplats.
+Ohälsotalet
+ Länk till annan webbplats.
+Senast uppdaterad 
+14 mars 2025
+Dela sidan
+ 
+Dela sidan på 
+ 
+Facebook
+ 
+ (öppnas i nytt fönster)
+ 
+Dela sidan på 
+ 
+X
+ 
+ (öppnas i nytt fönster)
+ 
+Dela sidan med 
+ 
+Mejl
+ 
+ (öppnas i nytt fönster)

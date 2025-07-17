@@ -1,0 +1,29 @@
+LEFI Prenumeration - Försäkringskassan
+Kakor på Försäkringskassan
+ 
+På forsakringskassan.se använder vi kakor (cookies) för att webbplatsen ska fungera så bra som möjligt för dig.
+Vi använder också kakor för webbanalys för att göra webbplatsen bättre.
+ 
+Så här använder Försäkringskassan kakor
+ 
+Godkänner du att vi också använder kakor för webbanalys?
+ 
+Ja, jag godkänner alla kakor
+ 
+Nej, jag godkänner bara nödvändiga kakor
+Gå till innehåll
+Tänk på att...
+Din webbläsare är av en äldre modell. Det innebär att du kanske inte kan använda alla funktioner på webbplatsen. Vi rekommenderar att du uppdaterar till en nyare version.
+LEFI Prenumeration
+Allmän information om LEFI prenumeration
+Beskrivning av tjänsten LEFI Prenumeration
+Avtal och anslutning för tjänsten LEFI prenumeration
+Avtal och anslutning avser tjänsten LEFI Prenumeration som tillhandahålls av Försäkringskassan.
+Användarstöd för LEFI prenumeration
+Här hittar du information samt underlag kring tjänsten.
+Driftinformation för LEFI prenumeration
+Här publiceras driftinformation om LEFI Prenumeration i händelse av akuta eller planerade driftstopp/störningar.
+Releaseinformation för LEFI prenumeration
+Här publiceras information om kommande och genomförda driftsättningsrelease av tjänsten LEFI Prenumeration.
+Teknisk beskrivning av tjänsten LEFI prenumeration
+På denna sida finns olika beskrivningar av tjänsten. För information om innehåll och användning av tjänsten se sidan för användarstöd.

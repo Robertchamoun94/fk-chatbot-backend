@@ -1,0 +1,25 @@
+Releaseinformation - Försäkringskassan
+Kakor på Försäkringskassan
+ 
+På forsakringskassan.se använder vi kakor (cookies) för att webbplatsen ska fungera så bra som möjligt för dig.
+Vi använder också kakor för webbanalys för att göra webbplatsen bättre.
+ 
+Så här använder Försäkringskassan kakor
+ 
+Godkänner du att vi också använder kakor för webbanalys?
+ 
+Ja, jag godkänner alla kakor
+ 
+Nej, jag godkänner bara nödvändiga kakor
+Gå till innehåll
+Tänk på att...
+Din webbläsare är av en äldre modell. Det innebär att du kanske inte kan använda alla funktioner på webbplatsen. Vi rekommenderar att du uppdaterar till en nyare version.
+Releaseinformation
+Här publiceras information om kommande och genomförda driftsättningsreleaser av tjänsten.
+Ny prenumerationstjänst LEKA driftsätts
+(2025-03-14)
+Försäkringskassan driftsätter den 17 mars 2025 en nyutvecklad prenumerationstjänst LEKA som står för leverera kundavisering som ska ersätta LEFI Prenumeration. Mer detaljerad information finns att ta del av på LEKAs sida. Användarstöd kring Pensionsmyndighetens information finnas på Pensionsmyndighetens webbplats:
+LEFI (pensionsmyndigheten.se)
+ Länk till annan webbplats, öppnas i nytt fönster.
+Senast uppdaterad 
+14 mars 2025
