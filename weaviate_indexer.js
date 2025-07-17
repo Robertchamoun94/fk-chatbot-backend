@@ -102,7 +102,8 @@ async function embedAndIndexAllChunks() {
     });
   }
 
-  console.log(`📦 Totalt ${allTasks.length} chunks kommer indexeras...`);
+    console.log(`📦 Totalt ${allTasks.length} chunks kommer indexeras...`);
+  console.log(`🕒 Detta kan ta ett tag beroende på antalet. Var tålmodig...`);
 
   for (let i = 0; i < allTasks.length; i += MAX_PARALLEL) {
     const batch = allTasks.slice(i, i + MAX_PARALLEL);
