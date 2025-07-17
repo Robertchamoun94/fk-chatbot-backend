@@ -22,11 +22,14 @@ export async function askRAG(query) {
   try {
     // 🔍 1. Semantisk sökning i Weaviate
     const result = await client.graphql.get()
-      .withClassName(CLASS_NAME)
-      .withFields('text source')
-      .withNearText({ concepts: [query] })
-      .withLimit(5)
-      .do();
+  .withClassName(CLASS_NAME)
+  .withFields('text source')
+  .withNearText({
+    concepts: [query],
+    certainty: 0.7
+  })
+  .withLimit(5)
+  .do();
 
     const docs = result.data.Get[CLASS_NAME];
     if (!docs || docs.length === 0) {
