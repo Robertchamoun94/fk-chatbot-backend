@@ -1,38 +1,64 @@
+// rag.js – Använder Weaviate + OpenAI GPT
 import weaviate from 'weaviate-ts-client';
-import dotenv from 'dotenv';
-import OpenAI from 'openai';
+import dotenv from 'dotenv/config';
+import { OpenAI } from 'openai';
 
-dotenv.config();
+const openai = new OpenAI({
+  apiKey: process.env.OPENAI_API_KEY
+});
 
 const client = weaviate.client({
   scheme: 'https',
-  host: '22xhnm1tiloai40du15fq.c0.europe-west3.gcp.weaviate.cloud', // ← Din Weaviate endpoint
-  apiKey: new weaviate.ApiKey(process.env.WEAVIATE_API_KEY),
+  host: process.env.WEAVIATE_HOST,
+  headers: {
+    'X-OpenAI-Api-Key': process.env.OPENAI_API_KEY,
+    'Authorization': `Bearer ${process.env.WEAVIATE_API_KEY}`
+  }
 });
 
-const openai = new OpenAI({ apiKey: process.env.OPENAI_API_KEY });
+const CLASS_NAME = 'FK_Document';
 
-export async function semanticSearchFull(query, top_k = 5) {
+export async function askRAG(query) {
   try {
-    const embeddingResponse = await openai.embeddings.create({
-      model: 'text-embedding-3-small',
-      input: query,
-    });
-
-    const queryVector = embeddingResponse.data[0].embedding;
-
+    // 🔍 1. Semantisk sökning i Weaviate
     const result = await client.graphql.get()
-      .withClassName('FKPage') // ← matchar schemaklassen i din indexering
-      .withFields(['text'])
-      .withNearVector({ vector: queryVector })
-      .withLimit(top_k)
+      .withClassName(CLASS_NAME)
+      .withFields('text source')
+      .withNearText({ concepts: [query] })
+      .withLimit(5)
       .do();
 
-    const texts = result.data.Get.FKPage.map(item => item.text);
-    return texts;
+    const docs = result.data.Get[CLASS_NAME];
+    if (!docs || docs.length === 0) {
+      return "Jag hittade tyvärr inget relevant innehåll i kunskapsbasen.";
+    }
 
+    // 📄 2. Kombinera text från top-matcher
+    const context = docs.map(doc => doc.text).join("\n\n");
+
+    // 🤖 3. Skapa prompt till GPT
+    const prompt = `
+Du är en mycket kunnig assistent för Försäkringskassan. Besvara frågan baserat på nedanstående information från officiella källor. Svara på svenska.
+
+### Information:
+${context}
+
+### Fråga:
+${query}
+
+### Svar:
+`;
+
+    // 🧠 4. Hämta svar från GPT
+    const completion = await openai.chat.completions.create({
+      model: "gpt-4",
+      messages: [{ role: "user", content: prompt }],
+      temperature: 0.3
+    });
+
+    return completion.choices[0].message.content;
   } catch (error) {
-    console.error('❌ Fel vid semantisk sökning:', error);
-    throw new Error('Ett fel uppstod vid sökning. Kontrollera backend-loggar.');
+    console.error('❌ Fel i RAG-sökning:', error.message);
+    return "Ett fel uppstod vid hämtning av svar från GPT.";
   }
 }
