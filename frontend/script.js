@@ -26,7 +26,7 @@ document.addEventListener('DOMContentLoaded', () => {
     // Visa "GPT skriver..."
     const loadingMsg = document.createElement('div');
     loadingMsg.className = 'bot-message loading';
-    loadingMsg.textContent = 'GPT skriver...';
+    loadingMsg.textContent = 'skriver...';
     chatbox.appendChild(loadingMsg);
     chatbox.scrollTop = chatbox.scrollHeight;
 
