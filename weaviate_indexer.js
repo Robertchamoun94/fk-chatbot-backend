@@ -2,7 +2,7 @@
 import fs from 'fs/promises';
 import path from 'path';
 import 'dotenv/config';
-import { WeaviateClient } from '@weaviate/client';
+import weaviate from 'weaviate-ts-client';
 import OpenAI from 'openai';
 
 const openai = new OpenAI({ apiKey: process.env.OPENAI_API_KEY });
