@@ -16,23 +16,26 @@ const client = weaviate.client({
 const COLLECTION_NAME = 'fk_docs';
 const CHUNKS_DIR = './chunks';
 
-async function ensureCollection() {
-  const exists = await client.collections.exists(COLLECTION_NAME);
+async function ensureClassExists() {
+  const schemaRes = await client.schema.getter().do();
+  const exists = schemaRes.classes.some(cls => cls.class === COLLECTION_NAME);
+
   if (!exists) {
-    console.log('🟡 Skapar collection:', COLLECTION_NAME);
-    await client.collections.create({
-      name: COLLECTION_NAME,
-      vectorizer: 'none',
-      vectorIndexConfig: {
-        distance: 'cosine',
-      },
-      properties: [
-        { name: 'text', dataType: 'text' },
-        { name: 'source', dataType: 'text' },
-      ],
-    });
+    console.log('🟡 Skapar class:', COLLECTION_NAME);
+
+    await client.schema
+      .classCreator()
+      .withClass({
+        class: COLLECTION_NAME,
+        vectorizer: 'none',
+        properties: [
+          { name: 'text', dataType: ['text'] },
+          { name: 'source', dataType: ['text'] },
+        ],
+      })
+      .do();
   } else {
-    console.log('✅ Collection finns redan:', COLLECTION_NAME);
+    console.log('✅ Class finns redan:', COLLECTION_NAME);
   }
 }
 
@@ -50,17 +53,17 @@ async function embedAndIndexAllChunks() {
   for (const file of files) {
     const filePath = path.join(CHUNKS_DIR, file);
     const content = await fs.readFile(filePath, 'utf8');
-    const embedding = await embed(content);
+    const vector = await embed(content);
 
-    await client.collections
-      .get(COLLECTION_NAME)
-      .data.insert({
-        properties: {
-          text: content,
-          source: file,
-        },
-        vector: embedding,
-      });
+    await client.data
+      .creator()
+      .withClassName(COLLECTION_NAME)
+      .withProperties({
+        text: content,
+        source: file,
+      })
+      .withVector(vector)
+      .do();
 
     console.log('✅ Indexerad:', file);
   }
@@ -68,7 +71,7 @@ async function embedAndIndexAllChunks() {
 
 (async () => {
   try {
-    await ensureCollection();
+    await ensureClassExists();
     await embedAndIndexAllChunks();
     console.log('🎉 Allt klart! Alla chunks är indexerade i Weaviate.');
   } catch (err) {
