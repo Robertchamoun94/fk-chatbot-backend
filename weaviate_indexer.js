@@ -7,12 +7,10 @@ import OpenAI from 'openai';
 
 dotenv.config();
 
-// Initiera OpenAI embeddings
 const openai = new OpenAI({
   apiKey: process.env.OPENAI_API_KEY,
 });
 
-// Initiera Weaviate-klienten med korrekt auth header
 const client = weaviate.client({
   scheme: 'https',
   host: process.env.WEAVIATE_HOST,
@@ -21,77 +19,76 @@ const client = weaviate.client({
   },
 });
 
-// Namn på din collection i Weaviate
-const COLLECTION_NAME = 'fk_docs';
+const CLASS_NAME = 'FK_Document';
 
-// Kontrollera om collection finns, annars skapa den
-async function ensureCollection() {
+async function ensureClassExists() {
   try {
-    const exists = await client.collections.exists(COLLECTION_NAME);
-    if (!exists) {
-      console.log('🛠️ Skapar class:', COLLECTION_NAME);
-      await client.collections.create({
-        className: COLLECTION_NAME,
-        vectorizer: 'none',
-        vectorIndexType: 'hnsw',
-      });
+    const schemaRes = await client.schema.getter().do();
+    const classExists = schemaRes.classes.some(cls => cls.class === CLASS_NAME);
+
+    if (!classExists) {
+      console.log(`🛠️ Skapar class: ${CLASS_NAME}`);
+      await client.schema
+        .classCreator()
+        .withClass({
+          class: CLASS_NAME,
+          vectorizer: 'none',
+          vectorIndexType: 'hnsw',
+          properties: [
+            {
+              name: 'content',
+              dataType: ['text'],
+            },
+          ],
+        })
+        .do();
     } else {
-      console.log('✅ Collection finns redan:', COLLECTION_NAME);
+      console.log(`✅ Class "${CLASS_NAME}" finns redan`);
     }
   } catch (err) {
-    console.error('❌ Fel vid creation av collection:', err.message || err);
+    console.error('❌ Fel vid skapande av class:', err.message || err);
     throw err;
   }
 }
 
-// Funktion för att skapa embedding med OpenAI
 async function getEmbedding(text) {
-  const embedding = await openai.embeddings.create({
+  const response = await openai.embeddings.create({
     model: 'text-embedding-3-small',
     input: text,
   });
-  return embedding.data[0].embedding;
+  return response.data[0].embedding;
 }
 
-// Läser och indexerar alla chunks
-async function embedAndIndexAllChunks() {
+async function embedAndIndexChunks() {
   const chunksDir = path.join('./chunks');
 
-  try {
-    const files = await fs.readdir(chunksDir);
+  const files = await fs.readdir(chunksDir);
+  for (const fileName of files) {
+    if (fileName.startsWith('.')) continue; // Hoppa över .DS_Store etc
 
-    for (const fileName of files) {
-      if (fileName.startsWith('.')) continue; // hoppa över .DS_Store etc
-      const filePath = path.join(chunksDir, fileName);
-      const content = await fs.readFile(filePath, 'utf-8');
+    const filePath = path.join(chunksDir, fileName);
+    const text = await fs.readFile(filePath, 'utf-8');
+    const vector = await getEmbedding(text);
 
-      const vector = await getEmbedding(content);
+    const id = fileName.replace('.txt', '');
 
-      await client.collections
-        .class(COLLECTION_NAME)
-        .data()
-        .creator()
-        .withId(fileName.replace('.txt', ''))
-        .withProperties({
-          content,
-        })
-        .withVector(vector)
-        .do();
+    await client.data
+      .creator()
+      .withClassName(CLASS_NAME)
+      .withId(id)
+      .withProperties({ content: text })
+      .withVector(vector)
+      .do();
 
-      console.log(`✅ Indexerat: ${fileName}`);
-    }
-  } catch (err) {
-    console.error('❌ Fel vid indexering:', err.message || err);
-    throw err;
+    console.log(`✅ Indexerat: ${fileName}`);
   }
 }
 
-// Kör hela indexeringsflödet
 (async () => {
   try {
-    await ensureCollection();
-    await embedAndIndexAllChunks();
-    console.log('🎉 Klart! Alla chunks är indexerade i Weaviate.');
+    await ensureClassExists();
+    await embedAndIndexChunks();
+    console.log('🎉 Alla chunks är nu indexerade i Weaviate!');
   } catch (err) {
     console.error('🚨 Indexering misslyckades:', err.message || err);
   }
