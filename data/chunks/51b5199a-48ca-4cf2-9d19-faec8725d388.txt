@@ -1,0 +1,15 @@
+Logga in på Arbetsgivartjänsten
+Hjälp att logga in – för arbetsgivare
+Anslutning och behörighet
+För att kunna använda e-tjänsterna för arbetsgivare behöver ditt företag vara anslutet till Försäkringskassans e-tjänster och du som ska logga in behöver ha fått behörighet som användare. Behörigheten får du av din arbetsgivare.
+Flera inloggningsalternativ i våra tjänster för partner
+Från och med helgen 13‑14 april erbjuder vi inloggning med tjänstelegitimationerna SITHS och Freja organisation ID i arbetsgivartjänsten. De kan också användas för att signera.
+Samtidigt tar vi bort inloggning med Telia tjänstelegitimation, eftersom den inte är en godkänd e‑legitimation enligt kvalitetsmärket Svensk e-legitimation.
+Möjligheten att logga in med bank‑id och EFOS tjänstelegitimation finns kvar.
+Arbetsgivaren ansöker om anslutning till e-tjänsterna
+I samband med anslutningen får arbetsgivaren registrera en person som blir behörighetsadministratör.
+Kom igång med e-tjänsterna för arbetsgivare
+Om e-tjänsterna för arbetsgivare
+Se vilka e-tjänster som finns för arbetsgivare
+Senast uppdaterad
+23 juni 2025

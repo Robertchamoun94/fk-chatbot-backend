@@ -1,0 +1,20 @@
+ov registrera ytterligare behörighetsadministratörer.
+5. Arbets­givarens ansvar
+Arbets­givaren ansvarar för att behörighets­administratör endast tilldelar behörighet till annan behörighets­administratör eller användare som behöver tillgång till Försäkrings­kassans e‑tjänster för arbets­givare.
+Arbetsgivaren ansvarar för att användningen av Försäkrings­kassans e‑tjänster för arbetsgivare sker i enlighet med dessa allmänna villkor. Arbetsgivaren ska löpande ta del av de villkor, information med mer gällande Försäkrings­kassans e‑tjänster för arbetsgivare som publiceras på Försäkrings­kassans webbplats.
+Arbetsgivaren ansvarar för att behörighetsadministratörer och användare endast får tillgång till uppgifter i den omfattning som behövs för att kunna utföra sina arbetsuppgifter.
+Arbetsgivaren ska kontinuerligt följa upp tilldelade behörigheter samt omedelbart ta bort behörigheter för behörighetsadministratör eller användare som slutar sin anställning eller byter arbetsuppgifter.
+6. Tekniska förutsättningar
+Försäkrings­kassans e‑tjänster för arbetsgivare är tillgänglig via Internet. En förutsättning för att använda tjänsterna är att arbetsgivaren har tillgång till nödvändig dator - och kommunikations­utrustning, programvara samt internet­abonnemang. Detaljerad information om tekniska krav för att använda Försäkrings­kassans e-tjänster för arbetsgivare finns på Försäkrings­kassans webbplats.
+7. Behandling av personuppgifter
+Försäkringskassan är ansvarig för den behandling av personuppgifter myndigheten utför. Behandling av personuppgifter sker i enlighet med EU:s dataskyddsförordning och Dataskyddslagen.
+8. Support
+Vid problem med eller frågor om att använda Försäkringskassans e‑tjänster för arbetsgivare kontakta Försäkrings­kassans Kundcenter för partner. Kontaktuppgifter finns på Försäkrings­kassans webbplats. Problem som har koppling till identifiering med e‑legitimation ska i första hand lösas med stöd av respektive utfärdare.
+9. E‑legitimation
+Endast e-legitimation som tillhandahålls av de utfärdare som anges på Försäkringskassans webbplats kan användas vid identifiering i Försäkringskassans e-tjänster. Bestämmelser/villkor gällande e-legitimation framgår av respektive utfärdares villkor.
+10. Ansvars­begränsning
+Försäkringskassan ansvarar inte för skada eller olägenhet som kan drabba behörighetsadministratörer eller användare av e-tjänsterna för arbetsgivare och som till exempel beror på driftavbrott eller andra störningar i tele-, data, eller annan kommunikationsförbindelse, datorutrustning, datasystem eller liknande.
+Försäkringskassan ansvarar inte för fel eller problem hänförliga till e-legitimation.
+Länkar till andra webbplatser som finns på Försäkringskassans webbplats är en ren informationsservice och Försäkringskassan tar inget ansvar för material eller information som finns på sådana webbplatser.
+11. Uppföljning
+Försäkringskassan loggar alla aktiviteter som utförs i Försäkringskassans e-tjänster

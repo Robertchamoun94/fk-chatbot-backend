@@ -1,0 +1,60 @@
+änk till annan webbplats, öppnas i nytt fönster.
+Hur beräknas ersättning för höga sjuklönekostnader för 2024?
+Ersättningen motsvarar sjuklönekostnader under perioden januari till juni 2024 som överstiger en viss andel av den totala lönekostnaden som du har haft under den sexmånadersperioden. Som mest kan du få 125 000 kronor.
+Ersättningen för höga sjuklönekostnader beräknas så här:
+Exempel
+Om din totala lönekostnad för januari–juni 2024 är:
+Så betalas ersättning ut för den del av sjuklönekostnaden under januari–juni 2024 som överstiger:
+Högst 1 500 000
+0,5 procent av din totala lönekostnad
+1 500 000– 3000 000
+0,9 procent av din totala lönekostnad
+3 000 000–6 000 000
+1,2 procent av din totala lönekostnad
+6 000 000–10 000 000
+1,3 procent av din totala lönekostnad
+Över 10 000 000
+1,5 procent av din totala lönekostnad
+Exempel på hur Försäkringskassan beräknar ersättningen
+Din lönekostnad är 250 000 kronor
+Exempel
+Lönekostnad
+Sjuklönekostnad
+Procent
+Beräkning
+Ersättning
+250 000
+12 500
+0,5
+0,005x250 000=1 250
+12 500-1 250=11 250
+Din totala lönekostnad för året är 250 000 kronor och din sjuklönekostnad för året är 12 500 kronor.
+Du får ersättning för den del av sjuklönekostnaden som överstiger 0,5 procent av den totala lönekostnaden, det vill säga 1 250 kronor (0,005x250 000). Ersättningen blir alltså 11 250 kronor (12 500-1250).
+Din lönekostnad är 2 500 000 kronor
+Exempel
+Lönekostnad
+Sjuklönekostnad
+Procent
+Beräkning
+Ersättning
+2 500 000
+125 000
+0,9
+0,009x2 500 000 000=22 500
+125 000-22 500=102 500
+Din totala lönekostnad för året är 2 500 000 kronor och din sjuklönekostnad för året är 125 000 kronor.
+Du får ersättning för den av sjuklönekostnaden som överstiger 0,9 procent av den totala lönekostnaden, det vill säga 22 500 kronor (0,009x2 500 000). Ersättningen blir alltså 102 500 kronor (125 000-22 500).
+Hur beräknades ersättning för höga sjuklönekostnader före 2024?
+Ersättningen motsvarar sjuklönekostnader som överstiger en viss andel av dina totala lönekostnader under ett år. Som mest kan du få 250 000 kronor för ett år.
+Ersättningen för höga sjuklönekostnader beräknas så här:
+Exempel
+Om din totala lönekostnad för kalenderåret är:
+så betalas ersättning ut för den del av sjuklönekostnaden som överstiger:
+Högst 3 000 000
+0,5 procent av din totala lönekostnad
+3 000 000–6 000 000
+0,9 procent av din totala lönekostnad
+6 000 000–12 000 000
+1,2 procent av din totala lönekostnad
+12 000 000–20 000 000
+1,3 procent av din totala

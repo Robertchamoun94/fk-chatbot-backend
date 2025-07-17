@@ -17,7 +17,7 @@ const client = weaviate.client({
 });
 
 const CLASS_NAME = 'FK_Document';
-const CHUNKS_DIR = './chunks';
+const CHUNKS_DIR = './data/chunks'; // ✅ rätt
 const MAX_TOKENS = 3000;
 const MAX_PARALLEL = 5;
 

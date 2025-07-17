@@ -1,0 +1,17 @@
+Allmänna villkor för att använda Försäkringskassans  e-tjänster för arbetsgivare
+Dessa allmänna villkor gäller för att använda Försäkrings­kassans e‑tjänster för arbetsgivare
+1. Allmänt om Försäkringskassans e‑tjänster för arbets­givare
+E‑tjänsterna för arbetsgivare ger arbetsgivare elektronisk tillgång till vissa av Försäkrings­kassans tjänster. Behörighets­administratörer och användare hos arbetsgivaren kan få tillgång till e-tjänsterna.
+Behörighets­administratörer och användare av e‑tjänsterna identifieras med personlig e‑legitimation. Behörighets­administratörerna administrerar behörigheterna via ett webb­gränssnitt. Användarna lämnar uppgifter i e‑tjänsterna för arbetsgivare.
+2. Villkorens omfattning och tillämplighet
+De allmänna villkor samt instruktioner och tillkänna­givanden som löpande finns på Försäkrings­kassans webbsidor för arbets­givare gäller för att använda Försäkrings­kassans e‑tjänster för arbets­givare.
+www.forsakringskassan.se/arbetsgivare
+3. Förutsätt­ningar för användning av Försäkrings­kassans e‑tjänster för arbets­givare
+E‑tjänster för arbetsgivare kan endast användas om behörighets­administratör eller användare identifieras med e‑legitimation. E‑legitimation tillhandahålls av särskilda utfärdare, se under punkt 9. En arbets­givare som vill ansluta sig till Försäkrings­kassans e‑tjänster för arbets­givare måste acceptera dessa allmänna villkor.
+4. Anmälan till Försäkrings­kassans e‑tjänster för arbets­givare
+Arbetsgivaren ska vid anslutning till e-tjänster för arbetsgivare anmäla en behörighetsadministratör till Försäkringskassan. Anmälan av behörighetsadministratören ska göras av behörig person hos arbetsgivaren. För att anmäla ska arbetsgivaren använda e‑tjänsten ”Anslut ditt företag till e‑tjänsterna för arbetsgivare” eller blanketten ”Underlag för att använda e‑tjänster för arbetsgivare ”.
+Genom att skicka in en anmälan till Försäkringskassan accepterar arbetsgivaren dessa allmänna villkor för att använda e‑tjänster för arbetsgivare.
+Efter det att uppgifterna har registrerats hos Försäkringskassan kan behörighetsadministratören via webbgränssnittet administrera användare hos arbetsgivaren samt vid behov registrera ytterligare behörighetsadministratörer.
+5. Arbets­givarens ansvar
+Arbets­givaren ansvarar för att behörighets­administratör endast tilldelar behörighet till annan behörighets­administratör eller användare som behöver tillgång till Försäkrings­kassans e‑tjänster för arbets­givare.
+Arbetsgivaren ansvarar för att användningen av Försäkrings­kassans e‑tjänster för arbetsgivare sker i enlighet med dessa allmänna villkor. Arbetsgivaren ska löpande ta del av de villkor, information med mer gällande Försäkrings­kassans e‑tjänster för arbetsgivare som public
