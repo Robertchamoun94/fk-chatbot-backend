@@ -1,9 +1,9 @@
-// weaviate_indexer.js - med tydliga loggar
+// weaviate_indexer.js – robust och optimerad
 import fs from 'fs/promises';
 import path from 'path';
 import dotenv from 'dotenv/config';
 import { encode } from 'gpt-3-encoder';
-import weaviate, { ApiKey } from 'weaviate-ts-client';
+import weaviate from 'weaviate-ts-client';
 
 console.log('🚀 Startar Weaviate-indexering...');
 
@@ -83,9 +83,11 @@ async function embedChunk(fileName, chunk, chunkIndex) {
 
 async function embedAndIndexAllChunks() {
   console.log('📂 Läser chunks från mapp:', CHUNKS_DIR);
-  const files = await fs.readdir(CHUNKS_DIR);
+  const allEntries = await fs.readdir(CHUNKS_DIR, { withFileTypes: true });
+  const files = allEntries.filter(entry => entry.isFile()).map(entry => entry.name);
+
   if (files.length === 0) {
-    console.log('⚠️ Inga textfiler hittades i chunks-mappen.');
+    console.log('⚠️ Inga .txt-filer hittades i chunks-mappen.');
     return;
   }
 
@@ -93,16 +95,19 @@ async function embedAndIndexAllChunks() {
 
   for (const fileName of files) {
     if (!fileName.endsWith('.txt') || fileName.startsWith('.')) continue;
+
     const filePath = path.join(CHUNKS_DIR, fileName);
     const content = await fs.readFile(filePath, 'utf-8');
     const chunks = splitTextByTokens(content, MAX_TOKENS);
+
+    console.log(`🧩 Splittrar ${fileName} i ${chunks.length} delar...`);
 
     chunks.forEach((chunk, index) => {
       allTasks.push(() => embedChunk(fileName, chunk, index));
     });
   }
 
-    console.log(`📦 Totalt ${allTasks.length} chunks kommer indexeras...`);
+  console.log(`📦 Totalt ${allTasks.length} chunks kommer indexeras...`);
   console.log(`🕒 Detta kan ta ett tag beroende på antalet. Var tålmodig...`);
 
   for (let i = 0; i < allTasks.length; i += MAX_PARALLEL) {
