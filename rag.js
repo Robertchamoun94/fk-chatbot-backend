@@ -1,4 +1,3 @@
-cat > rag.js << 'EOF'
 import OpenAI from "openai";
 import weaviate from "weaviate-ts-client";
 import dotenv from "dotenv";
@@ -17,7 +16,7 @@ const client = weaviate.client({
 
 const indexName = "FK_Document";
 
-// 🔧 Moderna modellnamn (kan overrideas via .env utan kodändring)
+// Moderna modellnamn (kan overrideas via .env)
 const CHAT_MODEL = process.env.OPENAI_CHAT_MODEL || "gpt-4o-mini";
 const EMBEDDING_MODEL = process.env.OPENAI_EMBED_MODEL || "text-embedding-3-small";
 
@@ -25,7 +24,7 @@ export async function askRAG(query) {
   try {
     console.log("🔍 Skickar fråga till OpenAI för embedding...");
     const embeddingResponse = await openai.embeddings.create({
-      model: EMBEDDING_MODEL, // uppdaterat från "text-embedding-ada-002"
+      model: EMBEDDING_MODEL,
       input: query,
     });
 
@@ -38,14 +37,14 @@ export async function askRAG(query) {
       .withFields("text _additional {certainty}")
       .withNearVector({
         vector: queryEmbedding,
-        certainty: 0.6, // Justera vid behov
+        certainty: 0.6,
       })
       .withLimit(5)
       .do();
 
     const docs = result?.data?.Get?.[indexName] || [];
 
-    // 🔁 Om vi inte får några relevanta träffar → fallback till GPT direkt
+    // Fallback om inga träffar i Weaviate
     if (docs.length === 0) {
       console.warn("⚠️ Inga träffar i Weaviate, använder fallback till GPT direkt...");
       return await fallbackToGPT(query);
@@ -66,7 +65,7 @@ SVAR:
 
     console.log("💬 Skickar prompt till GPT...");
     const chatResponse = await openai.chat.completions.create({
-      model: CHAT_MODEL, // uppdaterat från "gpt-4"
+      model: CHAT_MODEL,
       messages: [{ role: "user", content: prompt }],
       temperature: 0.2,
     });
@@ -90,7 +89,7 @@ SVAR:
     `.trim();
 
     const chatResponse = await openai.chat.completions.create({
-      model: CHAT_MODEL, // uppdaterat från "gpt-4"
+      model: CHAT_MODEL,
       messages: [{ role: "user", content: fallbackPrompt }],
       temperature: 0.7,
     });
@@ -104,4 +103,3 @@ SVAR:
     return "Ett fel uppstod vid fallback-svar från GPT.";
   }
 }
-EOF
