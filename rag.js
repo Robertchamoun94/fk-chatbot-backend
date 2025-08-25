@@ -1,3 +1,4 @@
+cat > rag.js << 'EOF'
 import OpenAI from "openai";
 import weaviate from "weaviate-ts-client";
 import dotenv from "dotenv";
@@ -16,8 +17,7 @@ const client = weaviate.client({
 
 const indexName = "FK_Document";
 
-// 🔧 Endast tillägg: moderna modellnamn med möjlighet att override via .env
-// (påverkar inte övrig logik)
+// 🔧 Moderna modellnamn (kan overrideas via .env utan kodändring)
 const CHAT_MODEL = process.env.OPENAI_CHAT_MODEL || "gpt-4o-mini";
 const EMBEDDING_MODEL = process.env.OPENAI_EMBED_MODEL || "text-embedding-3-small";
 
@@ -25,7 +25,7 @@ export async function askRAG(query) {
   try {
     console.log("🔍 Skickar fråga till OpenAI för embedding...");
     const embeddingResponse = await openai.embeddings.create({
-      model: EMBEDDING_MODEL, // <— uppdaterat från text-embedding-ada-002
+      model: EMBEDDING_MODEL, // uppdaterat från "text-embedding-ada-002"
       input: query,
     });
 
@@ -43,7 +43,7 @@ export async function askRAG(query) {
       .withLimit(5)
       .do();
 
-    const docs = result.data.Get?.[indexName] || [];
+    const docs = result?.data?.Get?.[indexName] || [];
 
     // 🔁 Om vi inte får några relevanta träffar → fallback till GPT direkt
     if (docs.length === 0) {
@@ -66,12 +66,12 @@ SVAR:
 
     console.log("💬 Skickar prompt till GPT...");
     const chatResponse = await openai.chat.completions.create({
-      model: CHAT_MODEL, // <— uppdaterat från "gpt-4"
+      model: CHAT_MODEL, // uppdaterat från "gpt-4"
       messages: [{ role: "user", content: prompt }],
       temperature: 0.2,
     });
 
-    return chatResponse.choices[0].message.content.trim();
+    return chatResponse.choices?.[0]?.message?.content?.trim() || "Jag vet tyvärr inte.";
   } catch (error) {
     console.error(
       "❌ Fel i RAG-sökning:",
@@ -90,12 +90,12 @@ SVAR:
     `.trim();
 
     const chatResponse = await openai.chat.completions.create({
-      model: CHAT_MODEL, // <— uppdaterat från "gpt-4"
+      model: CHAT_MODEL, // uppdaterat från "gpt-4"
       messages: [{ role: "user", content: fallbackPrompt }],
       temperature: 0.7,
     });
 
-    return chatResponse.choices[0].message.content.trim();
+    return chatResponse.choices?.[0]?.message?.content?.trim() || "Jag vet tyvärr inte.";
   } catch (error) {
     console.error(
       "❌ Fel i fallback till GPT:",
@@ -104,3 +104,4 @@ SVAR:
     return "Ett fel uppstod vid fallback-svar från GPT.";
   }
 }
+EOF
