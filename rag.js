@@ -2,7 +2,12 @@ import OpenAI from "openai";
 import weaviate from "weaviate-ts-client";
 import dotenv from "dotenv";
 import fs from "fs";
+import { createRequire } from "module"; // <-- för att kunna importera CJS-modulen
 dotenv.config();
+
+// Importera systemprompten (CJS) in i ESM
+const require = createRequire(import.meta.url);
+const { fkSystemPrompt } = require("./prompts/fkSystemPrompt.js");
 
 const openai = new OpenAI({
   apiKey: process.env.OPENAI_API_KEY,
@@ -66,6 +71,7 @@ export async function askRAG(query) {
     const prompt = `
 Du är en hjälpsam AI-assistent som svarar med korrekt information från Försäkringskassan.
 Använd bara fakta från TEXT nedan när du besvarar frågan. Om svaret inte finns i texten, svara exakt: "Jag vet tyvärr inte".
+Om källhänvisning saknas i texten, avsluta ändå svaret med "Källa: Försäkringskassan".
 
 TEXT:
 ${context}
@@ -74,11 +80,14 @@ FRÅGA: ${query}
 SVAR:
     `.trim();
 
-    console.log("💬 Skickar prompt till GPT...");
+    console.log("💬 Skickar prompt till GPT (med systemprompt)...");
     const chatResponse = await openai.chat.completions.create({
       model: CHAT_MODEL,
-      messages: [{ role: "user", content: prompt }],
-      temperature: 0.2,
+      messages: [
+        { role: "system", content: fkSystemPrompt }, // 🔒 Låsning till Försäkringskassan i Sverige
+        { role: "user", content: prompt },           // 📚 Din RAG-kontekst + fråga (oförändrad)
+      ],
+      temperature: 0.1, // stramare, minskar ”sväv”
     });
 
     return chatResponse.choices?.[0]?.message?.content?.trim() || "Jag vet tyvärr inte.";
@@ -94,16 +103,22 @@ SVAR:
 
 async function fallbackToGPT(query) {
   try {
+    // Fallbacken är också FK-låst via systemprompten.
     const fallbackPrompt = `
-Du är en generell AI-assistent. Besvara frågan så gott du kan, även utan extern kontext.
+Besvara endast frågor som rör Försäkringskassan i Sverige.
+Om frågan inte rör Försäkringskassan, svara: "Jag svarar bara på frågor som rör Försäkringskassan."
+Skriv sakligt och kortfattat. Avsluta gärna med "Källa: Försäkringskassan" om relevant.
 FRÅGA: ${query}
 SVAR:
     `.trim();
 
     const chatResponse = await openai.chat.completions.create({
       model: CHAT_MODEL,
-      messages: [{ role: "user", content: fallbackPrompt }],
-      temperature: 0.4,
+      messages: [
+        { role: "system", content: fkSystemPrompt }, // 🔒 håll policyn även i fallback
+        { role: "user", content: fallbackPrompt },
+      ],
+      temperature: 0.1,
     });
 
     return chatResponse.choices?.[0]?.message?.content?.trim() || "Jag vet tyvärr inte.";
