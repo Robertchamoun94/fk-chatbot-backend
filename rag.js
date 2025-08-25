@@ -2,12 +2,8 @@ import OpenAI from "openai";
 import weaviate from "weaviate-ts-client";
 import dotenv from "dotenv";
 import fs from "fs";
-import { createRequire } from "module"; // <-- för att kunna importera CJS-modulen
+import { fkSystemPrompt } from "./prompts/fkSystemPrompt.js";
 dotenv.config();
-
-// Importera systemprompten (CJS) in i ESM
-const require = createRequire(import.meta.url);
-const { fkSystemPrompt } = require("./prompts/fkSystemPrompt.js");
 
 const openai = new OpenAI({
   apiKey: process.env.OPENAI_API_KEY,
