@@ -44,7 +44,7 @@ export async function askRAG(query) {
 
     const docs = result?.data?.Get?.[indexName] || [];
 
-    // Fallback om inga träffar i Weaviate
+    // 🔁 Om vi inte får några relevanta träffar → fallback till GPT direkt
     if (docs.length === 0) {
       console.warn("⚠️ Inga träffar i Weaviate, använder fallback till GPT direkt...");
       return await fallbackToGPT(query);
