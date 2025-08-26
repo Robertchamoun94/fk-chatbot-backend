@@ -22,28 +22,50 @@ const EMBEDDING_MODEL = process.env.OPENAI_EMBED_MODEL || "text-embedding-3-smal
 // Toggle: sätt RAG_DISABLED=true i .env för att hoppa över Weaviate helt
 const RAG_DISABLED = String(process.env.RAG_DISABLED).toLowerCase() === "true";
 
-/* -------------------- Hälsnings-/småpratsfilter -------------------- */
+/* -------------------- Hälsning/ack/avslut (småprat) -------------------- */
 const GREETING_RESPONSE =
   "Hej. Du chattar med Försäkringskassans chattbot. Hur kan jag hjälpa dig?";
+const THANKS_RESPONSE =
+  "Varsågod! Behöver du mer hjälp är du välkommen att ställa en ny fråga.";
+const GOODBYE_RESPONSE =
+  "Tack! Ha en fortsatt bra dag. Välkommen tillbaka om du undrar något mer.";
 
-function isGreetingOrEmpty(input) {
-  const t = (input || "").trim().toLowerCase();
-  if (!t) return true;
-  const cleaned = t.replace(/[!?.…,:;()"'`~]/g, "").replace(/\s+/g, " ");
-  const greetings = new Set([
-    "hej", "hej hej", "hejsan", "tja", "tjabba", "tjena", "hallå",
-    "god morgon", "god kväll", "godnatt", "god natt", "hello", "hi", "hey",
-  ]);
-  const shortacks = new Set(["tack", "ok", "okej", "okey"]);
-  return greetings.has(cleaned) || shortacks.has(cleaned);
+function norm(s) {
+  return (s || "")
+    .toLowerCase()
+    .replace(/[!?.…,:;()"'`~]/g, "")
+    .replace(/\s+/g, " ")
+    .trim();
 }
-/* ------------------------------------------------------------------ */
+
+// Klassificera småprat: greeting | thanks | goodbye | null
+function classifySmalltalk(input) {
+  const t = norm(input);
+  if (!t) return "greeting";
+
+  // Hälsningar
+  const isGreeting = [
+    "hej", "hej hej", "hejsan", "tja", "tjabba", "tjena", "hallå",
+    "god morgon", "god kväll", "hello", "hi", "hey",
+  ].some((g) => t === g);
+  if (isGreeting) return "greeting";
+
+  // Tack/ack (träff även när orden kombineras, ex. "ok tack", "tack så mycket")
+  if (/\b(tack|tackar|tusen tack|stort tack|tack så mycket)\b/.test(t)) return "thanks";
+  if (/\b(ok|okej|okey)\b/.test(t) && t.length <= 20) return "thanks"; // kort ”ok/okej”
+
+  // Avslut/hejdå
+  if (/\b(hej då|hejdå|vi hörs|ha det|trevlig dag|adjö|bye|på återseende)\b/.test(t))
+    return "goodbye";
+
+  return null;
+}
+/* ---------------------------------------------------------------------- */
 
 /* ------------ Kondensera följdfråga → fristående fråga ------------- */
 const MAX_HISTORY = 6; // senaste 6 meddelanden räcker långt
 
 function sanitizeHistory(history = []) {
-  // Förvänta { role: "user"|"assistant", content: string }
   return history
     .filter(
       (m) =>
@@ -84,22 +106,23 @@ async function condenseQuestion(history, latestUserInput) {
 /* ------------------------------------------------------------------ */
 
 export async function askRAG(query, history = []) {
-  // Hälsningar/”tack”
-  if (isGreetingOrEmpty(query)) {
-    return GREETING_RESPONSE;
-  }
+  // 0) Småprat först – ta det innan RAG/fallback
+  const st = classifySmalltalk(query);
+  if (st === "greeting") return GREETING_RESPONSE;
+  if (st === "thanks") return THANKS_RESPONSE;
+  if (st === "goodbye") return GOODBYE_RESPONSE;
 
   // 1) Gör senaste inmatning till fristående fråga baserat på historiken
   const standaloneQuestion = await condenseQuestion(history, query);
 
-  // Snabbt demo-läge utan RAG
+  // 2) Snabbt demo-läge utan RAG
   if (RAG_DISABLED) {
     console.warn("RAG_DISABLED=true — hoppar över vektorsök och använder GPT direkt.");
     return await fallbackToGPT(standaloneQuestion);
   }
 
   try {
-    // 2) Embedding på den fristående frågan
+    // 3) Embedding på den fristående frågan
     console.log("🔍 Skickar fråga till OpenAI för embedding (kondenserad)...");
     const embeddingResponse = await openai.embeddings.create({
       model: EMBEDDING_MODEL,
@@ -107,7 +130,7 @@ export async function askRAG(query, history = []) {
     });
     const queryEmbedding = embeddingResponse.data[0].embedding;
 
-    // 3) Vektorsök
+    // 4) Vektorsök
     console.log("🧠 Frågar Weaviate med vektor...");
     let result;
     try {
@@ -129,7 +152,7 @@ export async function askRAG(query, history = []) {
       return await fallbackToGPT(standaloneQuestion);
     }
 
-    // 4) Bygg RAG-kontekst
+    // 5) Bygg RAG-kontekst
     const context = docs.map((doc) => doc.text).join("\n---\n");
 
     const prompt = `
@@ -144,7 +167,7 @@ FRÅGA: ${standaloneQuestion}
 SVAR:
     `.trim();
 
-    // 5) Svara, med FK-systemprompten
+    // 6) Svara, med FK-systemprompten
     console.log("💬 Skickar prompt till GPT (med systemprompt)...");
     const chatResponse = await openai.chat.completions.create({
       model: CHAT_MODEL,
@@ -167,7 +190,7 @@ SVAR:
 
 async function fallbackToGPT(standaloneQuestion) {
   try {
-    // Fallback: håll dig till FK, men om osäker → be om ETT förtydligande.
+    // Fallback: håll dig till FK, men om osäker → be om EN precis följdfråga.
     const fallbackPrompt = `
 Besvara endast frågor som rör Försäkringskassan. Om underlaget är oklart, ställ EN precis följdfråga.
 Skriv sakligt och kortfattat. Avsluta gärna med "Källa: Försäkringskassan" om relevant.
