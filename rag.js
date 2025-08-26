@@ -56,14 +56,13 @@ function classifySmalltalk(input) {
 
 /* --------- Rensa ev. källrader om modellen lägger till dem ----------- */
 function cleanAnswer(text = "") {
-  // Ta bort rader som börjar med "Källa:" eller "Källor:" (oavsett versaler/å/ä)
   const withoutSource = text.replace(/^\s*K(?:ä|a)ll(?:a|or)\s*:\s.*$/gmi, "").trim();
   return withoutSource.replace(/\n{3,}/g, "\n\n").trim();
 }
 /* ---------------------------------------------------------------------- */
 
 /* ------------ Kondensera följdfråga → fristående fråga ------------- */
-const MAX_HISTORY = 6; // senaste 6 meddelanden räcker långt
+const MAX_HISTORY = 6;
 
 function sanitizeHistory(history = []) {
   return history
@@ -106,24 +105,23 @@ async function condenseQuestion(history, latestUserInput) {
 /* ------------------------------------------------------------------ */
 
 export async function askRAG(query, history = []) {
-  // 0) Småprat först – ta det innan RAG/fallback
+  // 0) Småprat först
   const st = classifySmalltalk(query);
   if (st === "greeting") return GREETING_RESPONSE;
   if (st === "thanks") return THANKS_RESPONSE;
   if (st === "goodbye") return GOODBYE_RESPONSE;
 
-  // 1) Gör senaste inmatning till fristående fråga baserat på historiken
+  // 1) Kondensera till fristående fråga
   const standaloneQuestion = await condenseQuestion(history, query);
 
-  // 2) Snabbt demo-läge utan RAG
+  // 2) Utan RAG
   if (RAG_DISABLED) {
     console.warn("RAG_DISABLED=true — hoppar över vektorsök och använder GPT direkt.");
     return await fallbackToGPT(standaloneQuestion);
   }
 
   try {
-    // 3) Embedding på den fristående frågan
-    console.log("🔍 Skickar fråga till OpenAI för embedding (kondenserad)...");
+    // 3) Embedding
     const embeddingResponse = await openai.embeddings.create({
       model: EMBEDDING_MODEL,
       input: standaloneQuestion,
@@ -131,7 +129,6 @@ export async function askRAG(query, history = []) {
     const queryEmbedding = embeddingResponse.data[0].embedding;
 
     // 4) Vektorsök
-    console.log("🧠 Frågar Weaviate med vektor...");
     let result;
     try {
       result = await client.graphql
@@ -152,12 +149,13 @@ export async function askRAG(query, history = []) {
       return await fallbackToGPT(standaloneQuestion);
     }
 
-    // 5) Bygg RAG-kontekst
+    // 5) Kontekst + strikt instruktion att INTE ställa fråga tillbaka
     const context = docs.map((doc) => doc.text).join("\n---\n");
 
     const prompt = `
 Du är en hjälpsam AI-assistent som svarar med korrekt information från Försäkringskassan.
 Använd bara fakta från TEXT nedan när du besvarar frågan. Skriv svaret utan källhänvisning.
+**Avsluta svaret utan att ställa en egen fråga. Ställ endast en följdfråga om helt avgörande uppgifter saknas.**
 
 TEXT:
 ${context}
@@ -166,8 +164,7 @@ FRÅGA: ${standaloneQuestion}
 SVAR:
     `.trim();
 
-    // 6) Svara, med FK-systemprompten
-    console.log("💬 Skickar prompt till GPT (med systemprompt)...");
+    // 6) Svar
     const chatResponse = await openai.chat.completions.create({
       model: CHAT_MODEL,
       messages: [
@@ -191,8 +188,8 @@ SVAR:
 async function fallbackToGPT(standaloneQuestion) {
   try {
     const fallbackPrompt = `
-Besvara endast frågor som rör Försäkringskassan. Om underlaget är oklart, ställ EN precis följdfråga.
-Skriv svaret utan källhänvisning.
+Besvara endast frågor som rör Försäkringskassan. Skriv svaret utan källhänvisning.
+**Avsluta svaret utan att ställa en egen fråga. Ställ endast en följdfråga om helt avgörande uppgifter saknas.**
 FRÅGA: ${standaloneQuestion}
 SVAR:
     `.trim();
