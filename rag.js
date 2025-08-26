@@ -24,22 +24,12 @@ const EMBEDDING_MODEL = process.env.OPENAI_EMBED_MODEL || "text-embedding-3-smal
 // Toggle: sätt RAG_DISABLED=true i .env för att hoppa över Weaviate helt
 const RAG_DISABLED = String(process.env.RAG_DISABLED).toLowerCase() === "true";
 
-/* -------------------- Småprats-filter (hej/tack/ok) -------------------- */
-const GREETING_RESPONSE = `Hej! Du chattar med FK-Guiden (inofficiell).
-Skriv din fråga om Försäkringskassan så hjälper jag dig.
-
-Exempel:
-• Hur många dagar föräldrapenning får man vid tvillingar?
-• Hur funkar VAB vid delad vårdnad?
-• Har jag rätt till graviditetspenning om jag lyfter tungt?
-• När betalas bostadsbidrag ut?
-
-(Obs: jag svarar bara på frågor som rör Försäkringskassan i Sverige.)`;
+/* -------------------- Hälsnings-/småpratsfilter -------------------- */
+const GREETING_RESPONSE = "Hej. Du chattar med Försäkringskassans chattbot. Hur kan jag hjälpa dig?";
 
 function isGreetingOrEmpty(input) {
   const t = (input || "").trim().toLowerCase();
   if (!t) return true;
-  // ta bort enkel interpunktion och normalisera blanksteg
   const cleaned = t.replace(/[!?.…,:;()"'`~]/g, "").replace(/\s+/g, " ");
   const greetings = new Set([
     "hej", "hej hej", "hejsan", "tja", "tjabba", "tjena", "hallå",
@@ -48,10 +38,10 @@ function isGreetingOrEmpty(input) {
   const shortacks = new Set(["tack", "ok", "okej", "okey"]);
   return greetings.has(cleaned) || shortacks.has(cleaned);
 }
-/* ---------------------------------------------------------------------- */
+/* ------------------------------------------------------------------ */
 
 export async function askRAG(query) {
-  // Fånga rena hälsningar/”tack”
+  // Hälsningar/”tack”
   if (isGreetingOrEmpty(query)) {
     return GREETING_RESPONSE;
   }
@@ -73,17 +63,15 @@ export async function askRAG(query) {
     console.log("🧠 Frågar Weaviate med vektor...");
     let result;
     try {
-      // Versionssäker GraphQL: be bara om 'text' (inga _additional-fält)
       result = await client.graphql
         .get()
         .withClassName(indexName)
         .withFields("text")
-        .withNearVector({ vector: queryEmbedding }) // ingen 'certainty'
+        .withNearVector({ vector: queryEmbedding })
         .withLimit(5)
         .do();
     } catch (weavErr) {
       console.error("❌ Weaviate-fel:", weavErr?.message || weavErr);
-      // Fortsätt ändå med GPT så att demo fungerar
       return await fallbackToGPT(query);
     }
 
@@ -111,8 +99,8 @@ SVAR:
     const chatResponse = await openai.chat.completions.create({
       model: CHAT_MODEL,
       messages: [
-        { role: "system", content: fkSystemPrompt }, // 🔒 Låsning till Försäkringskassan i Sverige
-        { role: "user", content: prompt },           // 📚 Din RAG-kontekst + fråga (oförändrad)
+        { role: "system", content: fkSystemPrompt }, // policy: strikt FK, utan att skriva ”i Sverige”
+        { role: "user", content: prompt },
       ],
       temperature: 0.1,
     });
@@ -123,16 +111,14 @@ SVAR:
       "❌ Fel i RAG-sökning:",
       error?.response?.data?.error?.message || error.message
     );
-    // Svara ändå
     return await fallbackToGPT(query);
   }
 }
 
 async function fallbackToGPT(query) {
   try {
-    // Fallbacken är också FK-låst via systemprompten.
     const fallbackPrompt = `
-Besvara endast frågor som rör Försäkringskassan i Sverige.
+Besvara endast frågor som rör Försäkringskassan.
 Om frågan inte rör Försäkringskassan, svara: "Jag svarar bara på frågor som rör Försäkringskassan."
 Skriv sakligt och kortfattat. Avsluta gärna med "Källa: Försäkringskassan" om relevant.
 FRÅGA: ${query}
@@ -142,7 +128,7 @@ SVAR:
     const chatResponse = await openai.chat.completions.create({
       model: CHAT_MODEL,
       messages: [
-        { role: "system", content: fkSystemPrompt }, // 🔒 håll policyn även i fallback
+        { role: "system", content: fkSystemPrompt },
         { role: "user", content: fallbackPrompt },
       ],
       temperature: 0.1,
