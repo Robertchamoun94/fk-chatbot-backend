@@ -24,7 +24,38 @@ const EMBEDDING_MODEL = process.env.OPENAI_EMBED_MODEL || "text-embedding-3-smal
 // Toggle: sätt RAG_DISABLED=true i .env för att hoppa över Weaviate helt
 const RAG_DISABLED = String(process.env.RAG_DISABLED).toLowerCase() === "true";
 
+/* -------------------- Småprats-filter (hej/tack/ok) -------------------- */
+const GREETING_RESPONSE = `Hej! Du chattar med FK-Guiden (inofficiell).
+Skriv din fråga om Försäkringskassan så hjälper jag dig.
+
+Exempel:
+• Hur många dagar föräldrapenning får man vid tvillingar?
+• Hur funkar VAB vid delad vårdnad?
+• Har jag rätt till graviditetspenning om jag lyfter tungt?
+• När betalas bostadsbidrag ut?
+
+(Obs: jag svarar bara på frågor som rör Försäkringskassan i Sverige.)`;
+
+function isGreetingOrEmpty(input) {
+  const t = (input || "").trim().toLowerCase();
+  if (!t) return true;
+  // ta bort enkel interpunktion och normalisera blanksteg
+  const cleaned = t.replace(/[!?.…,:;()"'`~]/g, "").replace(/\s+/g, " ");
+  const greetings = new Set([
+    "hej", "hej hej", "hejsan", "tja", "tjabba", "tjena", "hallå",
+    "god morgon", "god kväll", "godnatt", "god natt", "hello", "hi", "hey"
+  ]);
+  const shortacks = new Set(["tack", "ok", "okej", "okey"]);
+  return greetings.has(cleaned) || shortacks.has(cleaned);
+}
+/* ---------------------------------------------------------------------- */
+
 export async function askRAG(query) {
+  // Fånga rena hälsningar/”tack”
+  if (isGreetingOrEmpty(query)) {
+    return GREETING_RESPONSE;
+  }
+
   // Snabbt demo-läge utan RAG
   if (RAG_DISABLED) {
     console.warn("RAG_DISABLED=true — hoppar över vektorsök och använder GPT direkt.");
@@ -47,7 +78,7 @@ export async function askRAG(query) {
         .get()
         .withClassName(indexName)
         .withFields("text")
-        .withNearVector({ vector: queryEmbedding }) // ingen 'certainty' (kan skilja mellan versioner)
+        .withNearVector({ vector: queryEmbedding }) // ingen 'certainty'
         .withLimit(5)
         .do();
     } catch (weavErr) {
@@ -83,7 +114,7 @@ SVAR:
         { role: "system", content: fkSystemPrompt }, // 🔒 Låsning till Försäkringskassan i Sverige
         { role: "user", content: prompt },           // 📚 Din RAG-kontekst + fråga (oförändrad)
       ],
-      temperature: 0.1, // stramare, minskar ”sväv”
+      temperature: 0.1,
     });
 
     return chatResponse.choices?.[0]?.message?.content?.trim() || "Jag vet tyvärr inte.";
