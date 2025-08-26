@@ -42,23 +42,23 @@ function norm(s) {
 function classifySmalltalk(input) {
   const t = norm(input);
   if (!t) return "greeting";
-
-  // Hälsningar
   const isGreeting = [
     "hej", "hej hej", "hejsan", "tja", "tjabba", "tjena", "hallå",
     "god morgon", "god kväll", "hello", "hi", "hey",
   ].some((g) => t === g);
   if (isGreeting) return "greeting";
-
-  // Tack/ack (träff även när orden kombineras, ex. "ok tack", "tack så mycket")
   if (/\b(tack|tackar|tusen tack|stort tack|tack så mycket)\b/.test(t)) return "thanks";
-  if (/\b(ok|okej|okey)\b/.test(t) && t.length <= 20) return "thanks"; // kort ”ok/okej”
-
-  // Avslut/hejdå
-  if (/\b(hej då|hejdå|vi hörs|ha det|trevlig dag|adjö|bye|på återseende)\b/.test(t))
-    return "goodbye";
-
+  if (/\b(ok|okej|okey)\b/.test(t) && t.length <= 20) return "thanks";
+  if (/\b(hej då|hejdå|vi hörs|ha det|trevlig dag|adjö|bye|på återseende)\b/.test(t)) return "goodbye";
   return null;
+}
+/* ---------------------------------------------------------------------- */
+
+/* --------- Rensa ev. källrader om modellen lägger till dem ----------- */
+function cleanAnswer(text = "") {
+  // Ta bort rader som börjar med "Källa:" eller "Källor:" (oavsett versaler/å/ä)
+  const withoutSource = text.replace(/^\s*K(?:ä|a)ll(?:a|or)\s*:\s.*$/gmi, "").trim();
+  return withoutSource.replace(/\n{3,}/g, "\n\n").trim();
 }
 /* ---------------------------------------------------------------------- */
 
@@ -157,8 +157,7 @@ export async function askRAG(query, history = []) {
 
     const prompt = `
 Du är en hjälpsam AI-assistent som svarar med korrekt information från Försäkringskassan.
-Använd bara fakta från TEXT nedan när du besvarar frågan. Om svaret inte finns i texten, svara exakt: "Jag vet tyvärr inte".
-Om källhänvisning saknas i texten, avsluta ändå svaret med "Källa: Försäkringskassan".
+Använd bara fakta från TEXT nedan när du besvarar frågan. Skriv svaret utan källhänvisning.
 
 TEXT:
 ${context}
@@ -178,7 +177,8 @@ SVAR:
       temperature: 0.1,
     });
 
-    return chatResponse.choices?.[0]?.message?.content?.trim() || "Jag vet tyvärr inte.";
+    const raw = chatResponse.choices?.[0]?.message?.content || "";
+    return cleanAnswer(raw) || "Jag vet tyvärr inte.";
   } catch (error) {
     console.error(
       "❌ Fel i RAG-sökning:",
@@ -190,10 +190,9 @@ SVAR:
 
 async function fallbackToGPT(standaloneQuestion) {
   try {
-    // Fallback: håll dig till FK, men om osäker → be om EN precis följdfråga.
     const fallbackPrompt = `
 Besvara endast frågor som rör Försäkringskassan. Om underlaget är oklart, ställ EN precis följdfråga.
-Skriv sakligt och kortfattat. Avsluta gärna med "Källa: Försäkringskassan" om relevant.
+Skriv svaret utan källhänvisning.
 FRÅGA: ${standaloneQuestion}
 SVAR:
     `.trim();
@@ -207,7 +206,8 @@ SVAR:
       temperature: 0.1,
     });
 
-    return chatResponse.choices?.[0]?.message?.content?.trim() || "Jag vet tyvärr inte.";
+    const raw = chatResponse.choices?.[0]?.message?.content || "";
+    return cleanAnswer(raw) || "Jag vet tyvärr inte.";
   } catch (error) {
     console.error(
       "❌ Fel i fallback till GPT:",
